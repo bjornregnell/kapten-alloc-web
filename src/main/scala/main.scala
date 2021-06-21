@@ -12,7 +12,7 @@ object Main {
     parNode
   }
 
-  @JSExportTopLevel("addClickedMessage")
+  @JSExportTopLevel("appendMessage")
   def appendMessage(msg: String): Unit = {
     appendPar(document.body, msg)
   }

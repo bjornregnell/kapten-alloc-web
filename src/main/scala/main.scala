@@ -36,7 +36,7 @@ object Main {
       // })
       // document.body.appendChild(button)
       
-    appendPar(document.body, "Kapten Alloc visar (snart) ditt schema!")
+    //appendPar(document.body, "Kapten Alloc visar (snart) ditt schema!")
     val filterText = appendPar(document.body, "Filter: ")
 
     input.id = "myInput"

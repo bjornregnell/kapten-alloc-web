@@ -1,3 +1,3 @@
-# hello-scalajs.g8
+# kapte-alloc-web
 
-Based on https://www.scala-js.org/doc/tutorial/basic/
+ScalaJS is fantastic! https://www.scala-js.org/doc/tutorial/basic/

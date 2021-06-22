@@ -2,7 +2,6 @@ package kaptenallocweb
 
 import org.scalajs.dom
 import org.scalajs.dom.document
-import scala.scalajs.js.annotation.JSExportTopLevel
 
 
 extension (s: String)

@@ -22,8 +22,8 @@ extension (rows: Seq[String])
     yield row
 
 object Main:
-  def appendPar(targetNode: dom.Node, text: String) = 
-    val parNode = document.createElement("p")
+  def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph = 
+    val parNode = document.createElement("p").asInstanceOf[dom.html.Paragraph]
     parNode.textContent = text
     targetNode.appendChild(parNode)
     parNode
@@ -34,7 +34,7 @@ object Main:
 
   def setupUI(): Unit = 
     val input = document.createElement("input").asInstanceOf[dom.html.Input]
-    val showText = document.createElement("pre")
+    val showText = document.createElement("pre").asInstanceOf[dom.html.Pre]
     showText.textContent = dataGeneratedFromKaptenAlloc.mkString("\n")
     val filterText = appendPar(document.body, "Filter: ")
 

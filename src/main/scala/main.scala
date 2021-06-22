@@ -34,9 +34,9 @@ def setupUI(): Unit =
   input.id = "myInput"
   input.classList.add("input"); 
   input.setAttribute("value", "")
+  def words = input.value.split(' ')
 
   input.addEventListener("input", { (e: dom.Event) =>
-    val words = input.value.split(' ')
     showText.textContent = 
       dataGeneratedFromKaptenAlloc.filterRows(words).mkString("\n")
   })

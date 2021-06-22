@@ -1,5 +1,14 @@
 {
   "files.watcherExclude": {
     "**/target": true
-  }
+  },
+  "cSpell.words": [
+    "Alloc",
+    "Blankteckenseparerade",
+    "filterord",
+    "kapit",
+    "kapitälinsensitiva",
+    "konsollen",
+    "linsensitiva"
+  ]
 }

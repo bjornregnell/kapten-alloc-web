@@ -3,8 +3,7 @@ package kaptenallocweb
 import org.scalajs.dom
 import org.scalajs.dom.document
 
-object Main:
-  def main(args: Array[String]): Unit = 
+@main def run: Unit = 
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  
 
 extension (s: String)

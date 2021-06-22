@@ -29,9 +29,6 @@ object Main:
     targetNode.appendChild(parNode)
     parNode
 
-  @JSExportTopLevel("appendMessage")
-  def appendMessage(msg: String): Unit = appendPar(document.body, msg)
-
   def main(args: Array[String]): Unit = 
     println("Kapten Alloc finns i konsollen!")
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  

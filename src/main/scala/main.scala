@@ -36,10 +36,10 @@ def setupUI(): Unit =
   input.setAttribute("value", "")
   def words = input.value.split(' ')
 
-  input.addEventListener("input", { (e: dom.Event) =>
+  input.addEventListener("input", (e: dom.Event) =>
     showText.textContent = 
       dataGeneratedFromKaptenAlloc.filterRows(words).mkString("\n")
-  })
+  )
 
   filterText.appendChild(input)
   document.body.appendChild(showText)

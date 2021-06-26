@@ -135,7 +135,7 @@ pgk |2021-09-09|tor|15:15|Resurstid|XA1      |Ambulans|FKa
 pgk |2021-09-09|tor|15:15|Resurstid|XA2      |Ambulans|EJa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.01    |Falk    |FKa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.02    |Hacke   |EKr       
-dod |2021-09-09|tor|15:15|Datorlabb|D1.03    |Jupiter |JTh       
+dod |2021-09-09|tor|15:15|Datorlabb|D1.03    |Jupiter |???       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.04    |Mars    |EBe       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.05    |Panter  |APh       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.06    |Varg    |ECe       
@@ -258,8 +258,7 @@ pgk |2021-09-23|tor|13:15|Resurstid|D1.09    |Falk    |SAl
 pgk |2021-09-23|tor|13:15|Resurstid|D1.10    |Gamma   |RBe       
 pgk |2021-09-23|tor|13:15|Resurstid|D1.11    |Hacke   |DHe       
 pgk |2021-09-23|tor|13:15|Resurstid|TFRD48.01|Panter  |NSa       
-pgk |2021-09-23|tor|13:15|Resurstid|W3.a     |Val     |FBe       
-pgk |2021-09-23|tor|13:15|Resurstid|XA1      |Ambulans|FKa       
+pgk |2021-09-23|tor|13:15|Resurstid|XA1      |Val     |FKa       
 pgk |2021-09-23|tor|13:15|Resurstid|XA2      |Ambulans|AGr       
 pgk |2021-09-23|tor|15:15|Resurstid|C1.01    |Alfa    |TLu       
 pgk |2021-09-23|tor|15:15|Resurstid|C1.02    |Beta    |PSa       

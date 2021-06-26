@@ -50,7 +50,7 @@ dod |2021-09-02|tor|15:15|Datorlabb|C1.04    |Falk    |NCe
 dod |2021-09-02|tor|15:15|Datorlabb|C1.05    |Hacke   |EKr       
 dod |2021-09-02|tor|15:15|Datorlabb|C1.06    |Mars    |JTh       
 dod |2021-09-02|tor|15:15|Datorlabb|D1.01    |Panter  |EBe       
-dod |2021-09-02|tor|15:15|Datorlabb|D1.02    |Val     |PSa       
+dod |2021-09-02|tor|15:15|Datorlabb|D1.02    |Val     |APh       
 dod |2021-09-02|tor|15:15|Datorlabb|D1.03    |Varg    |ELu       
 pgk |2021-09-03|fre|10:15|Labb     |C1.03    |Elg     |ESt       
 pgk |2021-09-03|fre|10:15|Labb     |C1.04    |Falk    |NCe       
@@ -135,10 +135,10 @@ pgk |2021-09-09|tor|15:15|Resurstid|XA1      |Ambulans|FKa
 pgk |2021-09-09|tor|15:15|Resurstid|XA2      |Ambulans|EJa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.01    |Falk    |FKa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.02    |Hacke   |EKr       
-dod |2021-09-09|tor|15:15|Datorlabb|D1.03    |Jupiter |PSa       
+dod |2021-09-09|tor|15:15|Datorlabb|D1.03    |Jupiter |JTh       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.04    |Mars    |EBe       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.05    |Panter  |APh       
-dod |2021-09-09|tor|15:15|Datorlabb|D1.06    |Varg    |TLu       
+dod |2021-09-09|tor|15:15|Datorlabb|D1.06    |Varg    |ECe       
 pgk |2021-09-10|fre|10:15|Resurstid|D1.12    |Falk    |PGy       
 pgk |2021-09-10|fre|10:15|Resurstid|D1.13    |Hacke   |MKu       
 pgk |2021-09-10|fre|10:15|Resurstid|D1.14    |Panter  |APh       

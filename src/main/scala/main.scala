@@ -28,6 +28,11 @@ def setupUI(): Unit =
   val input = document.createElement("input").asInstanceOf[dom.html.Input]
   val showText = document.createElement("pre").asInstanceOf[dom.html.Pre]
   showText.textContent = dataGeneratedFromKaptenAlloc.mkString("\n")
+
+  val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
+  val headRows = 3
+  showSize.textContent = " " + (dataGeneratedFromKaptenAlloc.size- headRows)
+
   val filterText = appendPar(document.body, "Filter: ")
 
   input.id = "myInput"
@@ -36,9 +41,11 @@ def setupUI(): Unit =
   def words = input.value.split(' ')
 
   input.addEventListener("input", (e: dom.Event) =>
-    showText.textContent = 
-      dataGeneratedFromKaptenAlloc.filterRows(words).mkString("\n")
+    val filtered = dataGeneratedFromKaptenAlloc.filterRows(words)
+    showText.textContent = filtered.mkString("\n")
+    showSize.textContent = " " + (filtered.size - headRows)
   )
 
   filterText.appendChild(input)
+  filterText.appendChild(showSize)
   document.body.appendChild(showText)

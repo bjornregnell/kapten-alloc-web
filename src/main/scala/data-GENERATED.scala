@@ -131,7 +131,7 @@ dod |2021-09-09|tor|13:15|Datorlabb|D1.14    |Varg    |FBe
 pgk |2021-09-09|tor|15:15|Resurstid|C1.01    |Beta    |TLu       
 pgk |2021-09-09|tor|15:15|Resurstid|C1.02    |Gamma   |PSa       
 pgk |2021-09-09|tor|15:15|Resurstid|C1.03    |Venus   |ESt       
-pgk |2021-09-09|tor|15:15|Resurstid|XA1      |Ambulans|FKa       
+pgk |2021-09-09|tor|15:15|Resurstid|XA1      |Ambulans|???       
 pgk |2021-09-09|tor|15:15|Resurstid|XA2      |Ambulans|EJa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.01    |Falk    |FKa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.02    |Hacke   |EKr       
@@ -190,7 +190,7 @@ dod |2021-09-16|tor|13:15|Datorlabb|D1.10    |Varg    |RBe
 pgk |2021-09-16|tor|15:15|Resurstid|C1.01    |Alfa    |TLu       
 pgk |2021-09-16|tor|15:15|Resurstid|C1.02    |Beta    |PSa       
 pgk |2021-09-16|tor|15:15|Resurstid|C1.03    |Elg     |ESt       
-pgk |2021-09-16|tor|15:15|Resurstid|XA1      |Ambulans|FKa       
+pgk |2021-09-16|tor|15:15|Resurstid|XA1      |Ambulans|???       
 pgk |2021-09-16|tor|15:15|Resurstid|XA2      |Ambulans|EJa       
 dod |2021-09-16|tor|15:15|Datorlabb|C1.04    |Falk    |NCe       
 dod |2021-09-16|tor|15:15|Datorlabb|C1.05    |Hacke   |EKr       

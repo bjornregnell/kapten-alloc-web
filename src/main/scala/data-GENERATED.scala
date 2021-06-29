@@ -131,11 +131,11 @@ dod |2021-09-09|tor|13:15|Datorlabb|D1.14    |Varg    |FBe
 pgk |2021-09-09|tor|15:15|Resurstid|C1.01    |Beta    |TLu       
 pgk |2021-09-09|tor|15:15|Resurstid|C1.02    |Gamma   |PSa       
 pgk |2021-09-09|tor|15:15|Resurstid|C1.03    |Venus   |ESt       
-pgk |2021-09-09|tor|15:15|Resurstid|XA1      |Ambulans|???       
+pgk |2021-09-09|tor|15:15|Resurstid|XA1      |Ambulans|DHe       
 pgk |2021-09-09|tor|15:15|Resurstid|XA2      |Ambulans|EJa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.01    |Falk    |FKa       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.02    |Hacke   |EKr       
-dod |2021-09-09|tor|15:15|Datorlabb|D1.03    |Jupiter |???       
+dod |2021-09-09|tor|15:15|Datorlabb|D1.03    |Jupiter |JTh       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.04    |Mars    |EBe       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.05    |Panter  |APh       
 dod |2021-09-09|tor|15:15|Datorlabb|D1.06    |Varg    |ECe       
@@ -190,11 +190,11 @@ dod |2021-09-16|tor|13:15|Datorlabb|D1.10    |Varg    |RBe
 pgk |2021-09-16|tor|15:15|Resurstid|C1.01    |Alfa    |TLu       
 pgk |2021-09-16|tor|15:15|Resurstid|C1.02    |Beta    |PSa       
 pgk |2021-09-16|tor|15:15|Resurstid|C1.03    |Elg     |ESt       
-pgk |2021-09-16|tor|15:15|Resurstid|XA1      |Ambulans|???       
+pgk |2021-09-16|tor|15:15|Resurstid|XA1      |Ambulans|DHe       
 pgk |2021-09-16|tor|15:15|Resurstid|XA2      |Ambulans|EJa       
 dod |2021-09-16|tor|15:15|Datorlabb|C1.04    |Falk    |NCe       
 dod |2021-09-16|tor|15:15|Datorlabb|C1.05    |Hacke   |EKr       
-dod |2021-09-16|tor|15:15|Datorlabb|C1.06    |Jupiter |JTh       
+dod |2021-09-16|tor|15:15|Datorlabb|C1.06    |Jupiter |MNo       
 dod |2021-09-16|tor|15:15|Datorlabb|D1.01    |Panter  |FKa       
 dod |2021-09-16|tor|15:15|Datorlabb|D1.02    |Varg    |AJo       
 dod |2021-09-16|tor|15:15|Datorlabb|D1.03    |Venus   |FBe       

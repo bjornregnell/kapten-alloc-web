@@ -1,6 +1,6 @@
 # kapten-alloc-web
 
-This single-page web app is running here: https://cs.lth.se/pgk/kaptenalloc
+This single-page client-only web app is available for download and execution in you browser here: https://cs.lth.se/pgk/kaptenalloc
 
 There you can filter the schedule of this course: https://cs.lth.se/pgk
 

@@ -7,7 +7,14 @@ import java.time.*
 /** Give value to a property as if directly given in an ics file */
 abstract class Property(val value: String): 
   var parameters: Vector[Parameter] = Vector()
-  lazy val name = this.getClass.getName.toUpperCase.split("\\$").last
+  lazy val name = this
+    .getClass
+    .getName
+    .toUpperCase
+    .split("\\$")
+    .last
+    // A class can't use '-', so classes use '_' instead
+    .replace("_", "-")
 
   def addParameter(parameter: Parameter*): Unit =
     parameters = parameters ++ parameter 
@@ -27,6 +34,7 @@ object Property:
   case class TzID(tzid: String) extends Property(tzid)
   case class Uid(uid: String) extends Property(uid)
   case class DtStamp(dtstamp: String) extends Property(dtstamp)
+  case class Last_Modified(last_modified: String) extends Property(last_modified)
 
   /** 
    *  Gives Seq containing formatted DtStart and formatted DtEnd Property
@@ -41,12 +49,12 @@ object Property:
     val date_formatted = date.replace("-", "")
     Seq(
       {
-        val d = DtStart(s"${date_formatted}Z${ if akademiskKvart then time else time - 15 }00")
+        val d = DtStart(s"${date_formatted}T${ if akademiskKvart then "%04d".format(time) else "%04d".format(time - 15) }00")
         if parameter.isDefined then d.addParameter(parameter.get)
         d
       },
       {
-        val d = DtEnd(s"${date_formatted}Z${time + 200}00")
+        val d = DtEnd(s"${date_formatted}T${ "%04d".format(time + 185) }00")
         if parameter.isDefined then d.addParameter(parameter.get)
         d
       }
@@ -62,7 +70,7 @@ object Property:
 
   /** 
    * Gives formatted Description Property
-   * ???
+   * 
    * @param course type of course being held
    * @param group group to be tutored
    * @param room room held in; will be formatted different is room equals to "Ambulans"
@@ -91,8 +99,16 @@ object Property:
     Uid(Random.alphanumeric.filter(_.isLetter).take(42).mkString)
 
   /** 
-   * Gives a DtStamp Property set to todays date and time
+   * Gives DtStamp & Last_Modified Property set to todays date and time
   */
-  def dtstamp(): DtStamp = 
-    DtStamp(LocalDateTime.now().format(format.DateTimeFormatter.ofPattern("yMd'T'Hms'Z'")))
+  def createdTimes(): Seq[Property] = 
+    val time = LocalDateTime.now()
+      .minusHours(1)
+      .format(format.DateTimeFormatter
+        .ofPattern("yMd'T'Hms'Z'"))
+    Seq(
+      DtStamp(time),
+      Last_Modified(time)
+    )
+
 

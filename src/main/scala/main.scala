@@ -32,6 +32,8 @@ def setupUI(): Unit =
   val input = document.createElement("input").asInstanceOf[dom.html.Input]
   val showText = document.createElement("pre").asInstanceOf[dom.html.Pre]
   val button = document.createElement("button").asInstanceOf[dom.html.Button]
+  val akademiskKvart = document.createElement("input").asInstanceOf[dom.html.Input]
+  val akademiskKvartLabel = document.createElement("label").asInstanceOf[dom.html.Label]
   showText.textContent = dataGeneratedFromKaptenAlloc.mkString("\n")
 
   val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
@@ -40,26 +42,45 @@ def setupUI(): Unit =
 
   val filterText = appendPar(document.body, "Filter: ")
   val downloadText = appendPar(document.body, "Nedladdning: ")
+  val optionsText = appendPar(document.body, "")
 
   input.id = "myInput"
   input.classList.add("input"); 
   input.setAttribute("value", "")
   def words = input.value.split(' ')
 
+  // Save event type to call it from other events via ```.dispatchEvent(<Event>)```
+  val inputEvent = new dom.Event("input")
   input.addEventListener("input", (e: dom.Event) =>
-    val filtered = dataGeneratedFromKaptenAlloc.filterRows(words)
+    var filtered: Seq[String] = Seq("")
+    if akademiskKvart.checked then
+      filtered = dataGeneratedFromKaptenAlloc.filterRows(words)
+    else
+      filtered = dataGeneratedFromKaptenAlloc.map(_.replace(":15", ":00")).filterRows(words)
     showText.textContent = filtered.mkString("\n")
     showSize.textContent = " " + (filtered.size - headRows)
+  )
+
+  akademiskKvart.setAttribute("type", "checkbox")
+  akademiskKvart.id = "akadimiskKvart"
+  akademiskKvart.defaultChecked = true
+  akademiskKvartLabel.textContent = "Akademisk Kvart: "
+  akademiskKvartLabel.setAttribute("for", "akademiskKvart")
+
+  akademiskKvart.addEventListener("change", (e: dom.Event) =>
+    input.dispatchEvent(inputEvent)
   )
 
   // TODO: Add checkbox for alert option and akademisk kvart
   button.textContent = "Kalender"
   button.addEventListener("click", (e: dom.Event) =>
-    
-    val filteredKaptenAllocData = dataGeneratedFromKaptenAlloc.filterRows(words).drop(3)
+    var filteredKaptenAllocData = dataGeneratedFromKaptenAlloc.filterRows(words).drop(3)
+    if ! akademiskKvart.checked then
+      filteredKaptenAllocData = filteredKaptenAllocData.map(_.replace(":15", ":00"))
     val calendar = Calendar()
 
     for row: String <- filteredKaptenAllocData do 
+
       val cells = row.filterNot(_.isWhitespace).split('|').toVector
 
       val e = Event()
@@ -88,6 +109,8 @@ def setupUI(): Unit =
 
   filterText.appendChild(input)
   filterText.appendChild(showSize)
+  optionsText.appendChild(akademiskKvartLabel)
+  optionsText.appendChild(akademiskKvart)
   downloadText.appendChild(button)
   document.body.appendChild(showText)
 

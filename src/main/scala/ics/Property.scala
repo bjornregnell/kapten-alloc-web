@@ -41,20 +41,20 @@ object Property:
    * 
    *  @param date date in format as in Kapten Alloc (YYYY-MM-DD) or YYYMMDD (which it will be formatted to in the method)
    *  @param time time in format HHMM as an Integer
-   *  @param akademiskKvart will show event starting quarter past instead of at the hour
    *  @param parameter parameter to be added to property; defaults to TzID parameter of Europe/Stockholm timezone
    *  @return both Properties must be given 
    */
-  def time(date: String, time: Int, akademiskKvart: Boolean = false, parameter: Option[Parameter] = Option(Parameter.TzIDParam(tzid().tzid))): Seq[Property] =
+  def time(date: String, time: Int, parameter: Option[Parameter] = Option(Parameter.TzIDParam(tzid().tzid))): Seq[Property] =
     val date_formatted = date.replace("-", "")
     Seq(
       {
-        val d = DtStart(s"${date_formatted}T${ if akademiskKvart then "%04d".format(time) else "%04d".format(time - 15) }00")
+        val d = DtStart(s"${date_formatted}T${ "%04d".format(time) }00")
         if parameter.isDefined then d.addParameter(parameter.get)
         d
       },
       {
-        val d = DtEnd(s"${date_formatted}T${ "%04d".format(time + 185) }00")
+        // Stupid way to remove minutes
+        val d = DtEnd(s"${date_formatted}T${ "%04d".format(((time / 100).toInt + 2) * 100) }00")
         if parameter.isDefined then d.addParameter(parameter.get)
         d
       }

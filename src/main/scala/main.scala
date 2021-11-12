@@ -71,7 +71,7 @@ def setupUI(): Unit =
     input.dispatchEvent(inputEvent)
   )
 
-  // TODO: Add checkbox for alert option and akademisk kvart
+  // TODO: Add input for alert
   button.textContent = "Kalender"
   button.addEventListener("click", (e: dom.Event) =>
     var filteredKaptenAllocData = dataGeneratedFromKaptenAlloc.filterRows(words).drop(3)
@@ -104,7 +104,7 @@ def setupUI(): Unit =
     if filteredKaptenAllocData.isEmpty then
       dom.window.alert("Finns inga tider att skapa en ICS fil av")
     else
-      download(calendar.toString)
+      download(calendar.build())
   )
 
   filterText.appendChild(input)

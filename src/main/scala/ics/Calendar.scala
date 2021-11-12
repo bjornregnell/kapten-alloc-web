@@ -1,6 +1,7 @@
 package kaptenallocweb.ics
 
 case class Calendar(version: String, prodid: String) extends VObject():
+  // Vector because order kinda matters, and since Calendar inherits BaseObject hashcode, only one Event would be kept
   var events: Vector[Event] = Vector()
   var timeZone: String = String()
 
@@ -27,13 +28,11 @@ case class Calendar(version: String, prodid: String) extends VObject():
     |END:DAYLIGHT
     |END:VTIMEZONE""".stripMargin
 
-  override def toString(): String =
-    s"""BEGIN:$name
-    |VERSION:${version}
-    |PRODID:${prodid}
-    |${timeZone}
-    |${ events.map(_.toString()).mkString("\n") }
-    |END:$name""".stripMargin
+  def contents(): String = 
+    s"""VERSION:${version}
+      |PRODID:${prodid}
+      |${timeZone}
+      |${ events.map(_.build()).mkString("\n") }""".stripMargin
 
 object Calendar:
   def apply(): Calendar =

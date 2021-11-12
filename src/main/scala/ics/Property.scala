@@ -5,25 +5,20 @@ import scala.util.Random
 import java.time.*
 
 /** Give value to a property as if directly given in an ics file */
-abstract class Property(val value: String): 
-  var parameters: Vector[Parameter] = Vector()
-  lazy val name = this
-    .getClass
-    .getName
-    .toUpperCase
-    .split("\\$")
-    .last
-    // A class can't use '-', so classes use '_' instead
-    .replace("_", "-")
+trait Property(val value: String) extends BaseObject: 
+  private var parameters: Set[Parameter] = Set()
+
+  // A class can't use '-', so classes use '_' instead
+  val name = base_name.replace("_", "-")
 
   def addParameter(parameter: Parameter*): Unit =
     parameters = parameters ++ parameter 
 
-  override def toString(): String =
+  def build(): String =
     if parameters.isEmpty then
       s"${name}:$value"
     else
-      s"${name};${ parameters.map(_.toString).mkString("") }:$value"
+      s"${name};${ parameters.map(_.build()).mkString("") }:$value"
 
 object Property:
   case class Summary(summary: String) extends Property(summary)

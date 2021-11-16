@@ -11,4 +11,4 @@ case class Event() extends VObject():
     properties = properties ++ property
 
   def contents(): String = 
-    s"${ properties.map(_.build()).mkString("\n") }"
+    s"${ properties.map(_.toICS()).mkString("\n") }"

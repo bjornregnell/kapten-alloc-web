@@ -6,7 +6,7 @@ trait BaseObject {
   val name: String
 
   /** Builds String out of VObject in ICS format */
-  def build(): String
+  def toICS(): String
 
   override def hashCode = name.toUpperCase.hashCode
 }

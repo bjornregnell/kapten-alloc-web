@@ -32,7 +32,7 @@ case class Calendar(version: String, prodid: String) extends VObject():
     s"""VERSION:${version}
       |PRODID:${prodid}
       |${timeZone}
-      |${ events.map(_.build()).mkString("\n") }""".stripMargin
+      |${ events.map(_.toICS()).mkString("\n") }""".stripMargin
 
 object Calendar:
   def apply(): Calendar =

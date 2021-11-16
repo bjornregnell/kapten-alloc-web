@@ -14,11 +14,11 @@ trait Property(val value: String) extends BaseObject:
   def addParameter(parameter: Parameter*): Unit =
     parameters = parameters ++ parameter 
 
-  def build(): String =
+  def toICS(): String =
     if parameters.isEmpty then
       s"${name}:$value"
     else
-      s"${name};${ parameters.map(_.build()).mkString("") }:$value"
+      s"${name};${ parameters.map(_.toICS()).mkString("") }:$value"
 
 object Property:
   case class Summary(summary: String) extends Property(summary)

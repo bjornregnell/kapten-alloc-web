@@ -104,7 +104,7 @@ def setupUI(): Unit =
     if filtered.isEmpty then
       dom.window.alert("Finns inga tider att skapa en ICS fil av")
     else
-      download(calendar.build())
+      download(calendar.toICS())
   )
 
   filterText.appendChild(input)

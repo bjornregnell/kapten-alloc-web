@@ -22,6 +22,9 @@ extension (rows: Seq[String])
     if row.containsAll(words) || row.startsWith("---") || row.startsWith("kurs")
     yield row
 
+  def akademiskKvart(isAkademiskKvart: Boolean): Seq[String] =
+    rows.map( r => if isAkademiskKvart then r else r.replace(":15", ":00") )
+
 def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph = 
   val parNode = document.createElement("p").asInstanceOf[dom.html.Paragraph]
   parNode.textContent = text
@@ -32,8 +35,8 @@ def setupUI(): Unit =
   val input = document.createElement("input").asInstanceOf[dom.html.Input]
   val showText = document.createElement("pre").asInstanceOf[dom.html.Pre]
   val button = document.createElement("button").asInstanceOf[dom.html.Button]
-  val akademiskKvart = document.createElement("input").asInstanceOf[dom.html.Input]
-  val akademiskKvartLabel = document.createElement("label").asInstanceOf[dom.html.Label]
+  val akCheckbox = document.createElement("input").asInstanceOf[dom.html.Input]
+  val akLabel = document.createElement("label").asInstanceOf[dom.html.Label]
   showText.textContent = dataGeneratedFromKaptenAlloc.mkString("\n")
 
   val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
@@ -52,37 +55,34 @@ def setupUI(): Unit =
   // Save event type to call it from other events via ```.dispatchEvent(<Event>)```
   val inputEvent = new dom.Event("input")
   input.addEventListener("input", (e: dom.Event) =>
-    var filtered: Seq[String] = Seq("")
-    if akademiskKvart.checked then
-      filtered = dataGeneratedFromKaptenAlloc.filterRows(words)
-    else
-      filtered = dataGeneratedFromKaptenAlloc.map(_.replace(":15", ":00")).filterRows(words)
+    val filtered: Seq[String] = dataGeneratedFromKaptenAlloc
+      .filterRows(words)
+      .akademiskKvart(akCheckbox.checked)
     showText.textContent = filtered.mkString("\n")
     showSize.textContent = " " + (filtered.size - headRows)
   )
 
-  akademiskKvart.setAttribute("type", "checkbox")
-  akademiskKvart.id = "akadimiskKvart"
-  akademiskKvart.defaultChecked = true
-  akademiskKvartLabel.textContent = "Akademisk Kvart: "
-  akademiskKvartLabel.setAttribute("for", "akademiskKvart")
+  akCheckbox.setAttribute("type", "checkbox")
+  akCheckbox.id = "akadimiskKvart"
+  akCheckbox.defaultChecked = true
+  akLabel.textContent = "Akademisk Kvart: "
+  akLabel.setAttribute("for", "akademiskKvart")
 
-  akademiskKvart.addEventListener("change", (e: dom.Event) =>
+  akCheckbox.addEventListener("change", (e: dom.Event) =>
     input.dispatchEvent(inputEvent)
   )
 
   // TODO: Add input for alert
   button.textContent = "Kalender"
   button.addEventListener("click", (e: dom.Event) =>
-    var filteredKaptenAllocData = dataGeneratedFromKaptenAlloc.filterRows(words).drop(3)
-    if ! akademiskKvart.checked then
-      filteredKaptenAllocData = filteredKaptenAllocData.map(_.replace(":15", ":00"))
+    val filtered = dataGeneratedFromKaptenAlloc
+      .filterRows(words).drop(3)
+      .akademiskKvart(akCheckbox.checked)
+
     val calendar = Calendar()
 
-    for row: String <- filteredKaptenAllocData do 
-
+    for row: String <- filtered do 
       val cells = row.filterNot(_.isWhitespace).split('|').toVector
-
       val e = Event()
       // kurs 0|datum 1 |dag 2|kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
       e.addProperty(
@@ -101,7 +101,7 @@ def setupUI(): Unit =
       calendar.addEvent(e)
     end for
 
-    if filteredKaptenAllocData.isEmpty then
+    if filtered.isEmpty then
       dom.window.alert("Finns inga tider att skapa en ICS fil av")
     else
       download(calendar.build())
@@ -109,8 +109,8 @@ def setupUI(): Unit =
 
   filterText.appendChild(input)
   filterText.appendChild(showSize)
-  optionsText.appendChild(akademiskKvartLabel)
-  optionsText.appendChild(akademiskKvart)
+  optionsText.appendChild(akLabel)
+  optionsText.appendChild(akCheckbox)
   downloadText.appendChild(button)
   document.body.appendChild(showText)
 
@@ -118,11 +118,9 @@ def setupUI(): Unit =
 /** Creates file with given content, name and presents it as a download to the user */
 def download(content: String, fileName: String = "handledartider.ics"): Unit =
   var file = new Blob(scala.scalajs.js.Array(content), new BlobPropertyBag { `type` = "text/calendar" })
-  // file.`type` = "text/calendar"
   val a = document.createElement("a").asInstanceOf[dom.html.Anchor]
   val url = URL.createObjectURL(file)
   a.setAttribute("download", fileName)
   a.href = url
   a.click()
-
-  // dom.window.open("data:text/calendar;charset=utf8," + scala.scalajs.js.URIUtils.encodeURI(content));
+  a.remove()

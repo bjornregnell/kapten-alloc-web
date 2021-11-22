@@ -3,9 +3,6 @@ package kaptenallocweb
 import org.scalajs.dom
 import org.scalajs.dom.document
 import kaptenallocweb.ics.*
-import org.scalajs.dom.Blob
-import org.scalajs.dom.BlobPropertyBag
-import org.scalajs.dom.URL
 
 @main def run: Unit = 
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  
@@ -117,9 +114,9 @@ def setupUI(): Unit =
 // TODO: Give name to file based on if room, group or any field always are the same
 /** Creates file with given content, name and presents it as a download to the user */
 def download(content: String, fileName: String = "handledartider.ics"): Unit =
-  var file = new Blob(scala.scalajs.js.Array(content), new BlobPropertyBag { `type` = "text/calendar" })
+  var file = new dom.Blob(scala.scalajs.js.Array(content), new dom.BlobPropertyBag { `type` = "text/calendar" })
   val a = document.createElement("a").asInstanceOf[dom.html.Anchor]
-  val url = URL.createObjectURL(file)
+  val url = dom.URL.createObjectURL(file)
   a.setAttribute("download", fileName)
   a.href = url
   a.click()

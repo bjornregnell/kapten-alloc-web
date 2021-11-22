@@ -2,8 +2,8 @@ package kaptenallocweb.ics
 
 case class Calendar(version: String, prodid: String) extends VObject():
   // Vector because order kinda matters, and since Calendar inherits BaseObject hashcode, only one Event would be kept
-  var events: Vector[Event] = Vector()
-  var timeZone: String = String()
+  private var events: Vector[Event] = Vector()
+  private var timeZone: String = String()
 
   def addEvent(event: Event*): Unit =
     events = events ++ event 

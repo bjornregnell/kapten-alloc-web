@@ -68,18 +68,20 @@ object Property:
    * 
    * @param course type of course being held
    * @param group group to be tutored
-   * @param room room held in; will be formatted different is room equals to "Ambulans"
+   * @param room room held in; will be formatted differently if room starts with "Ambulans"
   */
   def description(course: String, group: String, room: String): Description =
-    Description(s"Kurs: $course\\nGrupp: $group\\n${ if room.equals("Ambulans") then "Roll" else "Rum" }: $room")
+    Description(s"Kurs: $course\\nGrupp: $group\\n${ if room.startsWith("Ambulans") then "Roll" else "Rum" }: $room")
 
   /**
+   * Gives formatted Summary Property
+   * 
    * @param course type of course being held
    * @param kind type of session, like "Resurstid" or "Labb"
-   * @param room room held in; will be formatted different is room equals to "Ambulans"
+   * @param room room held in; will be formatted differently if room starts with "Ambulans"
   */
   def summary(course: String, kind: String, room: String): Summary =
-    Summary(s"($course) $kind ${ if room.equals("Ambulans") then "som" else "i" } $room")
+    Summary(s"($course) $kind ${ if room.startsWith("Ambulans") then "som" else "i" } $room")
   
   /** 
    * Gives TzID Property with value "Europe/Stockholm" 

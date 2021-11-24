@@ -42,7 +42,7 @@ extension (rows: Seq[String])
         value = "|vecka"
       else
         val week = getWeekNumber(row.getKaptenAllocData().date)
-        value = s"|$week"
+        value = s"|v$week"
       // TODO: Instead of hard-coding '15', find index of n:th '|' char in 2nd row
       row.patch(15, f"$value%-6s", 0)
 
@@ -108,7 +108,6 @@ def setupUI(): Unit =
 
     for row: KaptenAllocData <- filtered.map(_.getKaptenAllocData()) do 
       val e = Event()
-      // kurs 0|datum 1 |dag 2|kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
       e.addProperty(
         Property.time(row.date, row.time.replace(":", "").toInt)
         ++ Seq(

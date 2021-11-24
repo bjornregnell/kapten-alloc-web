@@ -15,6 +15,7 @@ extension (s: String)
     val xs2 = if isCaseSensitive then xs else xs.map(_.toLowerCase)
     val s2 = if isCaseSensitive then s else s.toLowerCase
     xs2.forall(x => s2.contains(x))
+  
   def getKaptenAllocData(): KaptenAllocData =
     val cells = s.filterNot(_.isWhitespace).split('|').toVector
     if cells.length == 8 then
@@ -99,24 +100,22 @@ def setupUI(): Unit =
   // TODO: Add input for alert
   button.textContent = "Kalender"
   button.addEventListener("click", (e: dom.Event) =>
-    val filtered = getGeneratedData(false)
+    val filtered = getGeneratedData()
       .filterRows(words).drop(3)
       .akademiskKvart(akCheckbox.checked)
 
     val calendar = Calendar()
 
-    for row: String <- filtered do 
-      val cells = row.filterNot(_.isWhitespace).split('|').toVector
+    for row: KaptenAllocData <- filtered.map(_.getKaptenAllocData()) do 
       val e = Event()
-      // BUG: since week was added, 
       // kurs 0|datum 1 |dag 2|kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
       e.addProperty(
-        Property.time(cells(1), cells(3).replace(":", "").toInt)
+        Property.time(row.date, row.time.replace(":", "").toInt)
         ++ Seq(
           Property.uid(),
-          Property.summary(cells(0), cells(4), cells(6)),
-          Property.description(cells(0), cells(5), cells(6)),
-          Property.location(cells(6)),
+          Property.summary(row.course, row.`type`, row.room),
+          Property.description(row.course, row.group, row.room),
+          Property.location(row.room),
           Property.tzid(),
         )
         ++ Property.createdTimes()

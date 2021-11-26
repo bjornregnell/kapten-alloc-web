@@ -159,5 +159,8 @@ def getGeneratedData(weekNumbers: Boolean = true): Seq[String] =
 def getWeekNumber(date: String): Int =
   val values = date.split("-").map(_.toInt)
   // Get week number using the ISO-8601 definition, where a week starts on Monday and the first week has a minimum of 4 days
-  // Known bug, will give '0' from days of new year before week 1
-  LocalDate.of(values(0), values(1), values(2)).get(WeekFields.ISO.weekOfYear)
+  val week = LocalDate.of(values(0), values(1), values(2)).get(WeekFields.ISO.weekOfYear)
+  if week == 0 then
+    LocalDate.of(values(0) - 1, 12, 31).get(WeekFields.ISO.weekOfYear)
+  else
+    week

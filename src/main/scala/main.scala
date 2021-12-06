@@ -59,7 +59,7 @@ def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph =
 def setupUI(): Unit = 
   val input = document.createElement("input").asInstanceOf[dom.html.Input]
   val showText = document.createElement("pre").asInstanceOf[dom.html.Pre]
-  val button = document.createElement("button").asInstanceOf[dom.html.Button]
+  val downloadButton = document.createElement("button").asInstanceOf[dom.html.Button]
   val akCheckbox = document.createElement("input").asInstanceOf[dom.html.Input]
   val akLabel = document.createElement("label").asInstanceOf[dom.html.Label]
   showText.textContent = getGeneratedData().mkString("\n")
@@ -69,8 +69,6 @@ def setupUI(): Unit =
   showSize.textContent = " " + (getGeneratedData().size- headRows)
 
   val filterText = appendPar(document.body, "Filter: ")
-  val downloadText = appendPar(document.body, "Nedladdning: ")
-  val optionsText = appendPar(document.body, "")
 
   input.id = "myInput"
   input.classList.add("input"); 
@@ -88,9 +86,9 @@ def setupUI(): Unit =
   )
 
   akCheckbox.setAttribute("type", "checkbox")
-  akCheckbox.id = "akadimiskKvart"
+  akCheckbox.id = "akademiskKvart"
   akCheckbox.defaultChecked = true
-  akLabel.textContent = "Akademisk Kvart: "
+  akLabel.textContent = "Akademisk Kvart"
   akLabel.setAttribute("for", "akademiskKvart")
 
   akCheckbox.addEventListener("change", (e: dom.Event) =>
@@ -98,9 +96,9 @@ def setupUI(): Unit =
   )
 
   // TODO: Add input for alert
-  button.textContent = "Kalender"
-  button.addEventListener("click", (e: dom.Event) =>
-    val filtered = getGeneratedData()
+  downloadButton.textContent = "Ladda ner"
+  downloadButton.addEventListener("click", (e: dom.Event) =>
+    val filtered = dataGeneratedFromKaptenAlloc
       .filterRows(words).drop(3)
       .akademiskKvart(akCheckbox.checked)
 
@@ -132,9 +130,9 @@ def setupUI(): Unit =
 
   filterText.appendChild(input)
   filterText.appendChild(showSize)
-  optionsText.appendChild(akLabel)
-  optionsText.appendChild(akCheckbox)
-  downloadText.appendChild(button)
+  filterText.appendChild(downloadButton)
+  filterText.appendChild(akCheckbox)
+  filterText.appendChild(akLabel)
   document.body.appendChild(showText)
 
 // TODO: Give name to file based on if room, group or any field always are the same

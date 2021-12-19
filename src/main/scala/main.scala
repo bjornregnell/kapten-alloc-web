@@ -1,8 +1,11 @@
 package kaptenallocweb
 
+import kaptenallocweb.ics.*
 import org.scalajs.dom
 import org.scalajs.dom.document
-import kaptenallocweb.ics.*
+
+import java.time.LocalDate
+import java.time.temporal.WeekFields
 
 @main def run: Unit = 
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  
@@ -12,12 +15,37 @@ extension (s: String)
     val xs2 = if isCaseSensitive then xs else xs.map(_.toLowerCase)
     val s2 = if isCaseSensitive then s else s.toLowerCase
     xs2.forall(x => s2.contains(x))
+  
+  def getKaptenAllocData(): KaptenAllocData =
+    val cells = s.filterNot(_.isWhitespace).split('|').toVector
+    if cells.length == 8 then
+      // kurs 0 |datum 1 |dag 2 |kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
+      KaptenAllocData(cells(0), cells(1), None, cells(2), cells(3), cells(4), cells(5), cells(6), cells(7))
+    else
+      // kurs 0 |datum 1 |vecka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
+      KaptenAllocData(cells(0), cells(1), Some(cells(2)), cells(3), cells(4), cells(5), cells(6), cells(7), cells(8))
+
 
 extension (rows: Seq[String])
   def filterRows(words: Array[String]): Seq[String] = 
     for row <- rows 
     if row.containsAll(words) || row.startsWith("---") || row.startsWith("kurs")
     yield row
+
+  /** Add a week number column for a KaptenAlloc formatted matrix */
+  def addWeekNumbers(): Seq[String] =
+    for row <- rows yield
+      var value = String()
+      if row.startsWith("---") then
+        value = "-" * 6
+      else if row.startsWith("kurs") then
+        value = "|vecka"
+      else
+        val week = getWeekNumber(row.getKaptenAllocData().date)
+        value = s"|v$week"
+      // TODO: Instead of hard-coding '15', find index of n:th '|' char in 2nd row
+      row.patch(15, f"$value%-6s", 0)
+
 
   def akademiskKvart(isAkademiskKvart: Boolean): Seq[String] =
     rows.map( r => if isAkademiskKvart then r else r.replace(":15", ":00") )
@@ -34,11 +62,11 @@ def setupUI(): Unit =
   val downloadButton = document.createElement("button").asInstanceOf[dom.html.Button]
   val akCheckbox = document.createElement("input").asInstanceOf[dom.html.Input]
   val akLabel = document.createElement("label").asInstanceOf[dom.html.Label]
-  showText.textContent = dataGeneratedFromKaptenAlloc.mkString("\n")
+  showText.textContent = getGeneratedData().mkString("\n")
 
   val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
   val headRows = 3
-  showSize.textContent = " " + (dataGeneratedFromKaptenAlloc.size- headRows)
+  showSize.textContent = " " + (getGeneratedData().size- headRows)
 
   val filterText = appendPar(document.body, "Filter: ")
 
@@ -50,7 +78,7 @@ def setupUI(): Unit =
   // Save event type to call it from other events via ```.dispatchEvent(<Event>)```
   val inputEvent = new dom.Event("input")
   input.addEventListener("input", (e: dom.Event) =>
-    val filtered: Seq[String] = dataGeneratedFromKaptenAlloc
+    val filtered: Seq[String] = getGeneratedData()
       .filterRows(words)
       .akademiskKvart(akCheckbox.checked)
     showText.textContent = filtered.mkString("\n")
@@ -76,17 +104,15 @@ def setupUI(): Unit =
 
     val calendar = Calendar()
 
-    for row: String <- filtered do 
-      val cells = row.filterNot(_.isWhitespace).split('|').toVector
+    for row: KaptenAllocData <- filtered.map(_.getKaptenAllocData()) do 
       val e = Event()
-      // kurs 0|datum 1 |dag 2|kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
       e.addProperty(
-        Property.time(cells(1), cells(3).replace(":", "").toInt)
+        Property.time(row.date, row.time.replace(":", "").toInt)
         ++ Seq(
           Property.uid(),
-          Property.summary(cells(0), cells(4), cells(6)),
-          Property.description(cells(0), cells(5), cells(6)),
-          Property.location(cells(6)),
+          Property.summary(row.course, row.`type`, row.room),
+          Property.description(row.course, row.group, row.room),
+          Property.location(row.room),
           Property.tzid(),
         )
         ++ Property.createdTimes()
@@ -119,3 +145,20 @@ def download(content: String, fileName: String = "handledartider.ics"): Unit =
   a.href = url
   a.click()
   a.remove()
+
+/** Wrapper around dataGeneratedFromKaptenAlloc which adds week numbers */
+def getGeneratedData(weekNumbers: Boolean = true): Seq[String] =
+  if weekNumbers then
+    dataGeneratedFromKaptenAlloc.addWeekNumbers()
+  else
+    dataGeneratedFromKaptenAlloc
+
+/** Takes date in format YYYY-MM-DD */
+def getWeekNumber(date: String): Int =
+  val values = date.split("-").map(_.toInt)
+  // Get week number using the ISO-8601 definition, where a week starts on Monday and the first week has a minimum of 4 days
+  val week = LocalDate.of(values(0), values(1), values(2)).get(WeekFields.ISO.weekOfYear)
+  if week == 0 then
+    LocalDate.of(values(0) - 1, 12, 31).get(WeekFields.ISO.weekOfYear)
+  else
+    week

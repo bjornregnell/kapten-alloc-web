@@ -22,7 +22,7 @@ extension (s: String)
       // kurs 0 |datum 1 |dag 2 |kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
       KaptenAllocData(cells(0), cells(1), None, cells(2), cells(3), cells(4), cells(5), cells(6), cells(7))
     else
-      // kurs 0 |datum 1 |väcka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
+      // kurs 0 |datum 1 |vecka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
       KaptenAllocData(cells(0), cells(1), Some(cells(2)), cells(3), cells(4), cells(5), cells(6), cells(7), cells(8))
 
 

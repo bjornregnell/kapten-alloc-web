@@ -33,7 +33,7 @@ Pgk |2022-08-31|ons|15:15|PgkResurstid|XA1  |Ambulans1|PSj
 Pgk |2022-08-31|ons|15:15|PgkResurstid|XA2  |Ambulans2|NAn       
 Dod |2022-08-31|ons|15:15|DodLabb     |D1.04|Falk     |ASa       
 Dod |2022-08-31|ons|15:15|DodLabb     |D1.05|Hacke    |MWi       
-Dod |2022-08-31|ons|15:15|DodLabb     |D1.06|Panter   |AGr       
+Dod |2022-08-31|ons|15:15|DodLabb     |D1.06|Panter   |AGh       
 Dod |2022-08-31|ons|15:15|DodLabb     |D1.07|Val      |FKa       
 Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.04|Panter   |ECe       
 Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.05|Val      |EBe       
@@ -49,7 +49,7 @@ Pgk |2022-09-01|tor|13:15|PgkResurstid|XA1  |Ambulans1|PSj
 Pgk |2022-09-01|tor|13:15|PgkResurstid|XA2  |Ambulans2|ESt       
 Dod |2022-09-01|tor|13:15|DodLabb     |C1.01|Elg      |NSa       
 Dod |2022-09-01|tor|13:15|DodLabb     |C1.02|Lo       |PGy       
-Dod |2022-09-01|tor|13:15|DodLabb     |C1.03|Val      |AGh       
+Dod |2022-09-01|tor|13:15|DodLabb     |C1.03|Val      |AGr       
 Pgk |2022-09-01|tor|15:15|PgkResurstid|C1.01|Panter   |JCe       
 Pgk |2022-09-01|tor|15:15|PgkResurstid|C1.02|Val      |FKa       
 Pgk |2022-09-01|tor|15:15|PgkResurstid|C1.03|Varg     |AGh       

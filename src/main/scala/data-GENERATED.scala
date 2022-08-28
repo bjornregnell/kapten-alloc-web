@@ -102,10 +102,10 @@ Pgk |2022-09-07|ons|10:15|PgkResurstid|XA1  |Ambulans1|LLi
 Pgk |2022-09-07|ons|10:15|PgkResurstid|XA2  |Ambulans2|NAn       
 Dod |2022-09-07|ons|10:15|DodLabb     |D1.11|Falk     |ESt       
 Dod |2022-09-07|ons|10:15|DodLabb     |D1.12|Hacke    |EDa       
-Dod |2022-09-07|ons|10:15|DodLabb     |D1.13|Panter   |ASa       
+Dod |2022-09-07|ons|10:15|DodLabb     |D1.13|Panter   |AGh       
 Dod |2022-09-07|ons|10:15|DodLabb     |D1.14|Val      |FKa       
 Pgk |2022-09-07|ons|13:15|PgkResurstid|D1.12|Alfa     |EDa       
-Pgk |2022-09-07|ons|13:15|PgkResurstid|D1.13|Beta     |ASa       
+Pgk |2022-09-07|ons|13:15|PgkResurstid|D1.13|Beta     |AGh       
 Pgk |2022-09-07|ons|13:15|PgkResurstid|D1.14|Gamma    |FKa       
 Pgk |2022-09-07|ons|13:15|PgkResurstid|XA1  |Ambulans1|EBe       
 Pgk |2022-09-07|ons|13:15|PgkResurstid|XA2  |Ambulans2|NAn       

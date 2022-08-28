@@ -18,3 +18,17 @@ When changing Scala version you need to edit all these:
 
 # How to publish
 Can only be done with owner of the right credentials to fileadmin@cs: `sh publish.sh`
+
+## Force update cache for users
+When publishing a new version, change the version for JavaScript file main.js in src attribute of script tag in index.html on line 50. After this run `sh publish.sh`.
+
+Example: 
+
+Change 
+```html
+    <script type="text/javascript" src="https://fileadmin.cs.lth.se/pgk/kaptenalloc/main.js?version=1"></script>
+```
+to 
+```html
+    <script type="text/javascript" src="https://fileadmin.cs.lth.se/pgk/kaptenalloc/main.js?version=2"></script>
+```

@@ -1,6 +1,4 @@
-
 package kaptenallocweb
-
 val dataGeneratedFromKaptenAlloc: Seq[String] = """
 -----------------------------------------------------------------
 kurs|datum     |dag|kl   |typ         |grupp|rum      |handledare
@@ -38,7 +36,7 @@ Dod |2022-08-31|ons|15:15|DodLabb     |D1.07|Val      |FKa
 Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.04|Panter   |ECe       
 Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.05|Val      |EBe       
 Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
-Pgk |2022-09-01|tor|08:15|PgkResurstid|XA1  |Ambulans1|PSj       
+Pgk |2022-09-01|tor|08:15|PgkResurstid|XA1  |Ambulans1|EBk       
 Pgk |2022-09-01|tor|08:15|PgkResurstid|XA2  |Ambulans2|AGr       
 Pgk |2022-09-01|tor|13:15|PgkResurstid|D1.05|Alfa     |MWi       
 Pgk |2022-09-01|tor|13:15|PgkResurstid|D1.06|Beta     |JSw       
@@ -126,7 +124,7 @@ Pgk |2022-09-08|tor|08:15|PgkResurstid|C1.05|Val      |EBe
 Pgk |2022-09-08|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
 Pgk |2022-09-08|tor|08:15|PgkResurstid|XA1  |Ambulans1|PSj       
 Pgk |2022-09-08|tor|08:15|PgkResurstid|XA2  |Ambulans2|JHa       
-Pgk |2022-09-08|tor|13:15|PgkResurstid|D1.05|Alfa     |MWi       
+Pgk |2022-09-08|tor|13:15|PgkResurstid|D1.05|Alfa     |FKa       
 Pgk |2022-09-08|tor|13:15|PgkResurstid|D1.06|Beta     |JSw       
 Pgk |2022-09-08|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv       
 Pgk |2022-09-08|tor|13:15|PgkResurstid|D1.08|Jupiter  |DHe       
@@ -190,7 +188,7 @@ Dod |2022-09-15|tor|13:15|DodLabb     |C1.01|Elg      |JCe
 Dod |2022-09-15|tor|13:15|DodLabb     |C1.02|Lo       |PGy       
 Dod |2022-09-15|tor|13:15|DodLabb     |C1.03|Val      |AGh       
 Pgk |2022-09-15|tor|15:15|PgkResurstid|C1.01|Panter   |JCe       
-Pgk |2022-09-15|tor|15:15|PgkResurstid|C1.02|Val      |FKa       
+Pgk |2022-09-15|tor|15:15|PgkResurstid|C1.02|Val      |MWi       
 Pgk |2022-09-15|tor|15:15|PgkResurstid|C1.03|Varg     |AGh       
 Pgk |2022-09-15|tor|15:15|PgkResurstid|XA1  |Ambulans1|PSj       
 Pgk |2022-09-15|tor|15:15|PgkResurstid|XA2  |Ambulans2|OLe       

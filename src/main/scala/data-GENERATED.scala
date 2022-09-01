@@ -37,7 +37,7 @@ Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.04|Panter   |ECe
 Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.05|Val      |EBe       
 Pgk |2022-09-01|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
 Pgk |2022-09-01|tor|08:15|PgkResurstid|XA1  |Ambulans1|EBk       
-Pgk |2022-09-01|tor|08:15|PgkResurstid|XA2  |Ambulans2|AGr       
+Pgk |2022-09-01|tor|08:15|PgkResurstid|XA2  |Ambulans2|PSj       
 Pgk |2022-09-01|tor|13:15|PgkResurstid|D1.05|Alfa     |MWi       
 Pgk |2022-09-01|tor|13:15|PgkResurstid|D1.06|Beta     |JSw       
 Pgk |2022-09-01|tor|13:15|PgkResurstid|D1.07|Gamma    |JHa       

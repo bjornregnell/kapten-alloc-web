@@ -56,7 +56,7 @@ Pgk |2022-09-01|tor|15:15|PgkResurstid|XA2  |Ambulans2|NAn
 Dod |2022-09-01|tor|15:15|DodLabb     |D1.01|Jupiter  |EBk       
 Dod |2022-09-01|tor|15:15|DodLabb     |D1.02|Mars     |OLe       
 Dod |2022-09-01|tor|15:15|DodLabb     |D1.03|Saturnus |HPe       
-Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.01|Falk     |EBk       
+Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.01|Falk     |ANi       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.02|Hacke    |NSa       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.03|Jupiter  |APh       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.04|Mars     |PSj       
@@ -208,7 +208,7 @@ Pgk |2022-09-16|fre|10:15|PgkLabb     |XA3  |Ambulans3|OLe
 Pgk |2022-09-16|fre|10:15|PgkLabb     |XA4  |Ambulans4|HLi       
 Pgk |2022-09-16|fre|13:15|PgkLabb     |D1.08|Falk     |DHe       
 Pgk |2022-09-16|fre|13:15|PgkLabb     |D1.09|Hacke    |APh       
-Pgk |2022-09-16|fre|13:15|PgkLabb     |D1.10|Jupiter  |JTh       
+Pgk |2022-09-16|fre|13:15|PgkLabb     |D1.10|Jupiter  |AGh       
 Pgk |2022-09-16|fre|13:15|PgkLabb     |D1.11|Mars     |ESt       
 Pgk |2022-09-16|fre|13:15|PgkLabb     |D1.12|Panter   |MWi       
 Pgk |2022-09-16|fre|13:15|PgkLabb     |D1.13|Val      |ASa       

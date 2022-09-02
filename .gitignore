@@ -1,6 +1,8 @@
 .metals/
 **/metals.sbt
 
+.scala-build
+
 .bloop/
 **/target/
 **/*.class

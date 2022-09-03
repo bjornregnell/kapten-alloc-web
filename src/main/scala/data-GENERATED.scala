@@ -61,7 +61,7 @@ Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.02|Hacke    |NSa
 Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.03|Jupiter  |APh       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.04|Mars     |PSj       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.05|Panter   |MWi       
-Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.06|Val      |JSw       
+Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.06|Val      |AGh       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |D1.07|Varg     |LLi       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |XA1  |Ambulans1|OBe       
 Pgk |2022-09-02|fre|10:15|PgkLabb     |XA2  |Ambulans2|NAn       

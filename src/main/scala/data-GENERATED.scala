@@ -90,7 +90,7 @@ Pgk |2022-09-02|fre|15:15|PgkLabb     |XA2  |Ambulans2|NAn
 Pgk |2022-09-02|fre|15:15|PgkLabb     |XA3  |Ambulans3|OLe       
 Pgk |2022-09-02|fre|15:15|PgkLabb     |XA4  |Ambulans4|HLi       
 Dod |2022-09-07|ons|08:15|DodLabb     |C1.04|Falk     |ECe       
-Dod |2022-09-07|ons|08:15|DodLabb     |C1.05|Hacke    |EBe       
+Dod |2022-09-07|ons|08:15|DodLabb     |C1.05|Hacke    |RBe       
 Dod |2022-09-07|ons|08:15|DodLabb     |C1.06|Panter   |ESt       
 Pgk |2022-09-07|ons|10:15|PgkResurstid|D1.01|Alfa     |EBk       
 Pgk |2022-09-07|ons|10:15|PgkResurstid|D1.02|Beta     |NSa       
@@ -105,7 +105,7 @@ Dod |2022-09-07|ons|10:15|DodLabb     |D1.14|Val      |FKa
 Pgk |2022-09-07|ons|13:15|PgkResurstid|D1.12|Alfa     |EDa       
 Pgk |2022-09-07|ons|13:15|PgkResurstid|D1.13|Beta     |AGh       
 Pgk |2022-09-07|ons|13:15|PgkResurstid|D1.14|Gamma    |FKa       
-Pgk |2022-09-07|ons|13:15|PgkResurstid|XA1  |Ambulans1|EBe       
+Pgk |2022-09-07|ons|13:15|PgkResurstid|XA1  |Ambulans1|HLi       
 Pgk |2022-09-07|ons|13:15|PgkResurstid|XA2  |Ambulans2|NAn       
 Dod |2022-09-07|ons|13:15|DodLabb     |D1.08|Jupiter  |DHe       
 Dod |2022-09-07|ons|13:15|DodLabb     |D1.09|Mars     |APh       
@@ -117,10 +117,10 @@ Pgk |2022-09-07|ons|15:15|PgkResurstid|XA1  |Ambulans1|PSj
 Pgk |2022-09-07|ons|15:15|PgkResurstid|XA2  |Ambulans2|NAn       
 Dod |2022-09-07|ons|15:15|DodLabb     |D1.04|Falk     |EBk       
 Dod |2022-09-07|ons|15:15|DodLabb     |D1.05|Hacke    |MWi       
-Dod |2022-09-07|ons|15:15|DodLabb     |D1.06|Panter   |ANi       
-Dod |2022-09-07|ons|15:15|DodLabb     |D1.07|Val      |EBe       
+Dod |2022-09-07|ons|15:15|DodLabb     |D1.06|Panter   |AGh       
+Dod |2022-09-07|ons|15:15|DodLabb     |D1.07|Val      |EDa       
 Pgk |2022-09-08|tor|08:15|PgkResurstid|C1.04|Panter   |ECe       
-Pgk |2022-09-08|tor|08:15|PgkResurstid|C1.05|Val      |EBe       
+Pgk |2022-09-08|tor|08:15|PgkResurstid|C1.05|Val      |RBe       
 Pgk |2022-09-08|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
 Pgk |2022-09-08|tor|08:15|PgkResurstid|XA1  |Ambulans1|PSj       
 Pgk |2022-09-08|tor|08:15|PgkResurstid|XA2  |Ambulans2|JHa       
@@ -130,7 +130,7 @@ Pgk |2022-09-08|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv
 Pgk |2022-09-08|tor|13:15|PgkResurstid|D1.08|Jupiter  |DHe       
 Pgk |2022-09-08|tor|13:15|PgkResurstid|W3   |Varg     |NAn       
 Pgk |2022-09-08|tor|13:15|PgkResurstid|XA1  |Ambulans1|PSj       
-Pgk |2022-09-08|tor|13:15|PgkResurstid|XA2  |Ambulans2|AGr       
+Pgk |2022-09-08|tor|13:15|PgkResurstid|XA2  |Ambulans2|AGh       
 Dod |2022-09-08|tor|13:15|DodLabb     |C1.01|Elg      |APh       
 Dod |2022-09-08|tor|13:15|DodLabb     |C1.02|Lo       |PGy       
 Dod |2022-09-08|tor|13:15|DodLabb     |C1.03|Val      |NSa       
@@ -233,7 +233,7 @@ Pgk |2022-09-21|ons|10:15|PgkResurstid|D1.02|Beta     |NSa
 Pgk |2022-09-21|ons|10:15|PgkResurstid|D1.03|Gamma    |APh       
 Pgk |2022-09-21|ons|10:15|PgkResurstid|D1.04|Varg     |HPe       
 Pgk |2022-09-21|ons|10:15|PgkResurstid|XA1  |Ambulans1|HLi       
-Pgk |2022-09-21|ons|10:15|PgkResurstid|XA2  |Ambulans2|AGr       
+Pgk |2022-09-21|ons|10:15|PgkResurstid|XA2  |Ambulans2|AGh       
 Pgk |2022-09-21|ons|13:15|PgkResurstid|D1.12|Alfa     |EDa       
 Pgk |2022-09-21|ons|13:15|PgkResurstid|D1.13|Beta     |ASa       
 Pgk |2022-09-21|ons|13:15|PgkResurstid|D1.14|Gamma    |PGy       
@@ -248,7 +248,7 @@ Pgk |2022-09-22|tor|08:15|PgkResurstid|C1.04|Panter   |ECe
 Pgk |2022-09-22|tor|08:15|PgkResurstid|C1.05|Val      |EBe       
 Pgk |2022-09-22|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
 Pgk |2022-09-22|tor|08:15|PgkResurstid|XA1  |Ambulans1|PSj       
-Pgk |2022-09-22|tor|08:15|PgkResurstid|XA2  |Ambulans2|AGr       
+Pgk |2022-09-22|tor|08:15|PgkResurstid|XA2  |Ambulans2|AGh       
 Pgk |2022-09-22|tor|13:15|PgkResurstid|D1.05|Alfa     |MWi       
 Pgk |2022-09-22|tor|13:15|PgkResurstid|D1.06|Beta     |JSw       
 Pgk |2022-09-22|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv       
@@ -298,7 +298,7 @@ Pgk |2022-09-28|ons|10:15|PgkResurstid|D1.01|Alfa     |EBk
 Pgk |2022-09-28|ons|10:15|PgkResurstid|D1.02|Beta     |NSa       
 Pgk |2022-09-28|ons|10:15|PgkResurstid|D1.03|Gamma    |APh       
 Pgk |2022-09-28|ons|10:15|PgkResurstid|D1.04|Varg     |PSj       
-Pgk |2022-09-28|ons|10:15|PgkResurstid|XA1  |Ambulans1|AGr       
+Pgk |2022-09-28|ons|10:15|PgkResurstid|XA1  |Ambulans1|AGh       
 Pgk |2022-09-28|ons|10:15|PgkResurstid|XA2  |Ambulans2|LLi       
 Pgk |2022-09-28|ons|13:15|PgkResurstid|D1.12|Alfa     |EDa       
 Pgk |2022-09-28|ons|13:15|PgkResurstid|D1.13|Beta     |ASa       

@@ -174,7 +174,7 @@ Dod |2022-09-14|ons|15:15|DodLabb     |D1.06|Panter   |EDa
 Dod |2022-09-14|ons|15:15|DodLabb     |D1.07|Val      |FKa       
 Pgk |2022-09-15|tor|08:15|PgkResurstid|C1.04|Panter   |ECe       
 Pgk |2022-09-15|tor|08:15|PgkResurstid|C1.05|Val      |EBe       
-Pgk |2022-09-15|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
+Pgk |2022-09-15|tor|08:15|PgkResurstid|C1.06|Varg     |EBk       
 Pgk |2022-09-15|tor|08:15|PgkResurstid|XA1  |Ambulans1|PSj       
 Pgk |2022-09-15|tor|08:15|PgkResurstid|XA2  |Ambulans2|JHa       
 Pgk |2022-09-15|tor|13:15|PgkResurstid|D1.05|Alfa     |MWi       
@@ -201,7 +201,7 @@ Pgk |2022-09-16|fre|10:15|PgkLabb     |D1.03|Jupiter  |APh
 Pgk |2022-09-16|fre|10:15|PgkLabb     |D1.04|Mars     |PSj       
 Pgk |2022-09-16|fre|10:15|PgkLabb     |D1.05|Panter   |AGr       
 Pgk |2022-09-16|fre|10:15|PgkLabb     |D1.06|Val      |JSw       
-Pgk |2022-09-16|fre|10:15|PgkLabb     |D1.07|Varg     |JHa       
+Pgk |2022-09-16|fre|10:15|PgkLabb     |D1.07|Varg     |FKa       
 Pgk |2022-09-16|fre|10:15|PgkLabb     |XA1  |Ambulans1|HPe       
 Pgk |2022-09-16|fre|10:15|PgkLabb     |XA2  |Ambulans2|LLi       
 Pgk |2022-09-16|fre|10:15|PgkLabb     |XA3  |Ambulans3|OLe       
@@ -223,7 +223,7 @@ Pgk |2022-09-16|fre|15:15|PgkLabb     |C1.03|Hacke    |AGh
 Pgk |2022-09-16|fre|15:15|PgkLabb     |C1.04|Jupiter  |ECe       
 Pgk |2022-09-16|fre|15:15|PgkLabb     |C1.05|Mars     |EBe       
 Pgk |2022-09-16|fre|15:15|PgkLabb     |C1.06|Panter   |ESt       
-Pgk |2022-09-16|fre|15:15|PgkLabb     |D1.14|Val      |FKa       
+Pgk |2022-09-16|fre|15:15|PgkLabb     |D1.14|Val      |JHa       
 Pgk |2022-09-16|fre|15:15|PgkLabb     |XA1  |Ambulans1|PSj       
 Pgk |2022-09-16|fre|15:15|PgkLabb     |XA2  |Ambulans2|NAn       
 Pgk |2022-09-16|fre|15:15|PgkLabb     |XA3  |Ambulans3|OLe       

@@ -179,7 +179,7 @@ Pgk |2022-09-15|tor|08:15|PgkResurstid|XA1  |Ambulans1|PSj
 Pgk |2022-09-15|tor|08:15|PgkResurstid|XA2  |Ambulans2|JHa       
 Pgk |2022-09-15|tor|13:15|PgkResurstid|D1.05|Alfa     |MWi       
 Pgk |2022-09-15|tor|13:15|PgkResurstid|D1.06|Beta     |JSw       
-Pgk |2022-09-15|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv       
+Pgk |2022-09-15|tor|13:15|PgkResurstid|D1.07|Gamma    |EBk       
 Pgk |2022-09-15|tor|13:15|PgkResurstid|D1.08|Jupiter  |DHe       
 Pgk |2022-09-15|tor|13:15|PgkResurstid|W3   |Varg     |NAn       
 Pgk |2022-09-15|tor|13:15|PgkResurstid|XA1  |Ambulans1|PSj       
@@ -191,7 +191,7 @@ Pgk |2022-09-15|tor|15:15|PgkResurstid|C1.01|Panter   |JCe
 Pgk |2022-09-15|tor|15:15|PgkResurstid|C1.02|Val      |MWi       
 Pgk |2022-09-15|tor|15:15|PgkResurstid|C1.03|Varg     |AGh       
 Pgk |2022-09-15|tor|15:15|PgkResurstid|XA1  |Ambulans1|PSj       
-Pgk |2022-09-15|tor|15:15|PgkResurstid|XA2  |Ambulans2|OLe       
+Pgk |2022-09-15|tor|15:15|PgkResurstid|XA2  |Ambulans2|HPe       
 Dod |2022-09-15|tor|15:15|DodLabb     |D1.01|Jupiter  |EBk       
 Dod |2022-09-15|tor|15:15|DodLabb     |D1.02|Mars     |DHe       
 Dod |2022-09-15|tor|15:15|DodLabb     |D1.03|Saturnus |APh       

@@ -292,7 +292,7 @@ Pgk |2022-09-23|fre|15:15|PgkLabb     |C1.06|Panter   |ESt
 Pgk |2022-09-23|fre|15:15|PgkLabb     |D1.14|Val      |FKa       
 Pgk |2022-09-23|fre|15:15|PgkLabb     |XA1  |Ambulans1|PSj       
 Pgk |2022-09-23|fre|15:15|PgkLabb     |XA2  |Ambulans2|NAn       
-Pgk |2022-09-23|fre|15:15|PgkLabb     |XA3  |Ambulans3|OLe       
+Pgk |2022-09-23|fre|15:15|PgkLabb     |XA3  |Ambulans3|HLi       
 Pgk |2022-09-23|fre|15:15|PgkLabb     |XA4  |Ambulans4|OBe       
 Pgk |2022-09-28|ons|10:15|PgkResurstid|D1.01|Alfa     |EBk       
 Pgk |2022-09-28|ons|10:15|PgkResurstid|D1.02|Beta     |NSa       

@@ -320,12 +320,12 @@ Pgk |2022-09-29|tor|13:15|PgkResurstid|D1.06|Beta     |JSw
 Pgk |2022-09-29|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv       
 Pgk |2022-09-29|tor|13:15|PgkResurstid|D1.08|Jupiter  |DHe       
 Pgk |2022-09-29|tor|13:15|PgkResurstid|W3   |Varg     |NAn       
-Pgk |2022-09-29|tor|13:15|PgkResurstid|XA1  |Ambulans1|OLe       
+Pgk |2022-09-29|tor|13:15|PgkResurstid|XA1  |Ambulans1|HLi       
 Pgk |2022-09-29|tor|13:15|PgkResurstid|XA2  |Ambulans2|LLi       
 Pgk |2022-09-29|tor|15:15|PgkResurstid|C1.01|Panter   |JCe       
 Pgk |2022-09-29|tor|15:15|PgkResurstid|C1.02|Val      |FKa       
 Pgk |2022-09-29|tor|15:15|PgkResurstid|C1.03|Varg     |AGh       
-Pgk |2022-09-29|tor|15:15|PgkResurstid|XA1  |Ambulans1|OLe       
+Pgk |2022-09-29|tor|15:15|PgkResurstid|XA1  |Ambulans1|HPe            
 Pgk |2022-09-29|tor|15:15|PgkResurstid|XA2  |Ambulans2|LLi       
 Pgk |2022-09-30|fre|10:15|PgkLabb     |D1.01|Falk     |EBk       
 Pgk |2022-09-30|fre|10:15|PgkLabb     |D1.02|Hacke    |NSa       

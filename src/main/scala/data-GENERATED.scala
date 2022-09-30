@@ -325,7 +325,7 @@ Pgk |2022-09-29|tor|13:15|PgkResurstid|XA2  |Ambulans2|LLi
 Pgk |2022-09-29|tor|15:15|PgkResurstid|C1.01|Panter   |JCe       
 Pgk |2022-09-29|tor|15:15|PgkResurstid|C1.02|Val      |FKa       
 Pgk |2022-09-29|tor|15:15|PgkResurstid|C1.03|Varg     |AGh       
-Pgk |2022-09-29|tor|15:15|PgkResurstid|XA1  |Ambulans1|HPe            
+Pgk |2022-09-29|tor|15:15|PgkResurstid|XA1  |Ambulans1|HPe       
 Pgk |2022-09-29|tor|15:15|PgkResurstid|XA2  |Ambulans2|LLi       
 Pgk |2022-09-30|fre|10:15|PgkLabb     |D1.01|Falk     |EBk       
 Pgk |2022-09-30|fre|10:15|PgkLabb     |D1.02|Hacke    |NSa       
@@ -480,7 +480,7 @@ Pgk |2022-10-14|fre|13:15|PgkLabb     |W3   |Varg     |NAn
 Pgk |2022-10-14|fre|13:15|PgkLabb     |XA1  |Ambulans1|EBe       
 Pgk |2022-10-14|fre|13:15|PgkLabb     |XA2  |Ambulans2|PGy       
 Pgk |2022-10-14|fre|13:15|PgkLabb     |XA3  |Ambulans3|ECe       
-Pgk |2022-10-14|fre|13:15|PgkLabb     |XA4  |Ambulans4|JSw       
+Pgk |2022-10-14|fre|13:15|PgkLabb     |XA4  |Ambulans4|JHa       
 Pgk |2022-10-14|fre|15:15|PgkLabb     |C1.01|Elg      |JCe       
 Pgk |2022-10-14|fre|15:15|PgkLabb     |C1.02|Falk     |PGy       
 Pgk |2022-10-14|fre|15:15|PgkLabb     |C1.03|Hacke    |AGh       
@@ -490,6 +490,6 @@ Pgk |2022-10-14|fre|15:15|PgkLabb     |C1.06|Panter   |ESt
 Pgk |2022-10-14|fre|15:15|PgkLabb     |D1.14|Val      |FKa       
 Pgk |2022-10-14|fre|15:15|PgkLabb     |XA1  |Ambulans1|EBk       
 Pgk |2022-10-14|fre|15:15|PgkLabb     |XA2  |Ambulans2|DHe       
-Pgk |2022-10-14|fre|15:15|PgkLabb     |XA3  |Ambulans3|JSw       
+Pgk |2022-10-14|fre|15:15|PgkLabb     |XA3  |Ambulans3|HPe       
 Pgk |2022-10-14|fre|15:15|PgkLabb     |XA4  |Ambulans4|HLi       
 """.trim.split('\n').toSeq

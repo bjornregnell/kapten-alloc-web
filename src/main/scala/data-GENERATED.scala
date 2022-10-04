@@ -367,7 +367,7 @@ Pgk |2022-10-05|ons|10:15|PgkResurstid|D1.04|Varg     |PSj
 Pgk |2022-10-05|ons|10:15|PgkResurstid|XA1  |Ambulans1|LLi       
 Pgk |2022-10-05|ons|10:15|PgkResurstid|XA2  |Ambulans2|HPe       
 Pgk |2022-10-05|ons|13:15|PgkResurstid|D1.12|Alfa     |EDa       
-Pgk |2022-10-05|ons|13:15|PgkResurstid|D1.13|Beta     |ASa       
+Pgk |2022-10-05|ons|13:15|PgkResurstid|D1.13|Beta     |AGh       
 Pgk |2022-10-05|ons|13:15|PgkResurstid|D1.14|Gamma    |PGy       
 Pgk |2022-10-05|ons|13:15|PgkResurstid|XA1  |Ambulans1|OBe       
 Pgk |2022-10-05|ons|13:15|PgkResurstid|XA2  |Ambulans2|OLe       
@@ -380,7 +380,7 @@ Pgk |2022-10-06|tor|08:15|PgkResurstid|C1.04|Panter   |ECe
 Pgk |2022-10-06|tor|08:15|PgkResurstid|C1.05|Val      |EBe       
 Pgk |2022-10-06|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
 Pgk |2022-10-06|tor|08:15|PgkResurstid|XA1  |Ambulans1|ANi       
-Pgk |2022-10-06|tor|08:15|PgkResurstid|XA2  |Ambulans2|OBe       
+Pgk |2022-10-06|tor|08:15|PgkResurstid|XA2  |Ambulans2|HPe       
 Pgk |2022-10-06|tor|13:15|PgkResurstid|D1.05|Alfa     |MWi       
 Pgk |2022-10-06|tor|13:15|PgkResurstid|D1.06|Beta     |JSw       
 Pgk |2022-10-06|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv       

@@ -389,7 +389,7 @@ Pgk |2022-10-06|tor|13:15|PgkResurstid|W3   |Varg     |NAn
 Pgk |2022-10-06|tor|13:15|PgkResurstid|XA1  |Ambulans1|LLi       
 Pgk |2022-10-06|tor|13:15|PgkResurstid|XA2  |Ambulans2|ANi       
 Pgk |2022-10-06|tor|15:15|PgkResurstid|C1.01|Panter   |JCe       
-Pgk |2022-10-06|tor|15:15|PgkResurstid|C1.02|Val      |FKa       
+Pgk |2022-10-06|tor|15:15|PgkResurstid|C1.02|Val      |HLi       
 Pgk |2022-10-06|tor|15:15|PgkResurstid|C1.03|Varg     |AGh       
 Pgk |2022-10-06|tor|15:15|PgkResurstid|XA1  |Ambulans1|OLe       
 Pgk |2022-10-06|tor|15:15|PgkResurstid|XA2  |Ambulans2|OBe       
@@ -453,7 +453,7 @@ Pgk |2022-10-13|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv
 Pgk |2022-10-13|tor|13:15|PgkResurstid|D1.08|Jupiter  |DHe       
 Pgk |2022-10-13|tor|13:15|PgkResurstid|W3   |Varg     |NAn       
 Pgk |2022-10-13|tor|13:15|PgkResurstid|XA1  |Ambulans1|HPe       
-Pgk |2022-10-13|tor|13:15|PgkResurstid|XA2  |Ambulans2|HLi       
+Pgk |2022-10-13|tor|13:15|PgkResurstid|XA2  |Ambulans2|FKa       
 Pgk |2022-10-13|tor|15:15|PgkResurstid|C1.01|Panter   |JCe       
 Pgk |2022-10-13|tor|15:15|PgkResurstid|C1.02|Val      |FKa       
 Pgk |2022-10-13|tor|15:15|PgkResurstid|C1.03|Varg     |AGh       

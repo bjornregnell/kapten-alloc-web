@@ -419,9 +419,9 @@ Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.01|Elg      |JCe
 Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.02|Falk     |PGy       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.03|Hacke    |AGh       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.04|Jupiter  |ECe       
-Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.05|Mars     |EBe       
+Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.05|Mars     |HPe       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.06|Panter   |ESt       
-Pgk |2022-10-07|fre|15:15|PgkLabb     |D1.14|Val      |FKa       
+Pgk |2022-10-07|fre|15:15|PgkLabb     |D1.14|Val      |NAn       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |XA1  |Ambulans1|OBe       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |XA2  |Ambulans2|MWi       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |XA3  |Ambulans3|LLi       

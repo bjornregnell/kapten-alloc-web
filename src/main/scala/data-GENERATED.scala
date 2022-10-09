@@ -413,7 +413,7 @@ Pgk |2022-10-07|fre|13:15|PgkLabb     |D1.13|Val      |ASa
 Pgk |2022-10-07|fre|13:15|PgkLabb     |W3   |Varg     |NAn       
 Pgk |2022-10-07|fre|13:15|PgkLabb     |XA1  |Ambulans1|HPe       
 Pgk |2022-10-07|fre|13:15|PgkLabb     |XA2  |Ambulans2|AGh       
-Pgk |2022-10-07|fre|13:15|PgkLabb     |XA3  |Ambulans3|OLe       
+Pgk |2022-10-07|fre|13:15|PgkLabb     |XA3  |Ambulans3|EBe       
 Pgk |2022-10-07|fre|13:15|PgkLabb     |XA4  |Ambulans4|HLi       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.01|Elg      |JCe       
 Pgk |2022-10-07|fre|15:15|PgkLabb     |C1.02|Falk     |PGy       

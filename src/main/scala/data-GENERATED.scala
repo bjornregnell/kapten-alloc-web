@@ -446,10 +446,10 @@ Pgk |2022-10-13|tor|08:15|PgkResurstid|C1.04|Panter   |ECe
 Pgk |2022-10-13|tor|08:15|PgkResurstid|C1.05|Val      |AGr       
 Pgk |2022-10-13|tor|08:15|PgkResurstid|C1.06|Varg     |ESt       
 Pgk |2022-10-13|tor|08:15|PgkResurstid|XA1  |Ambulans1|JHa       
-Pgk |2022-10-13|tor|08:15|PgkResurstid|XA2  |Ambulans2|MSv       
+Pgk |2022-10-13|tor|08:15|PgkResurstid|XA2  |Ambulans2|EDa       
 Pgk |2022-10-13|tor|13:15|PgkResurstid|D1.05|Alfa     |ANi       
 Pgk |2022-10-13|tor|13:15|PgkResurstid|D1.06|Beta     |JSw       
-Pgk |2022-10-13|tor|13:15|PgkResurstid|D1.07|Gamma    |MSv       
+Pgk |2022-10-13|tor|13:15|PgkResurstid|D1.07|Gamma    |AGh       
 Pgk |2022-10-13|tor|13:15|PgkResurstid|D1.08|Jupiter  |DHe       
 Pgk |2022-10-13|tor|13:15|PgkResurstid|W3   |Varg     |NAn       
 Pgk |2022-10-13|tor|13:15|PgkResurstid|XA1  |Ambulans1|HPe       

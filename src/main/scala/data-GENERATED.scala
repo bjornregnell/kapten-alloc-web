@@ -461,7 +461,7 @@ Pgk |2022-10-13|tor|15:15|PgkResurstid|XA1  |Ambulans1|HLi
 Pgk |2022-10-13|tor|15:15|PgkResurstid|XA2  |Ambulans2|OLe       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.01|Falk     |EBk       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.02|Hacke    |NSa       
-Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.03|Jupiter  |APh       
+Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.03|Jupiter  |NAn       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.04|Mars     |PSj       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.05|Panter   |AGr       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.06|Val      |JSw       
@@ -471,7 +471,7 @@ Pgk |2022-10-14|fre|10:15|PgkLabb     |XA2  |Ambulans2|HPe
 Pgk |2022-10-14|fre|10:15|PgkLabb     |XA3  |Ambulans3|ANi       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |XA4  |Ambulans4|HLi       
 Pgk |2022-10-14|fre|13:15|PgkLabb     |D1.08|Falk     |DHe       
-Pgk |2022-10-14|fre|13:15|PgkLabb     |D1.09|Hacke    |APh       
+Pgk |2022-10-14|fre|13:15|PgkLabb     |D1.09|Hacke    |HLi       
 Pgk |2022-10-14|fre|13:15|PgkLabb     |D1.10|Jupiter  |JTh       
 Pgk |2022-10-14|fre|13:15|PgkLabb     |D1.11|Mars     |ESt       
 Pgk |2022-10-14|fre|13:15|PgkLabb     |D1.12|Panter   |JCe       

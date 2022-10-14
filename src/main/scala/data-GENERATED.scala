@@ -463,7 +463,7 @@ Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.01|Falk     |EBk
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.02|Hacke    |NSa       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.03|Jupiter  |NAn       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.04|Mars     |PSj       
-Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.05|Panter   |AGr       
+Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.05|Panter   |JCe       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.06|Val      |JSw       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |D1.07|Varg     |LLi       
 Pgk |2022-10-14|fre|10:15|PgkLabb     |XA1  |Ambulans1|JHa       

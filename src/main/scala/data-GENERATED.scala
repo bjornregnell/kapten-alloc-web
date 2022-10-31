@@ -236,8 +236,8 @@ Pgk |2022-11-25|fre|13:15|PgkLabb     |XA2  |Ambulans2|MWi
 Pgk |2022-11-25|fre|13:15|PgkLabb     |XA3  |Ambulans3|PSj       
 Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.01|Elg      |AGh       
 Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.02|Falk     |NAn       
-Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.03|Hacke    |NSa       
-Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.04|Panter   |JTh       
+Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.03|Hacke    |HLi       
+Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.04|Panter   |HPe       
 Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.05|Val      |APh       
 Pgk |2022-11-25|fre|15:15|PgkLabb     |C1.06|Varg     |ESt       
 Pgk |2022-11-25|fre|15:15|PgkLabb     |XAO  |Ambulans1|LLi       

@@ -134,7 +134,7 @@ Pgk |2022-11-16|ons|13:15|PgkResurstid|XA2  |Ambulans2|AGh
 Pgk |2022-11-16|ons|15:15|PgkResurstid|D1.06|Alfa     |ECe       
 Pgk |2022-11-16|ons|15:15|PgkResurstid|D1.07|Beta     |EDa       
 Pgk |2022-11-16|ons|15:15|PgkResurstid|D1.08|Falk     |DHe       
-Pgk |2022-11-16|ons|15:15|PgkResurstid|D1.09|Gamma    |ASa       
+Pgk |2022-11-16|ons|15:15|PgkResurstid|D1.09|Gamma    |AGh       
 Pgk |2022-11-16|ons|15:15|PgkResurstid|D1.10|Hacke    |ANi       
 Pgk |2022-11-16|ons|15:15|PgkResurstid|XAO  |Ambulans1|LLi       
 Pgk |2022-11-16|ons|15:15|PgkResurstid|XA2  |Ambulans2|MWi       
@@ -146,7 +146,7 @@ Pgk |2022-11-17|tor|10:15|PgkResurstid|XA2  |Ambulans2|MWi
 Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.11|Falk     |JHa       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.12|Jupiter  |NSa       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.13|Panter   |EBk       
-Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.14|Saturnus |FKa       
+Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.14|Saturnus |DHe       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|W3   |Varg     |NAn       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|XAO  |Ambulans1|ESt       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|XA2  |Ambulans2|PGy       
@@ -154,7 +154,7 @@ Pgk |2022-11-17|tor|15:15|PgkResurstid|C1.04|Panter   |JTh
 Pgk |2022-11-17|tor|15:15|PgkResurstid|C1.05|Val      |APh       
 Pgk |2022-11-17|tor|15:15|PgkResurstid|C1.06|Varg     |ESt       
 Pgk |2022-11-17|tor|15:15|PgkResurstid|XAO  |Ambulans1|AGr       
-Pgk |2022-11-17|tor|15:15|PgkResurstid|XA2  |Ambulans2|FKa       
+Pgk |2022-11-17|tor|15:15|PgkResurstid|XA2  |Ambulans2|DHe       
 Pgk |2022-11-18|fre|08:15|PgkLabb     |D1.01|Beta     |EBk       
 Pgk |2022-11-18|fre|08:15|PgkLabb     |D1.02|Jupiter  |JCe       
 Pgk |2022-11-18|fre|08:15|PgkLabb     |D1.03|Mars     |JSw       

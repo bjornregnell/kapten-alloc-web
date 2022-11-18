@@ -143,7 +143,7 @@ Pgk |2022-11-17|tor|10:15|PgkResurstid|C1.02|Beta     |NAn
 Pgk |2022-11-17|tor|10:15|PgkResurstid|C1.03|Gamma    |NSa       
 Pgk |2022-11-17|tor|10:15|PgkResurstid|XAO  |Ambulans1|EBk       
 Pgk |2022-11-17|tor|10:15|PgkResurstid|XA2  |Ambulans2|MWi       
-Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.11|Falk     |JHa       
+Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.11|Falk     |JTh       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.12|Jupiter  |NSa       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.13|Panter   |EBk       
 Pgk |2022-11-17|tor|13:15|PgkResurstid|D1.14|Saturnus |DHe       
@@ -167,8 +167,8 @@ Pgk |2022-11-18|fre|08:15|PgkLabb     |XA2  |Ambulans |AGh
 Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.08|Alfa     |DHe       
 Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.09|Beta     |ASa       
 Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.10|Gamma    |EBk       
-Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.11|Jupiter  |JCe       
-Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.12|Mars     |OLe       
+Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.11|Jupiter  |ANi       
+Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.12|Mars     |HLi       
 Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.13|Panter   |AGh       
 Pgk |2022-11-18|fre|13:15|PgkLabb     |D1.14|Saturnus |ESt       
 Pgk |2022-11-18|fre|13:15|PgkLabb     |W3   |Varg     |NAn       

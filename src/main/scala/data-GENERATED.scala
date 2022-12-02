@@ -292,8 +292,7 @@ Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.13|Panter   |PSj
 Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.14|Saturnus |AGh       
 Pgk |2022-12-02|fre|13:15|PgkLabb     |W3   |Varg     |NAn       
 Pgk |2022-12-02|fre|13:15|PgkLabb     |XAO  |Ambulans1|MKl       
-Pgk |2022-12-02|fre|13:15|PgkLabb     |XA2  |Ambulans2|TLu       
-Pgk |2022-12-02|fre|13:15|PgkLabb     |XA3  |Ambulans3|OPe       
+Pgk |2022-12-02|fre|13:15|PgkLabb     |XA2  |Ambulans2|OPe       
 Pgk |2022-12-02|fre|15:15|PgkLabb     |C1.01|Elg      |AGh       
 Pgk |2022-12-02|fre|15:15|PgkLabb     |C1.02|Falk     |NAn       
 Pgk |2022-12-02|fre|15:15|PgkLabb     |C1.03|Hacke    |NSa       

@@ -286,7 +286,7 @@ Pgk |2022-12-02|fre|08:15|PgkLabb     |XA2  |Ambulans |AGh
 Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.08|Alfa     |DHe       
 Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.09|Beta     |ASa       
 Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.10|Gamma    |ESt       
-Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.11|Jupiter  |JCe       
+Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.11|Jupiter  |HLi       
 Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.12|Mars     |EBk       
 Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.13|Panter   |PSj       
 Pgk |2022-12-02|fre|13:15|PgkLabb     |D1.14|Saturnus |AGh       
@@ -339,7 +339,7 @@ Pgk |2022-12-09|fre|08:15|PgkLabb     |D1.03|Mars     |JSw
 Pgk |2022-12-09|fre|08:15|PgkLabb     |D1.04|Panter   |PGy       
 Pgk |2022-12-09|fre|08:15|PgkLabb     |D1.05|Saturnus |JHa       
 Pgk |2022-12-09|fre|08:15|PgkLabb     |D1.06|Val      |ECe       
-Pgk |2022-12-09|fre|08:15|PgkLabb     |D1.07|Varg     |ANi       
+Pgk |2022-12-09|fre|08:15|PgkLabb     |D1.07|Varg     |HPe       
 Pgk |2022-12-09|fre|08:15|PgkLabb     |XAO  |Ambulans |OLe       
 Pgk |2022-12-09|fre|08:15|PgkLabb     |XA2  |Ambulans |AGh       
 Pgk |2022-12-09|fre|13:15|PgkLabb     |D1.08|Alfa     |DHe       
@@ -348,7 +348,7 @@ Pgk |2022-12-09|fre|13:15|PgkLabb     |D1.10|Gamma    |EBk
 Pgk |2022-12-09|fre|13:15|PgkLabb     |D1.11|Jupiter  |HLi       
 Pgk |2022-12-09|fre|13:15|PgkLabb     |D1.12|Mars     |OBe       
 Pgk |2022-12-09|fre|13:15|PgkLabb     |D1.13|Panter   |HPe       
-Pgk |2022-12-09|fre|13:15|PgkLabb     |D1.14|Saturnus |ANi       
+Pgk |2022-12-09|fre|13:15|PgkLabb     |D1.14|Saturnus |JHa       
 Pgk |2022-12-09|fre|13:15|PgkLabb     |W3   |Varg     |NAn       
 Pgk |2022-12-09|fre|13:15|PgkLabb     |XAO  |Ambulans1|LLi       
 Pgk |2022-12-09|fre|13:15|PgkLabb     |XA2  |Ambulans2|ESt       

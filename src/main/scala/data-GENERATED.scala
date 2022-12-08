@@ -255,7 +255,6 @@ Pgk |2022-11-30|ons|15:15|PgkResurstid|D1.07|Beta     |EDa
 Pgk |2022-11-30|ons|15:15|PgkResurstid|D1.08|Falk     |DHe       
 Pgk |2022-11-30|ons|15:15|PgkResurstid|D1.09|Gamma    |ASa       
 Pgk |2022-11-30|ons|15:15|PgkResurstid|D1.10|Hacke    |EBk       
-Pgk |2022-11-30|ons|15:15|PgkResurstid|D1.10|Hacke    |EBk       
 Pgk |2022-11-30|ons|15:15|PgkResurstid|XAO  |Ambulans1|HPe       
 Pgk |2022-11-30|ons|15:15|PgkResurstid|XA2  |Ambulans2|HLi       
 Pgk |2022-12-01|tor|10:15|PgkResurstid|C1.01|Alfa     |AGh       

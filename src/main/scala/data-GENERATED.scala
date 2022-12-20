@@ -378,7 +378,7 @@ Pgk |2022-12-14|ons|15:15|PgkResurstid|XAO  |Ambulans1|AGh
 Pgk |2022-12-14|ons|15:15|PgkResurstid|XA2  |Ambulans2|JCe       
 Pgk |2022-12-15|tor|10:15|PgkResurstid|C1.01|Alfa     |AGh       
 Pgk |2022-12-15|tor|10:15|PgkResurstid|C1.02|Beta     |NAn       
-Pgk |2022-12-15|tor|10:15|PgkResurstid|C1.03|Gamma    |AGr       
+Pgk |2022-12-15|tor|10:15|PgkResurstid|C1.03|Gamma    |HPe       
 Pgk |2022-12-15|tor|10:15|PgkResurstid|XAO  |Ambulans1|JCe       
 Pgk |2022-12-15|tor|10:15|PgkResurstid|XA2  |Ambulans2|ECe       
 Pgk |2022-12-15|tor|13:15|PgkResurstid|D1.11|Falk     |HLi       

@@ -11,7 +11,7 @@ import java.time.temporal.WeekFields
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  
 
 extension (s: String)
-  def containsAll(xs: Array[String], isCaseSensitive: Boolean = false): Boolean =
+  def containsAll(xs: Array[String], isCaseSensitive: Boolean = true): Boolean =
     val xs2 = if isCaseSensitive then xs else xs.map(_.toLowerCase)
     val s2 = if isCaseSensitive then s else s.toLowerCase
     xs2.forall(x => s2.contains(x))
@@ -24,6 +24,7 @@ extension (s: String)
     else
       // kurs 0 |datum 1 |vecka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
       KaptenAllocData(cells(0), cells(1), Some(cells(2)), cells(3), cells(4), cells(5), cells(6), cells(7), cells(8))
+
 
 
 extension (rows: Seq[String])

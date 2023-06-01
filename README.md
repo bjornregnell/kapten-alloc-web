@@ -12,11 +12,14 @@ When changing Scala version you need to edit all these:
 * `publish.sh` in path of target
 * `index-dev.html` in path in script tag 
 
-# How to build
+# How to build and run
 
 `sbt fastLinkJS` 
 
+Open `index-dev.html` in your browser with File->Open.
+
 # How to publish
+
 Can only be done with owner of the right credentials to fileadmin@cs: `sh publish.sh`
 
 ## Force update cache for users

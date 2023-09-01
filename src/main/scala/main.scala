@@ -25,13 +25,25 @@ extension (s: String)
       // kurs 0 |datum 1 |vecka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
       KaptenAllocData(cells(0), cells(1), Some(cells(2)), cells(3), cells(4), cells(5), cells(6), cells(7), cells(8))
 
-
+val MagicRegisterPaymentWord = "lön"
 
 extension (rows: Seq[String])
   def filterRows(words: Array[String]): Seq[String] = 
-    for row <- rows 
-    if row.containsAll(words) || row.startsWith("---") || row.startsWith("kurs")
-    yield row
+    if words.lift(0) != Some(MagicRegisterPaymentWord) then // filter data rows
+      for row <- rows 
+      if row.containsAll(words) || row.startsWith("---") || row.startsWith("kurs")
+      yield row
+    else // make magic payment roll
+      val dataRows: Seq[Seq[String]] = rows.drop(3).map(_.split('|').toSeq.map(_.trim))
+      val register = dataRows.groupBy(_.last).toSeq.sortBy(_._1).map(_._2).flatten
+      def timeToPeriod(hrs: String): String = 
+        val start = hrs.take(2)
+        val end = start.toIntOption.map(_ + 2).getOrElse("??")
+        s"$start-$end"
+      val paymentRows = register.map(xs => Seq(xs.last) :+ xs(0) :+ xs(1) :+ timeToPeriod(xs(4)))
+      for row <- "init;kurs;datum;tid" +: paymentRows.map(_.mkString(";"))
+      if row.containsAll(words.drop(1)) || row.startsWith("init")
+      yield row
 
   /** Add a week number column for a KaptenAlloc formatted matrix */
   def addWeekNumbers(): Seq[String] =

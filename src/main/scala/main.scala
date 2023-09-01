@@ -41,8 +41,9 @@ extension (rows: Seq[String])
         val end = start.toIntOption.map(_ + 2).getOrElse("??")
         s"$start-$end"
       val paymentRows = register.map(xs => Seq(xs.last) :+ xs(0) :+ xs(1) :+ timeToPeriod(xs(4)))
-      for row <- "init;kurs;datum;tid" +: paymentRows.map(_.mkString(";"))
-      if row.containsAll(words.drop(1)) || row.startsWith("init")
+      val headings = Seq("lönereg kopiera till csv", "------------------------", "init;kurs;datum;tid")
+      for row <-  headings ++ paymentRows.map(_.mkString(";"))
+      if row.containsAll(words.drop(1)) || row.startsWith("init") || row.startsWith("-") || row.startsWith("lön")
       yield row
 
   /** Add a week number column for a KaptenAlloc formatted matrix */

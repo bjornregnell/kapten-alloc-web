@@ -4,7 +4,7 @@ val dataGeneratedFromKaptenAlloc: Seq[String] = """
 kurs|datum     |dag|kl   |typ         |grupp|rum      |handledare
 -----------------------------------------------------------------
 Pgk |2023-08-30|ons|10:15|PgkResurstid|D1.01|Alfa     |AN        
-Pgk |2023-08-30|ons|10:15|PgkResurstid|D1.02|Beta     |LL        
+Pgk |2023-08-30|ons|10:15|PgkResurstid|D1.02|Beta     |JE        
 Pgk |2023-08-30|ons|10:15|PgkResurstid|D1.03|Gamma    |JM        
 Pgk |2023-08-30|ons|10:15|PgkResurstid|XA1  |Ambulans1|LB        
 Pgk |2023-08-30|ons|10:15|PgkResurstid|XA2  |Ambulans2|EN        
@@ -19,7 +19,7 @@ Pgk |2023-08-30|ons|15:15|PgkResurstid|D1.12|Gamma    |HL
 Pgk |2023-08-30|ons|15:15|PgkResurstid|XA1  |Ambulans1|LB        
 Pgk |2023-08-30|ons|15:15|PgkResurstid|XA2  |Ambulans2|EN        
 Pgk |2023-08-31|tor|10:15|PgkResurstid|D1.04|Alfa     |JH        
-Pgk |2023-08-31|tor|10:15|PgkResurstid|D1.05|Beta     |JE        
+Pgk |2023-08-31|tor|10:15|PgkResurstid|D1.05|Beta     |LL        
 Pgk |2023-08-31|tor|10:15|PgkResurstid|D1.06|Gamma    |TL        
 Pgk |2023-08-31|tor|10:15|PgkResurstid|XA1  |Ambulans1|FA        
 Pgk |2023-08-31|tor|10:15|PgkResurstid|XA2  |Ambulans2|EN        

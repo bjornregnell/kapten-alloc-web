@@ -90,7 +90,7 @@ Pgk |2023-09-06|ons|13:15|PgkResurstid|XA1  |Ambulans1|LB
 Pgk |2023-09-06|ons|13:15|PgkResurstid|XA2  |Ambulans2|HX        
 Pgk |2023-09-06|ons|15:15|PgkResurstid|D1.10|Alfa     |DH        
 Pgk |2023-09-06|ons|15:15|PgkResurstid|D1.11|Beta     |PS        
-Pgk |2023-09-06|ons|15:15|PgkResurstid|D1.12|Gamma    |HL        
+Pgk |2023-09-06|ons|15:15|PgkResurstid|D1.12|Gamma    |HX        
 Pgk |2023-09-06|ons|15:15|PgkResurstid|XA1  |Ambulans1|LB        
 Pgk |2023-09-06|ons|15:15|PgkResurstid|XA2  |Ambulans2|EN        
 Pgk |2023-09-07|tor|10:15|PgkResurstid|D1.04|Alfa     |JH        
@@ -145,7 +145,7 @@ Pgk |2023-09-14|tor|10:15|PgkResurstid|D1.04|Alfa     |JH
 Pgk |2023-09-14|tor|10:15|PgkResurstid|D1.05|Beta     |MG        
 Pgk |2023-09-14|tor|10:15|PgkResurstid|D1.06|Gamma    |TL        
 Pgk |2023-09-14|tor|10:15|PgkResurstid|XA1  |Ambulans1|AN        
-Pgk |2023-09-14|tor|10:15|PgkResurstid|XA2  |Ambulans2|HX        
+Pgk |2023-09-14|tor|10:15|PgkResurstid|XA2  |Ambulans2|HL        
 Dod |2023-09-14|tor|10:15|DodLabb     |D1.07|Jupiter  |JC        
 Dod |2023-09-14|tor|10:15|DodLabb     |D1.08|Mars     |AP        
 Dod |2023-09-14|tor|10:15|DodLabb     |D1.09|Saturnus |OB        

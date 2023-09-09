@@ -116,7 +116,7 @@ Pgk |2023-09-07|tor|15:15|PgkResurstid|C1.04|Falk     |TF
 Pgk |2023-09-07|tor|15:15|PgkResurstid|C1.05|Val      |ES        
 Pgk |2023-09-07|tor|15:15|PgkResurstid|C1.06|Varg     |NA        
 Pgk |2023-09-07|tor|15:15|PgkResurstid|XA1  |Ambulans1|AÅ        
-Pgk |2023-09-07|tor|15:15|PgkResurstid|XA2  |Ambulans2|AW        
+Pgk |2023-09-07|tor|15:15|PgkResurstid|XA2  |Ambulans2|OB        
 Dod |2023-09-07|tor|15:15|DodLabb     |C1.01|Jupiter  |AP        
 Dod |2023-09-07|tor|15:15|DodLabb     |C1.02|Mars     |FA        
 Dod |2023-09-07|tor|15:15|DodLabb     |C1.03|Saturnus |VB        
@@ -192,7 +192,7 @@ Pgk |2023-09-15|fre|13:15|PgkLabb     |C1.05|Falk     |ES
 Pgk |2023-09-15|fre|13:15|PgkLabb     |C1.06|Gamma    |MF        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.07|Val      |JC        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.08|Varg     |HP        
-Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.09|Elg      |OB        
+Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.09|Elg      |AW        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.10|Hacke    |DH        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.11|Lo       |PS        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.12|Panter   |HL        

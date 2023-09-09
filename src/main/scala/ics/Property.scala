@@ -102,7 +102,7 @@ object Property:
     val time = LocalDateTime.now()
       .minusHours(1)
       .format(format.DateTimeFormatter
-        .ofPattern("yMd'T'Hms'Z'"))
+        .ofPattern("yMMdd'T'HHmmss'Z'"))
     Seq(
       DtStamp(time),
       Last_Modified(time)

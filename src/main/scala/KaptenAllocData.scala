@@ -9,4 +9,5 @@ case class KaptenAllocData(
     `type`: String,
     group: String,
     room: String,
-    supervisor: String)
+    supervisor: String
+)

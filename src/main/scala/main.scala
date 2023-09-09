@@ -31,7 +31,7 @@ extension (rows: Seq[String])
   def filterRows(words: Array[String]): Seq[String] = 
     if words.lift(0) != Some(MagicRegisterPaymentWord) then // filter data rows
       for row <- rows 
-      if row.containsAll(words) || row.startsWith("---") || row.startsWith("kurs")
+      if row.containsAll(words, false) || row.startsWith("---") || row.startsWith("kurs")
       yield row
     else // make magic payment roll
       val dataRows: Seq[Seq[String]] = rows.drop(3).map(_.split('|').toSeq.map(_.trim))

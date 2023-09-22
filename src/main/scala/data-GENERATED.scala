@@ -175,7 +175,7 @@ Pgk |2023-09-15|fre|08:15|PgkLabb     |C1.01|Hacke    |AP
 Pgk |2023-09-15|fre|08:15|PgkLabb     |C1.02|Panter   |FA        
 Pgk |2023-09-15|fre|08:15|PgkLabb     |XA1  |Ambulans1|LB        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.01|Alfa     |AN        
-Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.02|Beta     |AW        
+Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.02|Beta     |HL        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.03|Gamma    |MF        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.04|Hacke    |JH        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.05|Val      |MG        

@@ -175,11 +175,11 @@ Pgk |2023-09-15|fre|08:15|PgkLabb     |C1.01|Hacke    |AP
 Pgk |2023-09-15|fre|08:15|PgkLabb     |C1.02|Panter   |FA        
 Pgk |2023-09-15|fre|08:15|PgkLabb     |XA1  |Ambulans1|LB        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.01|Alfa     |AN        
-Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.02|Beta     |LL        
+Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.02|Beta     |AW        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.03|Gamma    |MF        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.04|Hacke    |JH        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.05|Val      |MG        
-Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.06|Varg     |TL        
+Pgk |2023-09-15|fre|10:15|PgkLabb     |D1.06|Varg     |PS        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |XA1  |Ambulans1|LB        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |XA2  |Ambulans2|EN        
 Pgk |2023-09-15|fre|10:15|PgkLabb     |XA3  |Ambulans3|HX        
@@ -192,9 +192,9 @@ Pgk |2023-09-15|fre|13:15|PgkLabb     |C1.05|Falk     |ES
 Pgk |2023-09-15|fre|13:15|PgkLabb     |C1.06|Gamma    |MF        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.07|Val      |JC        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.08|Varg     |HP        
-Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.09|Elg      |AW        
+Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.09|Elg      |LL        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.10|Hacke    |DH        
-Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.11|Lo       |PS        
+Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.11|Lo       |TL        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |D1.12|Panter   |HL        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |XA1  |Ambulans1|LB        
 Pgk |2023-09-15|fre|13:15|PgkLabb     |XA2  |Ambulans2|AM        
@@ -294,7 +294,7 @@ Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.03|Gamma    |PS
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.04|Hacke    |JH        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.05|Val      |HT        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.06|Varg     |TL        
-Pgk |2023-09-29|fre|10:15|PgkLabb     |XA1  |Ambulans1|AÅ        
+Pgk |2023-09-29|fre|10:15|PgkLabb     |XA1  |Ambulans1|FA        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |XA2  |Ambulans2|JC        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |XA3  |Ambulans3|MF        
 Pgk |2023-09-29|fre|13:15|PgkLabb     |D1.07|Alfa     |JC        
@@ -307,7 +307,7 @@ Pgk |2023-09-29|fre|13:15|PgkLabb     |XA1  |Ambulans1|RH
 Pgk |2023-09-29|fre|13:15|PgkLabb     |XA2  |Ambulans2|EN        
 Pgk |2023-09-29|fre|13:15|PgkLabb     |XA3  |Ambulans3|HT        
 Pgk |2023-09-29|fre|15:15|PgkLabb     |C1.01|Falk     |AP        
-Pgk |2023-09-29|fre|15:15|PgkLabb     |C1.02|Jupiter  |FA        
+Pgk |2023-09-29|fre|15:15|PgkLabb     |C1.02|Jupiter  |AÅ        
 Pgk |2023-09-29|fre|15:15|PgkLabb     |C1.03|Mars     |VB        
 Pgk |2023-09-29|fre|15:15|PgkLabb     |C1.04|Saturnus |TF        
 Pgk |2023-09-29|fre|15:15|PgkLabb     |C1.05|Val      |ES        

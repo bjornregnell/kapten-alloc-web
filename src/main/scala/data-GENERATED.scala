@@ -291,7 +291,7 @@ Pgk |2023-09-28|tor|15:15|PgkResurstid|XA2  |Ambulans2|HT
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.01|Alfa     |AN        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.02|Beta     |LL        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.03|Gamma    |PS        
-Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.04|Hacke    |JH        
+Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.04|Hacke    |VB        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.05|Val      |HT        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |D1.06|Varg     |TL        
 Pgk |2023-09-29|fre|10:15|PgkLabb     |XA1  |Ambulans1|FA        
@@ -365,7 +365,7 @@ Pgk |2023-10-06|fre|13:15|PgkLabb     |XA2  |Ambulans2|EN
 Pgk |2023-10-06|fre|13:15|PgkLabb     |XA3  |Ambulans3|AÅ        
 Pgk |2023-10-06|fre|15:15|PgkLabb     |C1.01|Falk     |AP        
 Pgk |2023-10-06|fre|15:15|PgkLabb     |C1.02|Jupiter  |FA        
-Pgk |2023-10-06|fre|15:15|PgkLabb     |C1.03|Mars     |VB        
+Pgk |2023-10-06|fre|15:15|PgkLabb     |C1.03|Mars     |JH        
 Pgk |2023-10-06|fre|15:15|PgkLabb     |C1.04|Saturnus |TF        
 Pgk |2023-10-06|fre|15:15|PgkLabb     |C1.05|Val      |ES        
 Pgk |2023-10-06|fre|15:15|PgkLabb     |C1.06|Varg     |NA        

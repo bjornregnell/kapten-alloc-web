@@ -259,7 +259,7 @@ Pgk |2023-09-22|fre|15:15|PgkLabb     |XA1  |Ambulans1|AM
 Pgk |2023-09-22|fre|15:15|PgkLabb     |XA2  |Ambulans2|MG        
 Pgk |2023-09-22|fre|15:15|PgkLabb     |XA3  |Ambulans3|AW        
 Pgk |2023-09-27|ons|10:15|PgkResurstid|D1.01|Alfa     |AN        
-Pgk |2023-09-27|ons|10:15|PgkResurstid|D1.02|Beta     |LL        
+Pgk |2023-09-27|ons|10:15|PgkResurstid|D1.02|Beta     |HX        
 Pgk |2023-09-27|ons|10:15|PgkResurstid|D1.03|Gamma    |OK        
 Pgk |2023-09-27|ons|10:15|PgkResurstid|XA1  |Ambulans1|RH        
 Pgk |2023-09-27|ons|10:15|PgkResurstid|XA2  |Ambulans2|AW        
@@ -385,7 +385,7 @@ Pgk |2023-10-11|ons|13:15|PgkResurstid|XA2  |Ambulans2|MF
 Pgk |2023-10-11|ons|15:15|PgkResurstid|D1.10|Alfa     |DH        
 Pgk |2023-10-11|ons|15:15|PgkResurstid|D1.11|Beta     |RH        
 Pgk |2023-10-11|ons|15:15|PgkResurstid|D1.12|Gamma    |HL        
-Pgk |2023-10-11|ons|15:15|PgkResurstid|XA1  |Ambulans1|HX        
+Pgk |2023-10-11|ons|15:15|PgkResurstid|XA1  |Ambulans1|LL        
 Pgk |2023-10-11|ons|15:15|PgkResurstid|XA2  |Ambulans2|FA        
 Pgk |2023-10-12|tor|10:15|PgkResurstid|D1.04|Alfa     |JH        
 Pgk |2023-10-12|tor|10:15|PgkResurstid|D1.05|Beta     |HT        

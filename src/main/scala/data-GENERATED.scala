@@ -384,7 +384,7 @@ Pgk |2023-10-11|ons|13:15|PgkResurstid|XA1  |Ambulans1|JE
 Pgk |2023-10-11|ons|13:15|PgkResurstid|XA2  |Ambulans2|MF        
 Pgk |2023-10-11|ons|15:15|PgkResurstid|D1.10|Alfa     |DH        
 Pgk |2023-10-11|ons|15:15|PgkResurstid|D1.11|Beta     |RH        
-Pgk |2023-10-11|ons|15:15|PgkResurstid|D1.12|Gamma    |HL        
+Pgk |2023-10-11|ons|15:15|PgkResurstid|D1.12|Gamma    |AW        
 Pgk |2023-10-11|ons|15:15|PgkResurstid|XA1  |Ambulans1|LL        
 Pgk |2023-10-11|ons|15:15|PgkResurstid|XA2  |Ambulans2|FA        
 Pgk |2023-10-12|tor|10:15|PgkResurstid|D1.04|Alfa     |JH        

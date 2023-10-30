@@ -46,7 +46,7 @@ Pgk |2023-11-03|fre|13:15|PgkLabb     |D1.08|Beta     |PS
 Pgk |2023-11-03|fre|13:15|PgkLabb     |D1.09|Falk     |VB        
 Pgk |2023-11-03|fre|13:15|PgkLabb     |D1.10|Gamma    |DH        
 Pgk |2023-11-03|fre|13:15|PgkLabb     |D1.11|Val      |AN        
-Pgk |2023-11-03|fre|13:15|PgkLabb     |D1.12|Varg     |TL        
+Pgk |2023-11-03|fre|13:15|PgkLabb     |D1.12|Varg     |AP        
 Pgk |2023-11-03|fre|13:15|PgkLabb     |XA1  |Ambulans1|EN        
 Pgk |2023-11-03|fre|13:15|PgkLabb     |XA2  |Ambulans2|RH        
 Pgk |2023-11-03|fre|13:15|PgkLabb     |XA3  |Ambulans3|JE        
@@ -88,7 +88,7 @@ Pgk |2023-11-09|tor|15:15|PgkResurstid|D1.02|Beta     |JM
 Pgk |2023-11-09|tor|15:15|PgkResurstid|D1.03|Gamma    |JC        
 Pgk |2023-11-09|tor|15:15|PgkResurstid|XA1  |Ambulans1|AÅ        
 Pgk |2023-11-09|tor|15:15|PgkResurstid|XA2  |Ambulans2|RH        
-Pgk |2023-11-10|fre|10:15|PgkLabb     |D1.01|Alfa     |AP        
+Pgk |2023-11-10|fre|10:15|PgkLabb     |D1.01|Alfa     |TL        
 Pgk |2023-11-10|fre|10:15|PgkLabb     |D1.02|Beta     |JM        
 Pgk |2023-11-10|fre|10:15|PgkLabb     |D1.03|Gamma    |JC        
 Pgk |2023-11-10|fre|10:15|PgkLabb     |D1.04|Hacke    |JH        

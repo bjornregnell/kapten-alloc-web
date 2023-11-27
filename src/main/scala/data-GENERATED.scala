@@ -230,7 +230,7 @@ Pgk |2023-11-24|fre|15:15|PgkLabb     |XA3  |Ambulans3|FA
 Pgk |2023-11-29|ons|13:15|PgkResurstid|D1.07|Alfa     |MF        
 Pgk |2023-11-29|ons|13:15|PgkResurstid|D1.08|Beta     |PS        
 Pgk |2023-11-29|ons|13:15|PgkResurstid|D1.09|Gamma    |VB        
-Pgk |2023-11-29|ons|13:15|PgkResurstid|XA1  |Ambulans1|OK        
+Pgk |2023-11-29|ons|13:15|PgkResurstid|XA1  |Ambulans1|AÅ        
 Pgk |2023-11-29|ons|13:15|PgkResurstid|XA2  |Ambulans2|AW        
 Pgk |2023-11-29|ons|15:15|PgkResurstid|D1.04|Alfa     |JH        
 Pgk |2023-11-29|ons|15:15|PgkResurstid|D1.05|Beta     |TF        
@@ -335,7 +335,7 @@ Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.04|Saturnus |HX
 Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.05|Val      |HT        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.06|Varg     |OB        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |XA1  |Ambulans1|MG        
-Pgk |2023-12-08|fre|15:15|PgkLabb     |XA2  |Ambulans2|AÅ        
+Pgk |2023-12-08|fre|15:15|PgkLabb     |XA2  |Ambulans2|OK        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |XA3  |Ambulans3|JM        
 Pgk |2023-12-13|ons|13:15|PgkResurstid|D1.07|Alfa     |MF        
 Pgk |2023-12-13|ons|13:15|PgkResurstid|D1.08|Beta     |PS        

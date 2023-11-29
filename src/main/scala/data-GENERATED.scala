@@ -227,7 +227,7 @@ Pgk |2023-11-24|fre|15:15|PgkLabb     |C1.06|Varg     |OB
 Pgk |2023-11-24|fre|15:15|PgkLabb     |XA1  |Ambulans1|JM        
 Pgk |2023-11-24|fre|15:15|PgkLabb     |XA2  |Ambulans2|AÅ        
 Pgk |2023-11-24|fre|15:15|PgkLabb     |XA3  |Ambulans3|FA        
-Pgk |2023-11-29|ons|13:15|PgkResurstid|D1.07|Alfa     |MF        
+Pgk |2023-11-29|ons|13:15|PgkResurstid|D1.07|Alfa     |--        
 Pgk |2023-11-29|ons|13:15|PgkResurstid|D1.08|Beta     |PS        
 Pgk |2023-11-29|ons|13:15|PgkResurstid|D1.09|Gamma    |VB        
 Pgk |2023-11-29|ons|13:15|PgkResurstid|XA1  |Ambulans1|OK        

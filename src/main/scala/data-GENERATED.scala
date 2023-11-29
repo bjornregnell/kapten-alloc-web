@@ -141,12 +141,12 @@ Pgk |2023-11-16|tor|13:15|PgkResurstid|XA2  |Ambulans2|JC
 Pgk |2023-11-16|tor|13:15|PgkResurstid|XA3  |Ambulans3|FA        
 Pgk |2023-11-16|tor|15:15|PgkResurstid|D1.01|Alfa     |AP        
 Pgk |2023-11-16|tor|15:15|PgkResurstid|D1.02|Beta     |AM        
-Pgk |2023-11-16|tor|15:15|PgkResurstid|D1.03|Gamma    |JC        
+Pgk |2023-11-16|tor|15:15|PgkResurstid|D1.03|Gamma    |NA        
 Pgk |2023-11-16|tor|15:15|PgkResurstid|XA1  |Ambulans1|HP        
 Pgk |2023-11-16|tor|15:15|PgkResurstid|XA2  |Ambulans2|MG        
 Pgk |2023-11-17|fre|10:15|PgkLabb     |D1.01|Alfa     |AP        
 Pgk |2023-11-17|fre|10:15|PgkLabb     |D1.02|Beta     |AM        
-Pgk |2023-11-17|fre|10:15|PgkLabb     |D1.03|Gamma    |JC        
+Pgk |2023-11-17|fre|10:15|PgkLabb     |D1.03|Gamma    |NA        
 Pgk |2023-11-17|fre|10:15|PgkLabb     |D1.04|Hacke    |JH        
 Pgk |2023-11-17|fre|10:15|PgkLabb     |D1.05|Val      |TF        
 Pgk |2023-11-17|fre|10:15|PgkLabb     |D1.06|Varg     |ES        
@@ -241,7 +241,7 @@ Pgk |2023-11-30|tor|10:15|PgkResurstid|D1.10|Alfa     |DH
 Pgk |2023-11-30|tor|10:15|PgkResurstid|D1.11|Beta     |AN        
 Pgk |2023-11-30|tor|10:15|PgkResurstid|D1.12|Gamma    |TL        
 Pgk |2023-11-30|tor|10:15|PgkResurstid|XA1  |Ambulans1|VB        
-Pgk |2023-11-30|tor|10:15|PgkResurstid|XA2  |Ambulans2|NA        
+Pgk |2023-11-30|tor|10:15|PgkResurstid|XA2  |Ambulans2|JH        
 Pgk |2023-11-30|tor|13:15|PgkResurstid|C1.01|Elg      |JE        
 Pgk |2023-11-30|tor|13:15|PgkResurstid|C1.02|Falk     |HL        
 Pgk |2023-11-30|tor|13:15|PgkResurstid|C1.03|Hacke    |HP        
@@ -288,7 +288,7 @@ Pgk |2023-12-06|ons|13:15|PgkResurstid|D1.08|Beta     |PS
 Pgk |2023-12-06|ons|13:15|PgkResurstid|D1.09|Gamma    |VB        
 Pgk |2023-12-06|ons|13:15|PgkResurstid|XA1  |Ambulans1|AÅ        
 Pgk |2023-12-06|ons|13:15|PgkResurstid|XA2  |Ambulans2|AW        
-Pgk |2023-12-06|ons|15:15|PgkResurstid|D1.04|Alfa     |JH        
+Pgk |2023-12-06|ons|15:15|PgkResurstid|D1.04|Alfa     |NA        
 Pgk |2023-12-06|ons|15:15|PgkResurstid|D1.05|Beta     |TF        
 Pgk |2023-12-06|ons|15:15|PgkResurstid|D1.06|Gamma    |ES        
 Pgk |2023-12-06|ons|15:15|PgkResurstid|XA1  |Ambulans1|HL        

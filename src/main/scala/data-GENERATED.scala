@@ -302,7 +302,7 @@ Pgk |2023-12-07|tor|13:15|PgkResurstid|C1.01|Elg      |NA
 Pgk |2023-12-07|tor|13:15|PgkResurstid|C1.02|Falk     |HL        
 Pgk |2023-12-07|tor|13:15|PgkResurstid|C1.03|Hacke    |HP        
 Pgk |2023-12-07|tor|13:15|PgkResurstid|C1.04|Lo       |HX        
-Pgk |2023-12-07|tor|13:15|PgkResurstid|C1.05|Panter   |HT        
+Pgk |2023-12-07|tor|13:15|PgkResurstid|C1.05|Panter   |JH        
 Pgk |2023-12-07|tor|13:15|PgkResurstid|C1.06|Val      |OB        
 Pgk |2023-12-07|tor|13:15|PgkResurstid|XA1  |Ambulans1|DH        
 Pgk |2023-12-07|tor|13:15|PgkResurstid|XA2  |Ambulans2|MF        
@@ -342,7 +342,7 @@ Pgk |2023-12-13|ons|13:15|PgkResurstid|D1.08|Beta     |PS
 Pgk |2023-12-13|ons|13:15|PgkResurstid|D1.09|Gamma    |VB        
 Pgk |2023-12-13|ons|13:15|PgkResurstid|XA1  |Ambulans1|HP        
 Pgk |2023-12-13|ons|13:15|PgkResurstid|XA2  |Ambulans2|JE        
-Pgk |2023-12-13|ons|15:15|PgkResurstid|D1.04|Alfa     |JH        
+Pgk |2023-12-13|ons|15:15|PgkResurstid|D1.04|Alfa     |HT        
 Pgk |2023-12-13|ons|15:15|PgkResurstid|D1.05|Beta     |TF        
 Pgk |2023-12-13|ons|15:15|PgkResurstid|D1.06|Gamma    |ES        
 Pgk |2023-12-13|ons|15:15|PgkResurstid|XA1  |Ambulans1|JE        

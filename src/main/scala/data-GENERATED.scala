@@ -332,7 +332,7 @@ Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.01|Falk     |NA
 Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.02|Jupiter  |HL        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.03|Mars     |HP        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.04|Saturnus |HX        
-Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.05|Val      |HT        
+Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.05|Val      |OB        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |C1.06|Varg     |AW        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |XA1  |Ambulans1|MG        
 Pgk |2023-12-08|fre|15:15|PgkLabb     |XA2  |Ambulans2|AÅ        

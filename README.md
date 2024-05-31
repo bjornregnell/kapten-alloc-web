@@ -22,6 +22,8 @@ Open `index-dev.html` in your browser with File->Open.
 
 Can only be done with owner of the right credentials to fileadmin@cs: `sh publish.sh`
 
+There are no releases in this repo; we run on bleeding-edge master branch.
+
 ## Force update cache for users
 When publishing a new version, change the version for JavaScript file main.js in src attribute of script tag in index.html on line 50. After this run `sh publish.sh`.
 

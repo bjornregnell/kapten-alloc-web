@@ -63,7 +63,7 @@ Pgk |2024-09-06|fre|10:15|PgkLabb     |XA2  |Ambulans2|AXL
 Pgk |2024-09-06|fre|10:15|PgkLabb     |XA3  |Ambulans3|JON       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |XA4  |Ambulans4|KAS       
 Dod |2024-09-06|fre|10:15|DodLabb     |D1.12|Jupiter  |JOM       
-Dod |2024-09-06|fre|10:15|DodLabb     |D1.13|Mars     |???       
+Dod |2024-09-06|fre|10:15|DodLabb     |D1.13|Mars     |JOE       
 Dod |2024-09-06|fre|10:15|DodLabb     |D1.14|Saturnus |VIB       
 Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.08|Alfa     |SAH       
 Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.09|Beta     |JOE       
@@ -125,7 +125,7 @@ Pgk |2024-09-12|tor|13:15|PgkResurstid|D1.08|Varg     |SAH
 Pgk |2024-09-12|tor|13:15|PgkResurstid|XA1  |Ambulans1|NAK       
 Pgk |2024-09-12|tor|13:15|PgkResurstid|XA2  |Ambulans2|SAR       
 Pgk |2024-09-12|tor|13:15|PgkResurstid|XA3  |Ambulans3|JON       
-Dod |2024-09-12|tor|13:15|DodLabb     |D1.01|Falk     |???       
+Dod |2024-09-12|tor|13:15|DodLabb     |D1.01|Falk     |JOE       
 Dod |2024-09-12|tor|13:15|DodLabb     |D1.02|Hacke    |AXL       
 Dod |2024-09-12|tor|13:15|DodLabb     |D1.03|Panter   |VIB       
 Dod |2024-09-12|tor|13:15|DodLabb     |D1.04|Val      |OSK       
@@ -168,7 +168,7 @@ Pgk |2024-09-19|tor|08:15|PgkResurstid|C1.02|Val      |EMS
 Pgk |2024-09-19|tor|08:15|PgkResurstid|C1.03|Varg     |NIM       
 Pgk |2024-09-19|tor|08:15|PgkResurstid|XA1  |Ambulans1|RUH       
 Pgk |2024-09-19|tor|08:15|PgkResurstid|XA2  |Ambulans2|SAR       
-Dod |2024-09-19|tor|08:15|DodLabb     |D1.08|Alfa     |???       
+Dod |2024-09-19|tor|08:15|DodLabb     |D1.08|Alfa     |JOE       
 Dod |2024-09-19|tor|08:15|DodLabb     |D1.09|Beta     |DAU       
 Dod |2024-09-19|tor|08:15|DodLabb     |D1.10|Hacke    |ESS       
 Dod |2024-09-19|tor|08:15|DodLabb     |D1.11|Panter   |ANP       
@@ -181,7 +181,7 @@ Pgk |2024-09-19|tor|13:15|PgkResurstid|XA2  |Ambulans2|OSK
 Pgk |2024-09-19|tor|13:15|PgkResurstid|XA3  |Ambulans3|DAU       
 Dod |2024-09-19|tor|13:15|DodLabb     |D1.01|Falk     |VIB       
 Dod |2024-09-19|tor|13:15|DodLabb     |D1.02|Hacke    |NAK       
-Dod |2024-09-19|tor|13:15|DodLabb     |D1.03|Panter   |???       
+Dod |2024-09-19|tor|13:15|DodLabb     |D1.03|Panter   |JOE       
 Dod |2024-09-19|tor|13:15|DodLabb     |D1.04|Val      |ESS       
 Pgk |2024-09-19|tor|15:15|PgkResurstid|C1.04|Falk     |ADM       
 Pgk |2024-09-19|tor|15:15|PgkResurstid|C1.05|Val      |RUH       

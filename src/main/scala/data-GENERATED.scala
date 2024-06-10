@@ -168,8 +168,8 @@ Pgk |2024-09-19|tor|08:15|PgkResurstid|C1.02|Val      |EMS
 Pgk |2024-09-19|tor|08:15|PgkResurstid|C1.03|Varg     |NIM       
 Pgk |2024-09-19|tor|08:15|PgkResurstid|XA1  |Ambulans1|RUH       
 Pgk |2024-09-19|tor|08:15|PgkResurstid|XA2  |Ambulans2|SAR       
-Dod |2024-09-19|tor|08:15|DodLabb     |D1.08|Alfa     |DAU       
-Dod |2024-09-19|tor|08:15|DodLabb     |D1.09|Beta     |???       
+Dod |2024-09-19|tor|08:15|DodLabb     |D1.08|Alfa     |???       
+Dod |2024-09-19|tor|08:15|DodLabb     |D1.09|Beta     |DAU       
 Dod |2024-09-19|tor|08:15|DodLabb     |D1.10|Hacke    |ESS       
 Dod |2024-09-19|tor|08:15|DodLabb     |D1.11|Panter   |ANP       
 Pgk |2024-09-19|tor|13:15|PgkResurstid|D1.05|Alfa     |MAF       

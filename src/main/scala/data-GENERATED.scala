@@ -56,7 +56,7 @@ Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.02|Beta     |ESS
 Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.03|Falk     |DAH       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.04|Gamma    |ANP       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.05|Hacke    |MAF       
-Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.06|Val      |JOE       
+Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.06|Val      |MAU       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.07|Varg     |AXN       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |XA1  |Ambulans1|TRF       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |XA2  |Ambulans2|AXL       

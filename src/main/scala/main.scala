@@ -121,7 +121,7 @@ def setupUI(): Unit =
     for row: KaptenAllocData <- filtered.map(_.getKaptenAllocData()) do 
       val e = Event()
       e.addProperty(
-        Property.time(row.date, row.time.replace(":", "").toInt)
+        (Property.time(row.date, row.time.replace(":", "").toInt)
         ++ Seq(
           Property.uid(),
           Property.summary(row.course, row.`type`, row.room),
@@ -129,9 +129,8 @@ def setupUI(): Unit =
           Property.location(row.room),
           Property.tzid(),
         )
-        ++ Property.createdTimes()
+        ++ Property.createdTimes())*
         // Give Seq as repeated properties (Property*)
-        :_*
       )
       calendar.addEvent(e)
     end for

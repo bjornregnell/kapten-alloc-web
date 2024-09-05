@@ -57,7 +57,7 @@ Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.03|Falk     |DAH
 Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.04|Gamma    |ELU       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.05|Hacke    |MAF       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.06|Val      |MAU       
-Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.07|Varg     |AXN       
+Pgk |2024-09-06|fre|10:15|PgkLabb     |D1.07|Varg     |NIK       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |XA1  |Ambulans1|TRF       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |XA2  |Ambulans2|AXL       
 Pgk |2024-09-06|fre|10:15|PgkLabb     |XA3  |Ambulans3|JON       
@@ -247,7 +247,7 @@ Pgk |2024-09-25|ons|15:15|PgkResurstid|D1.14|Gamma    |VIB
 Pgk |2024-09-25|ons|15:15|PgkResurstid|XA1  |Ambulans1|KAS       
 Pgk |2024-09-25|ons|15:15|PgkResurstid|XA2  |Ambulans2|HAE       
 Dod |2024-09-25|ons|15:15|DodLabb     |D1.05|Falk     |OSK       
-Dod |2024-09-25|ons|15:15|DodLabb     |D1.06|Val      |NIK       
+Dod |2024-09-25|ons|15:15|DodLabb     |D1.06|Val      |AXN       
 Dod |2024-09-25|ons|15:15|DodLabb     |D1.07|Varg     |ELU       
 Pgk |2024-09-26|tor|08:15|PgkResurstid|C1.01|Falk     |ELU       
 Pgk |2024-09-26|tor|08:15|PgkResurstid|C1.02|Val      |EMS       

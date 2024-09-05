@@ -39,7 +39,7 @@ Pgk |2024-09-05|tor|13:15|PgkResurstid|D1.08|Varg     |SAH
 Pgk |2024-09-05|tor|13:15|PgkResurstid|XA1  |Ambulans1|DAU       
 Pgk |2024-09-05|tor|13:15|PgkResurstid|XA2  |Ambulans2|AXL       
 Pgk |2024-09-05|tor|13:15|PgkResurstid|XA3  |Ambulans3|JON       
-Dod |2024-09-05|tor|13:15|DodLabb     |D1.01|Falk     |ALW       
+Dod |2024-09-05|tor|13:15|DodLabb     |D1.01|Falk     |JOE       
 Dod |2024-09-05|tor|13:15|DodLabb     |D1.02|Hacke    |ESS       
 Dod |2024-09-05|tor|13:15|DodLabb     |D1.03|Panter   |ELÅ       
 Dod |2024-09-05|tor|13:15|DodLabb     |D1.04|Val      |ANP       
@@ -66,7 +66,7 @@ Dod |2024-09-06|fre|10:15|DodLabb     |D1.12|Jupiter  |JOM
 Dod |2024-09-06|fre|10:15|DodLabb     |D1.13|Mars     |JOE       
 Dod |2024-09-06|fre|10:15|DodLabb     |D1.14|Saturnus |VIB       
 Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.08|Alfa     |SAH       
-Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.09|Beta     |JOE       
+Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.09|Beta     |ALW       
 Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.10|Falk     |MOG       
 Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.11|Gamma    |TOS       
 Pgk |2024-09-06|fre|13:15|PgkLabb     |D1.12|Hacke    |JOM       

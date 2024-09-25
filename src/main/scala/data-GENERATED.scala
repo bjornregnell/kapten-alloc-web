@@ -280,7 +280,7 @@ Dod |2024-09-26|tor|15:15|DodLabb     |C1.03|Saturnus |HAE
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.01|Alfa     |ALW       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.02|Beta     |ESS       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.03|Falk     |DAH       
-Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.04|Gamma    |ANP       
+Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.04|Gamma    |HJR       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.05|Hacke    |MAF       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.06|Val      |EDN       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.07|Varg     |AXN       
@@ -395,7 +395,7 @@ Pgk |2024-10-09|ons|13:15|PgkResurstid|XA1  |Ambulans1|LOL
 Pgk |2024-10-09|ons|13:15|PgkResurstid|XA2  |Ambulans2|NIK       
 Pgk |2024-10-09|ons|15:15|PgkResurstid|D1.12|Alfa     |JOM       
 Pgk |2024-10-09|ons|15:15|PgkResurstid|D1.13|Beta     |ELÅ       
-Pgk |2024-10-09|ons|15:15|PgkResurstid|D1.14|Gamma    |DAU       
+Pgk |2024-10-09|ons|15:15|PgkResurstid|D1.14|Gamma    |MOG       
 Pgk |2024-10-09|ons|15:15|PgkResurstid|XA1  |Ambulans1|HAE       
 Pgk |2024-10-09|ons|15:15|PgkResurstid|XA2  |Ambulans2|HJR       
 Pgk |2024-10-10|tor|08:15|PgkResurstid|C1.01|Falk     |ELU       
@@ -414,7 +414,7 @@ Pgk |2024-10-10|tor|15:15|PgkResurstid|C1.04|Falk     |ADM
 Pgk |2024-10-10|tor|15:15|PgkResurstid|C1.05|Val      |RUH       
 Pgk |2024-10-10|tor|15:15|PgkResurstid|C1.06|Varg     |OSK       
 Pgk |2024-10-10|tor|15:15|PgkResurstid|XA1  |Ambulans1|HAE       
-Pgk |2024-10-10|tor|15:15|PgkResurstid|XA2  |Ambulans2|HJR       
+Pgk |2024-10-10|tor|15:15|PgkResurstid|XA2  |Ambulans2|ANP       
 Pgk |2024-10-11|fre|10:15|PgkLabb     |D1.01|Alfa     |ALW       
 Pgk |2024-10-11|fre|10:15|PgkLabb     |D1.02|Beta     |ESS       
 Pgk |2024-10-11|fre|10:15|PgkLabb     |D1.03|Falk     |DAH       
@@ -462,7 +462,7 @@ Pgk |2024-10-16|ons|13:15|PgkResurstid|XA2  |Ambulans2|DAU
 Pgk |2024-10-16|ons|15:15|PgkResurstid|D1.12|Alfa     |JOM       
 Pgk |2024-10-16|ons|15:15|PgkResurstid|D1.13|Beta     |ELÅ       
 Pgk |2024-10-16|ons|15:15|PgkResurstid|D1.14|Gamma    |VIB       
-Pgk |2024-10-16|ons|15:15|PgkResurstid|XA1  |Ambulans1|MOG       
+Pgk |2024-10-16|ons|15:15|PgkResurstid|XA1  |Ambulans1|DAU       
 Pgk |2024-10-16|ons|15:15|PgkResurstid|XA2  |Ambulans2|JOE       
 Pgk |2024-10-17|tor|08:15|PgkResurstid|C1.01|Falk     |ELU       
 Pgk |2024-10-17|tor|08:15|PgkResurstid|C1.02|Val      |EMS       

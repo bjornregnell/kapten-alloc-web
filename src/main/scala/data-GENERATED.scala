@@ -229,7 +229,7 @@ Pgk |2024-09-20|fre|15:15|PgkLabb     |XA1  |Ambulans1|TRF
 Pgk |2024-09-20|fre|15:15|PgkLabb     |XA2  |Ambulans2|NIM       
 Pgk |2024-09-20|fre|15:15|PgkLabb     |XA3  |Ambulans3|JOE       
 Pgk |2024-09-20|fre|15:15|PgkLabb     |XA4  |Ambulans4|NAK       
-Pgk |2024-09-25|ons|10:15|PgkResurstid|D1.01|Alfa     |ALW       
+Pgk |2024-09-25|ons|10:15|PgkResurstid|D1.01|Alfa     |RUH       
 Pgk |2024-09-25|ons|10:15|PgkResurstid|D1.02|Beta     |ESS       
 Pgk |2024-09-25|ons|10:15|PgkResurstid|D1.03|Gamma    |DAH       
 Pgk |2024-09-25|ons|10:15|PgkResurstid|D1.04|Varg     |ANP       

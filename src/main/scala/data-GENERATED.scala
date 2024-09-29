@@ -278,7 +278,7 @@ Dod |2024-09-26|tor|15:15|DodLabb     |C1.01|Jupiter  |LOL
 Dod |2024-09-26|tor|15:15|DodLabb     |C1.02|Mars     |MAU       
 Dod |2024-09-26|tor|15:15|DodLabb     |C1.03|Saturnus |HAE       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.01|Alfa     |ALW       
-Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.02|Beta     |ESS       
+Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.02|Beta     |RUH       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.03|Falk     |DAH       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.04|Gamma    |HJR       
 Pgk |2024-09-27|fre|10:15|PgkLabb     |D1.05|Hacke    |MAF       

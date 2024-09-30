@@ -305,7 +305,7 @@ Pgk |2024-09-27|fre|13:15|PgkLabb     |XA4  |Ambulans4|NOA
 Dod |2024-09-27|fre|13:15|DodLabb     |C1.04|Jupiter  |LOL       
 Dod |2024-09-27|fre|13:15|DodLabb     |C1.05|Mars     |MAF       
 Dod |2024-09-27|fre|13:15|DodLabb     |C1.06|Saturnus |ELU       
-Pgk |2024-09-27|fre|15:15|PgkLabb     |C1.01|Falk     |ELU       
+Pgk |2024-09-27|fre|15:15|PgkLabb     |C1.01|Falk     |JOE       
 Pgk |2024-09-27|fre|15:15|PgkLabb     |C1.02|Jupiter  |EMS       
 Pgk |2024-09-27|fre|15:15|PgkLabb     |C1.03|Mars     |NOA       
 Pgk |2024-09-27|fre|15:15|PgkLabb     |C1.04|Saturnus |ADM       
@@ -388,7 +388,7 @@ Pgk |2024-10-09|ons|10:15|PgkResurstid|D1.04|Varg     |ANP
 Pgk |2024-10-09|ons|10:15|PgkResurstid|XA1  |Ambulans1|HAE       
 Pgk |2024-10-09|ons|10:15|PgkResurstid|XA2  |Ambulans2|NIK       
 Pgk |2024-10-09|ons|10:15|PgkResurstid|XA3  |Ambulans3|KAS       
-Pgk |2024-10-09|ons|13:15|PgkResurstid|D1.09|Alfa     |JOE       
+Pgk |2024-10-09|ons|13:15|PgkResurstid|D1.09|Alfa     |ELU       
 Pgk |2024-10-09|ons|13:15|PgkResurstid|D1.10|Beta     |MOG       
 Pgk |2024-10-09|ons|13:15|PgkResurstid|D1.11|Gamma    |TOS       
 Pgk |2024-10-09|ons|13:15|PgkResurstid|XA1  |Ambulans1|LOL       

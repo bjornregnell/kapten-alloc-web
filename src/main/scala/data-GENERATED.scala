@@ -474,7 +474,7 @@ Pgk |2024-10-17|tor|13:15|PgkResurstid|D1.06|Beta     |DAH
 Pgk |2024-10-17|tor|13:15|PgkResurstid|D1.07|Gamma    |AXN       
 Pgk |2024-10-17|tor|13:15|PgkResurstid|D1.08|Varg     |SAH       
 Pgk |2024-10-17|tor|13:15|PgkResurstid|XA1  |Ambulans1|NIK       
-Pgk |2024-10-17|tor|13:15|PgkResurstid|XA2  |Ambulans2|NOA       
+Pgk |2024-10-17|tor|13:15|PgkResurstid|XA2  |Ambulans2|TOS       
 Pgk |2024-10-17|tor|13:15|PgkResurstid|XA3  |Ambulans3|OSK       
 Pgk |2024-10-17|tor|15:15|PgkResurstid|C1.04|Falk     |ADM       
 Pgk |2024-10-17|tor|15:15|PgkResurstid|C1.05|Val      |RUH       
@@ -486,7 +486,7 @@ Pgk |2024-10-18|fre|10:15|PgkLabb     |D1.02|Beta     |ESS
 Pgk |2024-10-18|fre|10:15|PgkLabb     |D1.03|Falk     |DAH       
 Pgk |2024-10-18|fre|10:15|PgkLabb     |D1.04|Gamma    |ANP       
 Pgk |2024-10-18|fre|10:15|PgkLabb     |D1.05|Hacke    |MAF       
-Pgk |2024-10-18|fre|10:15|PgkLabb     |D1.06|Val      |TOS       
+Pgk |2024-10-18|fre|10:15|PgkLabb     |D1.06|Val      |NOA       
 Pgk |2024-10-18|fre|10:15|PgkLabb     |D1.07|Varg     |AXN       
 Pgk |2024-10-18|fre|10:15|PgkLabb     |XA1  |Ambulans1|NIM       
 Pgk |2024-10-18|fre|10:15|PgkLabb     |XA2  |Ambulans2|HAE       

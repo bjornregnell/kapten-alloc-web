@@ -76,6 +76,8 @@ def setupUI(): Unit =
   val downloadButton = document.createElement("button").asInstanceOf[dom.html.Button]
   val akCheckbox = document.createElement("input").asInstanceOf[dom.html.Input]
   val akLabel = document.createElement("label").asInstanceOf[dom.html.Label]
+  val todayCheckBox = document.createElement("input").asInstanceOf[dom.html.Input]
+  val todayLabel = document.createElement("label").asInstanceOf[dom.html.Label]
   showText.textContent = getGeneratedData().mkString("\n")
 
   val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
@@ -106,6 +108,16 @@ def setupUI(): Unit =
   akLabel.setAttribute("for", "akademiskKvart")
 
   akCheckbox.addEventListener("change", (e: dom.Event) =>
+    input.dispatchEvent(inputEvent)
+  )
+
+  todayCheckBox.setAttribute("type", "checkbox")
+  todayCheckBox.id = "todayCheckBox"
+  todayCheckBox.defaultChecked = false
+  todayLabel.textContent = "Idag?"
+  todayLabel.setAttribute("for", "todayCheckBox")
+
+  todayCheckBox.addEventListener("change", (e: dom.Event) => 
     input.dispatchEvent(inputEvent)
   )
 
@@ -146,6 +158,8 @@ def setupUI(): Unit =
   filterText.appendChild(downloadButton)
   filterText.appendChild(akCheckbox)
   filterText.appendChild(akLabel)
+  filterText.appendChild(todayCheckBox)
+  filterText.appendChild(todayLabel)
   document.body.appendChild(showText)
 
 // TODO: Give name to file based on if room, group or any field always are the same

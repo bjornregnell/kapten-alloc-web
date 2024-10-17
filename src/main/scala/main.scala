@@ -5,6 +5,7 @@ import org.scalajs.dom
 import org.scalajs.dom.document
 
 import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
 
 @main def run: Unit = 
@@ -64,6 +65,15 @@ extension (rows: Seq[String])
   def akademiskKvart(isAkademiskKvart: Boolean): Seq[String] =
     rows.map( r => if isAkademiskKvart then r else r.replace(":15", ":00") )
 
+  def filterOnlyToday(filterOnToday: Boolean): Seq[String] = 
+    def todayString: String = 
+      val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+      LocalDate.now().format(formatter)
+
+    if !filterOnToday then rows
+    else rows.filter(r => r.startsWith("kurs") || r.startsWith("---") || r.contains(todayString))
+
+
 def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph = 
   val parNode = document.createElement("p").asInstanceOf[dom.html.Paragraph]
   parNode.textContent = text
@@ -95,6 +105,7 @@ def setupUI(): Unit =
   val inputEvent = new dom.Event("input")
   input.addEventListener("input", (e: dom.Event) =>
     val filtered: Seq[String] = getGeneratedData()
+      .filterOnlyToday(todayCheckBox.checked)
       .filterRows(words)
       .akademiskKvart(akCheckbox.checked)
     showText.textContent = filtered.mkString("\n")

@@ -12,7 +12,7 @@ import java.time.temporal.WeekFields
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  
 
 extension (s: String)
-  def containsAll(xs: Array[String], isCaseSensitive: Boolean = true): Boolean =
+  def containsAll(xs: Array[String], isCaseSensitive: Boolean = false): Boolean =
     val xs2 = if isCaseSensitive then xs else xs.map(_.toLowerCase)
     val s2 = if isCaseSensitive then s else s.toLowerCase
     xs2.forall(x => s2.contains(x))

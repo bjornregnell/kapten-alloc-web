@@ -5,6 +5,7 @@ import org.scalajs.dom
 import org.scalajs.dom.document
 
 import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
 
 @main def run: Unit = 
@@ -64,6 +65,15 @@ extension (rows: Seq[String])
   def akademiskKvart(isAkademiskKvart: Boolean): Seq[String] =
     rows.map( r => if isAkademiskKvart then r else r.replace(":15", ":00") )
 
+  def filterOnlyToday(filterOnToday: Boolean): Seq[String] = 
+    def todayString: String = 
+      val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+      LocalDate.now().format(formatter)
+
+    if !filterOnToday then rows
+    else rows.filter(r => r.startsWith("kurs") || r.startsWith("---") || r.contains(todayString))
+
+
 def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph = 
   val parNode = document.createElement("p").asInstanceOf[dom.html.Paragraph]
   parNode.textContent = text
@@ -76,6 +86,8 @@ def setupUI(): Unit =
   val downloadButton = document.createElement("button").asInstanceOf[dom.html.Button]
   val akCheckbox = document.createElement("input").asInstanceOf[dom.html.Input]
   val akLabel = document.createElement("label").asInstanceOf[dom.html.Label]
+  val todayCheckBox = document.createElement("input").asInstanceOf[dom.html.Input]
+  val todayLabel = document.createElement("label").asInstanceOf[dom.html.Label]
   showText.textContent = getGeneratedData().mkString("\n")
 
   val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
@@ -93,6 +105,7 @@ def setupUI(): Unit =
   val inputEvent = new dom.Event("input")
   input.addEventListener("input", (e: dom.Event) =>
     val filtered: Seq[String] = getGeneratedData()
+      .filterOnlyToday(todayCheckBox.checked)
       .filterRows(words)
       .akademiskKvart(akCheckbox.checked)
     showText.textContent = filtered.mkString("\n")
@@ -106,6 +119,16 @@ def setupUI(): Unit =
   akLabel.setAttribute("for", "akademiskKvart")
 
   akCheckbox.addEventListener("change", (e: dom.Event) =>
+    input.dispatchEvent(inputEvent)
+  )
+
+  todayCheckBox.setAttribute("type", "checkbox")
+  todayCheckBox.id = "todayCheckBox"
+  todayCheckBox.defaultChecked = false
+  todayLabel.textContent = "Idag?"
+  todayLabel.setAttribute("for", "todayCheckBox")
+
+  todayCheckBox.addEventListener("change", (e: dom.Event) => 
     input.dispatchEvent(inputEvent)
   )
 
@@ -146,6 +169,8 @@ def setupUI(): Unit =
   filterText.appendChild(downloadButton)
   filterText.appendChild(akCheckbox)
   filterText.appendChild(akLabel)
+  filterText.appendChild(todayCheckBox)
+  filterText.appendChild(todayLabel)
   document.body.appendChild(showText)
 
 // TODO: Give name to file based on if room, group or any field always are the same

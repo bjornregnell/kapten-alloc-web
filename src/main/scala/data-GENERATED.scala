@@ -136,7 +136,7 @@ Pgk |2024-11-20|ons|13:15|PgkResurstid|XA1  |Ambulans1|VIB
 Pgk |2024-11-20|ons|13:15|PgkResurstid|XA2  |Ambulans2|HJR       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.05|Alfa     |MAF       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.06|Beta     |ANP       
-Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.07|Gamma    |???       
+Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.07|Gamma    |DAU       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.08|Varg     |RUH       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|XA1  |Ambulans1|ELÅ       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|XA2  |Ambulans2|NAK       

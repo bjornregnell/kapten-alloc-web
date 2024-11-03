@@ -1,7 +1,7 @@
 enablePlugins(ScalaJSPlugin)
 
 name := "kaptenalloc-web"
-scalaVersion := "3.5.0"
+scalaVersion := "3.5.2"
 
 // This is an application with a main method
 scalaJSUseMainModuleInitializer := true

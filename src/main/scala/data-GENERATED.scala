@@ -15,7 +15,7 @@ Pgk |2024-11-06|ons|15:15|PgkResurstid|D1.08|Varg     |RUH
 Pgk |2024-11-06|ons|15:15|PgkResurstid|XA1  |Ambulans1|ELÅ       
 Pgk |2024-11-06|ons|15:15|PgkResurstid|XA2  |Ambulans2|HJR       
 Pgk |2024-11-07|tor|08:15|PgkResurstid|C1.01|Falk     |NAK       
-Pgk |2024-11-07|tor|08:15|PgkResurstid|C1.02|Hacke    |???       
+Pgk |2024-11-07|tor|08:15|PgkResurstid|C1.02|Hacke    |HJR       
 Pgk |2024-11-07|tor|08:15|PgkResurstid|C1.03|Panter   |JOE       
 Pgk |2024-11-07|tor|08:15|PgkResurstid|C1.04|Ravel    |DAU       
 Pgk |2024-11-07|tor|08:15|PgkResurstid|C1.05|Val      |JON       
@@ -62,7 +62,7 @@ Pgk |2024-11-08|fre|15:15|PgkLabb     |C1.03|Mars     |JOE
 Pgk |2024-11-08|fre|15:15|PgkLabb     |C1.04|Saturnus |DAU       
 Pgk |2024-11-08|fre|15:15|PgkLabb     |C1.05|Val      |MAU       
 Pgk |2024-11-08|fre|15:15|PgkLabb     |C1.06|Varg     |SAH       
-Pgk |2024-11-08|fre|15:15|PgkLabb     |XA1  |Ambulans1|SAR       
+Pgk |2024-11-08|fre|15:15|PgkLabb     |XA1  |Ambulans1|ANP       
 Pgk |2024-11-08|fre|15:15|PgkLabb     |XA2  |Ambulans2|HJR       
 Pgk |2024-11-08|fre|15:15|PgkLabb     |XA3  |Ambulans3|MOG       
 Pgk |2024-11-08|fre|15:15|PgkLabb     |XA4  |Ambulans4|NOA       
@@ -135,7 +135,7 @@ Pgk |2024-11-20|ons|13:15|PgkResurstid|D1.11|Gamma    |ESS
 Pgk |2024-11-20|ons|13:15|PgkResurstid|XA1  |Ambulans1|VIB       
 Pgk |2024-11-20|ons|13:15|PgkResurstid|XA2  |Ambulans2|HJR       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.05|Alfa     |MAF       
-Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.06|Beta     |ANP       
+Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.06|Beta     |SAR       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.07|Gamma    |DAU       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|D1.08|Varg     |RUH       
 Pgk |2024-11-20|ons|15:15|PgkResurstid|XA1  |Ambulans1|ELÅ       
@@ -405,7 +405,7 @@ Pgk |2024-12-19|tor|13:15|PgkResurstid|XA1  |Ambulans1|TOS
 Pgk |2024-12-19|tor|13:15|PgkResurstid|XA2  |Ambulans2|VIB       
 Pgk |2024-12-19|tor|13:15|PgkResurstid|XA3  |Ambulans3|TRF       
 Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.01|Alfa     |VIB       
-Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.02|Beta     |???       
+Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.02|Beta     |NOA       
 Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.03|Gamma    |JOM       
 Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.04|Varg     |EMS       
 Pgk |2024-12-19|tor|15:15|PgkResurstid|XA1  |Ambulans1|HAE       

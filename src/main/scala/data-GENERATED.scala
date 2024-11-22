@@ -277,7 +277,7 @@ Pgk |2024-12-05|tor|08:15|PgkResurstid|XA2  |Ambulans2|RUH
 Pgk |2024-12-05|tor|13:15|PgkResurstid|D1.12|Alfa     |ADM       
 Pgk |2024-12-05|tor|13:15|PgkResurstid|D1.13|Beta     |EDN       
 Pgk |2024-12-05|tor|13:15|PgkResurstid|D1.14|Gamma    |MOG       
-Pgk |2024-12-05|tor|13:15|PgkResurstid|XA1  |Ambulans1|TOS       
+Pgk |2024-12-05|tor|13:15|PgkResurstid|XA1  |Ambulans1|VIB       
 Pgk |2024-12-05|tor|13:15|PgkResurstid|XA2  |Ambulans2|RUH       
 Pgk |2024-12-05|tor|13:15|PgkResurstid|XA3  |Ambulans3|TRF       
 Pgk |2024-12-05|tor|15:15|PgkResurstid|D1.01|Alfa     |ELÅ       
@@ -404,7 +404,7 @@ Pgk |2024-12-19|tor|13:15|PgkResurstid|D1.14|Gamma    |MOG
 Pgk |2024-12-19|tor|13:15|PgkResurstid|XA1  |Ambulans1|TOS       
 Pgk |2024-12-19|tor|13:15|PgkResurstid|XA2  |Ambulans2|VIB       
 Pgk |2024-12-19|tor|13:15|PgkResurstid|XA3  |Ambulans3|NOA       
-Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.01|Alfa     |VIB       
+Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.01|Alfa     |TOS       
 Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.02|Beta     |NOA       
 Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.03|Gamma    |JOM       
 Pgk |2024-12-19|tor|15:15|PgkResurstid|D1.04|Varg     |EMS       

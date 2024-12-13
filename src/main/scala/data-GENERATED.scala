@@ -362,7 +362,7 @@ Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.08|Alfa     |RUH
 Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.09|Beta     |DAH       
 Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.10|Falk     |HAE       
 Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.11|Gamma    |ESS       
-Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.12|Hacke    |ADM       
+Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.12|Hacke    |NOA       
 Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.13|Val      |AXL       
 Pgk |2024-12-13|fre|13:15|PgkLabb     |D1.14|Varg     |MOG       
 Pgk |2024-12-13|fre|13:15|PgkLabb     |XA1  |Ambulans1|NAK       
@@ -374,7 +374,7 @@ Pgk |2024-12-13|fre|15:15|PgkLabb     |C1.02|Jupiter  |HAE
 Pgk |2024-12-13|fre|15:15|PgkLabb     |C1.03|Mars     |JOE       
 Pgk |2024-12-13|fre|15:15|PgkLabb     |C1.04|Saturnus |DAU       
 Pgk |2024-12-13|fre|15:15|PgkLabb     |C1.05|Val      |MAU       
-Pgk |2024-12-13|fre|15:15|PgkLabb     |C1.06|Varg     |NOA       
+Pgk |2024-12-13|fre|15:15|PgkLabb     |C1.06|Varg     |ADM       
 Pgk |2024-12-13|fre|15:15|PgkLabb     |XA1  |Ambulans1|OSK       
 Pgk |2024-12-13|fre|15:15|PgkLabb     |XA2  |Ambulans2|ESS       
 Pgk |2024-12-13|fre|15:15|PgkLabb     |XA3  |Ambulans3|AXL       

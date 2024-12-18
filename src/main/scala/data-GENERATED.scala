@@ -394,12 +394,12 @@ Pgk |2024-12-19|tor|08:15|PgkResurstid|C1.01|Falk     |NAK
 Pgk |2024-12-19|tor|08:15|PgkResurstid|C1.02|Hacke    |HAE       
 Pgk |2024-12-19|tor|08:15|PgkResurstid|C1.03|Panter   |JOE       
 Pgk |2024-12-19|tor|08:15|PgkResurstid|C1.04|Ravel    |DAU       
-Pgk |2024-12-19|tor|08:15|PgkResurstid|C1.05|Val      |MAU       
+Pgk |2024-12-19|tor|08:15|PgkResurstid|C1.05|Val      |EDN       
 Pgk |2024-12-19|tor|08:15|PgkResurstid|C1.06|Varg     |NIM       
 Pgk |2024-12-19|tor|08:15|PgkResurstid|XA1  |Ambulans1|TOS       
 Pgk |2024-12-19|tor|08:15|PgkResurstid|XA2  |Ambulans2|SAR       
 Pgk |2024-12-19|tor|13:15|PgkResurstid|D1.12|Alfa     |ADM       
-Pgk |2024-12-19|tor|13:15|PgkResurstid|D1.13|Beta     |EDN       
+Pgk |2024-12-19|tor|13:15|PgkResurstid|D1.13|Beta     |MAU       
 Pgk |2024-12-19|tor|13:15|PgkResurstid|D1.14|Gamma    |MOG       
 Pgk |2024-12-19|tor|13:15|PgkResurstid|XA1  |Ambulans1|TOS       
 Pgk |2024-12-19|tor|13:15|PgkResurstid|XA2  |Ambulans2|VIB       

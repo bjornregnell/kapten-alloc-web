@@ -20,10 +20,10 @@ extension (s: String)
   def getKaptenAllocData(): KaptenAllocData =
     val cells = s.filterNot(_.isWhitespace).split('|').toVector
     if cells.length == 8 then
-      // kurs 0 |datum 1 |dag 2 |kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
+      // del 0 |datum 1 |dag 2 |kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
       KaptenAllocData(cells(0), cells(1), None, cells(2), cells(3), cells(4), cells(5), cells(6), cells(7))
     else
-      // kurs 0 |datum 1 |vecka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
+      // del 0 |datum 1 |vecka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
       KaptenAllocData(cells(0), cells(1), Some(cells(2)), cells(3), cells(4), cells(5), cells(6), cells(7), cells(8))
 
 val MagicRegisterPaymentWord = "lön"
@@ -32,7 +32,7 @@ extension (rows: Seq[String])
   def filterRows(words: Array[String]): Seq[String] = 
     if words.lift(0) != Some(MagicRegisterPaymentWord) then // filter data rows
       for row <- rows 
-      if row.containsAll(words) || row.startsWith("---") || row.startsWith("kurs")
+      if row.containsAll(words) || row.startsWith("---") || row.startsWith("del")
       yield row
     else // make magic payment roll
       val dataRows: Seq[Seq[String]] = rows.drop(3).map(_.split('|').toSeq.map(_.trim))
@@ -42,7 +42,7 @@ extension (rows: Seq[String])
         val end = start.toIntOption.map(_ + 2).getOrElse("??")
         s"$start-$end"
       val paymentRows = register.map(xs => Seq(xs.last) :+ xs(0) :+ xs(1) :+ timeToPeriod(xs(4)))
-      val headings = Seq("lönereg kopiera till csv", "------------------------", "init;kurs;datum;tid")
+      val headings = Seq("lönereg kopiera till csv", "------------------------", "init;del;datum;tid")
       for row <-  headings ++ paymentRows.map(_.mkString(";"))
       if row.containsAll(words.drop(1)) || row.startsWith("init") || row.startsWith("-") || row.startsWith("lön")
       yield row
@@ -53,7 +53,7 @@ extension (rows: Seq[String])
       var value = String()
       if row.startsWith("---") then
         value = "-" * 6
-      else if row.startsWith("kurs") then
+      else if row.startsWith("del") then
         value = "|vecka"
       else
         val week = getWeekNumber(row.getKaptenAllocData().date)
@@ -71,7 +71,7 @@ extension (rows: Seq[String])
       LocalDate.now().format(formatter)
 
     if !filterOnToday then rows
-    else rows.filter(r => r.startsWith("kurs") || r.startsWith("---") || r.contains(todayString))
+    else rows.filter(r => r.startsWith("del") || r.startsWith("---") || r.contains(todayString))
 
 
 def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph = 

@@ -38,20 +38,21 @@ def checkScheduleDiffs(csvString: String): Unit =
   val grid = csvString.split('\n').toVector.toSchemaGrid
 
   val kaptenAllocGrid =
-    Grid.fromLines(
-      dataGeneratedFromKaptenAlloc.toVector.filterNot(_.startsWith("---")),
-      '|'
-    ).trim
+    Grid
+      .fromLines(
+        dataGeneratedFromKaptenAlloc.toVector.filterNot(_.startsWith("---")),
+        '|'
+      )
+      .trim
 
-  val discrepantRowIndices =
-    DiscrepancyChecker.getDiscrepantRowIndices(
+  val hasDiscrepancies =
+    DiscrepancyChecker.hasDiscrepancies(
       grid,
       kaptenAllocGrid
     )
 
-  if discrepantRowIndices.nonEmpty then
+  if hasDiscrepancies then
     dom.console.log("Differences found between TimeEdit and KaptenAlloc data!")
-    dom.console.log(discrepantRowIndices.mkString(", "))
   else dom.console.log("No differences - schedules are synchronized!")
 
 def removeQuotesAndCommasInsideQuotes(s: String): String =

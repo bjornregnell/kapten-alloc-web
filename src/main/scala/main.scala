@@ -12,12 +12,12 @@ import java.time.temporal.WeekFields
   document.addEventListener(
     "DOMContentLoaded",
     (e: dom.Event) => {
-      checkScheduleDiffs()
+      fetchTimeEditData()
       setupUI()
     }
   )
 
-def checkScheduleDiffs(): Unit =
+def fetchTimeEditData(): Unit =
   import scala.concurrent.ExecutionContext.Implicits.global
   val xhr = dom.XMLHttpRequest()
   xhr.open(
@@ -27,12 +27,94 @@ def checkScheduleDiffs(): Unit =
   xhr.onload = _ => {
     if xhr.status == 200 then
       val csvContent = xhr.responseText
-      dom.console.log(csvContent)
+      checkScheduleDiffs(csvContent)
   }
   xhr.onerror = _ => {
     dom.console.log(("An error occured when fetching CSV data"))
   }
   xhr.send()
+
+def checkScheduleDiffs(csvString: String): Unit =
+  val grid = csvString.split('\n').toVector.toSchemaGrid
+
+  val kaptenAllocGrid =
+    Grid.fromLines(
+      dataGeneratedFromKaptenAlloc.toVector.filterNot(_.startsWith("---")),
+      '|'
+    ).trim
+
+  val discrepantRowIndices =
+    DiscrepancyChecker.getDiscrepantRowIndices(
+      grid,
+      kaptenAllocGrid
+    )
+
+  if discrepantRowIndices.nonEmpty then
+    dom.console.log("Differences found between TimeEdit and KaptenAlloc data!")
+    dom.console.log(discrepantRowIndices.mkString(", "))
+  else dom.console.log("No differences - schedules are synchronized!")
+
+def removeQuotesAndCommasInsideQuotes(s: String): String =
+  var isInsideQuotes = false
+  var i = 0
+  val result = StringBuilder()
+  while i < s.length do
+    if s(i) == '"' then isInsideQuotes = !isInsideQuotes
+    else if isInsideQuotes && s(i) == ',' then result ++= " "
+    else result += s(i)
+    i += 1
+  end while
+  result.toString
+
+def addCommasIfSpaceSep(s: String): String =
+  s.split(" ").filter(_.nonEmpty).mkString(",")
+
+extension (lines: Vector[String])
+  def toSchemaGrid: Grid =
+    val xsUnpatched = lines.drop(3).map(removeQuotesAndCommasInsideQuotes)
+    // println(s"DEBUG: first 3 lines:   ${xsUnpatched.take(3)}")
+    // val xsPatched = xsUnpatched(0).replace("Kurs", "Kursansvarig").replaceFirst("Kursansvarig", "Kurs")
+    // val xs = xsUnpatched.updated(0, xsPatched)
+    val g = Grid
+      .fromLines(xsUnpatched, ',')
+      .trim
+      .updateHeadings(_.toLowerCase.filter(_.isLetterOrDigit))
+      .trim
+      .updateValues(addCommasIfSpaceSep)
+
+    // println("\n\n*** DEBUG headings of g:" + g.headings)
+    val newHeads = Seq(
+      "startdatum" -> "datum",
+      "starttid" -> "start",
+      "märkning" -> "del",
+      "undervisningstyp" -> "typ",
+      "lokallokaldelplatskommentar" -> "lokal",
+      "studentgrupp" -> "grupp"
+    )
+
+    val selectTyp = Set("Resurstid", "Labb")
+
+    g.keep(newHeads.map(_._1)*)
+      .rename(newHeads*)
+      .filter("del")(_.nonEmpty)
+      .updateCol("del") { rm =>
+        if rm("del").trim.toLowerCase.startsWith("prog") then "Prog" else "Dod"
+      }
+      .filter("typ")(selectTyp.contains)
+      .updateCol("typ") { rm =>
+        if rm("del") == "Dod" then "DodLabb"
+        else
+          rm("typ") match
+            case "Resurstid" => "Resurstid"
+            case "Labb"      => "ProgLabb"
+      }
+      .filter("datum")(d =>
+        Date(d) <= Date(s"2025-10-19") && Date(
+          d
+        ) >= Date(s"2025-09-01")
+      )
+
+end extension
 
 extension (s: String)
   def containsAll(xs: Array[String], isCaseSensitive: Boolean = true): Boolean =

@@ -53,29 +53,30 @@ object DiscrepancyChecker:
     var missingEntries = 0
     var changedRooms = 0
 
-    kaptenAllocNormalized.foreach { entry =>
-      timeEditNormalized.find(te =>
-        te.datum == entry.datum &&
-          te.start == entry.start &&
-          te.del == entry.del &&
-          te.typ == entry.typ &&
-          te.grupp == entry.grupp
-      ) match {
-        case Some(matchedEntry) =>
-          if (matchedEntry.rum != entry.rum) {
+    kaptenAllocNormalized.filterNot(_.rum.startsWith("Ambulans")).foreach {
+      entry =>
+        timeEditNormalized.find(te =>
+          te.datum == entry.datum &&
+            te.start == entry.start &&
+            te.del == entry.del &&
+            te.typ == entry.typ &&
+            te.grupp == entry.grupp
+        ) match {
+          case Some(matchedEntry) =>
+            if (matchedEntry.rum != entry.rum) {
+              dom.console.log(
+                s"Room changed: ${entry.datum} ${entry.start} ${entry.del} ${entry.typ} ${entry.grupp} - KaptenAlloc: ${entry.rum}, TimeEdit: ${matchedEntry.rum}"
+              )
+              changedRooms += 1
+              foundDiscrepancies = true
+            }
+          case None =>
             dom.console.log(
-              s"Room changed: ${entry.datum} ${entry.start} ${entry.del} ${entry.typ} ${entry.grupp} - KaptenAlloc: ${entry.rum}, TimeEdit: ${matchedEntry.rum}"
+              s"Missing in TimeEdit: ${entry.datum} ${entry.start} ${entry.del} ${entry.typ} ${entry.grupp} ${entry.rum}"
             )
-            changedRooms += 1
+            missingEntries += 1
             foundDiscrepancies = true
-          }
-        case None =>
-          dom.console.log(
-            s"Missing in TimeEdit: ${entry.datum} ${entry.start} ${entry.del} ${entry.typ} ${entry.grupp} ${entry.rum}"
-          )
-          missingEntries += 1
-          foundDiscrepancies = true
-      }
+        }
     }
 
     if (foundDiscrepancies) {

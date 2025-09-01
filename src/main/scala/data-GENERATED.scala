@@ -113,7 +113,7 @@ Prog|2025-09-11|tor|15:15|Resurstid|C1.04|Falk    |APR
 Prog|2025-09-11|tor|15:15|Resurstid|C1.05|Val     |JOE       
 Prog|2025-09-11|tor|15:15|Resurstid|C1.06|Varg    |ELÅ       
 Dod |2025-09-12|fre|10:15|DodLabb  |D1.12|Elgkalv |JOE       
-Dod |2025-09-12|fre|10:15|DodLabb     |D1.13|Panter   |MAB       
+Dod |2025-09-12|fre|10:15|DodLabb  |D1.13|Panter  |MAB           
 Dod |2025-09-12|fre|10:15|DodLabb  |D1.14|Ravel   |APR       
 Dod |2025-09-12|fre|13:15|DodLabb  |C1.04|Elgkalv |ALL       
 Dod |2025-09-12|fre|13:15|DodLabb  |C1.05|Panter  |EBF       

@@ -52,7 +52,8 @@ def checkScheduleDiffs(csvString: String): Unit =
     )
 
   if hasDiscrepancies then
-    dom.console.log("Differences found between TimeEdit and KaptenAlloc data!")
+    dom.console.warn("Differences found between TimeEdit and KaptenAlloc data!")
+    document.body.prepend(DiscrepancyChecker.warningElement)
   else dom.console.log("No differences - schedules are synchronized!")
 
 def removeQuotesAndCommasInsideQuotes(s: String): String =

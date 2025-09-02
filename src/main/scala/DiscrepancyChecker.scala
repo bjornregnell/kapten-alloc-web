@@ -1,6 +1,7 @@
 package kaptenallocweb
 
 import org.scalajs.dom
+import org.scalajs.dom._
 
 case class NormalizedEntry(
     datum: String,
@@ -79,15 +80,18 @@ object DiscrepancyChecker:
         }
     }
 
-    if (foundDiscrepancies) {
-      dom.console.log(
-        s"Discrepancy summary: $missingEntries missing entries, $changedRooms changed rooms"
-      )
-    } else {
-      dom.console.log("No discrepancies found between datasets")
-    }
+    dom.console.log(
+      s"Discrepancy summary: $missingEntries missing entries, $changedRooms changed rooms"
+    )
 
     foundDiscrepancies
+
+  val warningElement: Element =
+    val element = document.createElement("div")
+    element.id = "discrepancyWarning"
+    element.innerHTML =
+      "Diskrepans mellan Kapten Alloc och TimeEdit: Utgå från TimeEdits schema!"
+    element
 
   private def normalizeTimeEditData(grid: Grid): Vector[NormalizedEntry] =
     grid.data.flatMap { row =>

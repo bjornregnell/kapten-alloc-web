@@ -23,12 +23,11 @@ Can only be done with owner of the right credentials to fileadmin@cs: `sh publis
 
 There are no releases in this repo; we run on bleeding-edge master branch.
 
-## Force update cache for users
-When publishing a new version, change the version for JavaScript file main.js in src attribute of script tag in index.html on line 50. After this run `sh publish.sh`.
+When publishing a new version, this [script](https://github.com/bjornregnell/kapten-alloc-web/blob/master/bump-version.sc) changes the version for JavaScript file main.js in src attribute of script tag in index.html on line 50. After this run `sh publish.sh`.
 
 Example: 
 
-Change 
+Version change from 
 ```html
     <script type="text/javascript" src="https://fileadmin.cs.lth.se/pgk/kaptenalloc/main.js?version=1"></script>
 ```

@@ -14,9 +14,8 @@ Prog|2025-09-03|ons|15:15|Resurstid|D1.12|Alfa    |MAU
 Prog|2025-09-03|ons|15:15|Resurstid|D1.13|Beta    |MOJ       
 Prog|2025-09-03|ons|15:15|Resurstid|D1.14|Gamma   |AXF       
 Prog|2025-09-03|ons|15:15|Resurstid|XA1  |Ambulans|MEW       
-Dod |2025-09-04|tor|10:15|DodLabb  |C1.01|Alfa    |JOE      
-Dod |2025-09-04|tor|10:15|DodLabb  |C1.02|Beta    |APR  
-Dod |2025-09-04|tor|10:15|DodLabb  |C1.20|Bete    |ABC            
+Dod |2025-09-04|tor|10:15|DodLabb  |C1.01|Alfa    |JOE       
+Dod |2025-09-04|tor|10:15|DodLabb  |C1.02|Beta    |APR       
 Dod |2025-09-04|tor|10:15|DodLabb  |C1.03|Gamma   |JON       
 Dod |2025-09-04|tor|10:15|DodLabb  |D1.05|Falk    |AXF       
 Dod |2025-09-04|tor|10:15|DodLabb  |D1.06|Val     |MOJ       
@@ -68,7 +67,7 @@ Prog|2025-09-05|fre|13:15|ProgLabb |XA4  |Ambulans|MEW
 Dod |2025-09-05|fre|13:15|DodLabb  |C1.04|Elgkalv |APR       
 Dod |2025-09-05|fre|13:15|DodLabb  |C1.05|Panter  |ALW       
 Dod |2025-09-05|fre|13:15|DodLabb  |C1.06|Ravel   |MOG       
-Prog|2025-09-05|fre|15:15|ProgLabb |C1.01|Alfa    |HAE       
+Prog|2025-09-05|fre|15:15|ProgLabb |C1.01|Alfa    |MOJ           
 Prog|2025-09-05|fre|15:15|ProgLabb |C1.02|Beta    |ASH       
 Prog|2025-09-05|fre|15:15|ProgLabb |C1.03|Falk    |JON       
 Prog|2025-09-05|fre|15:15|ProgLabb |C1.04|Gamma   |APR       
@@ -86,7 +85,7 @@ Prog|2025-09-10|ons|15:15|Resurstid|D1.09|Falk    |ELÅ
 Prog|2025-09-10|ons|15:15|Resurstid|D1.10|Val     |NAK       
 Prog|2025-09-10|ons|15:15|Resurstid|D1.11|Varg    |WIS       
 Prog|2025-09-10|ons|15:15|Resurstid|D1.12|Alfa    |MAU       
-Prog|2025-09-10|ons|15:15|Resurstid|D1.13|Beta    |MOJ       
+Prog|2025-09-10|ons|15:15|Resurstid|D1.13|Beta    |HAE           
 Prog|2025-09-10|ons|15:15|Resurstid|D1.14|Gamma   |AXF       
 Prog|2025-09-10|ons|15:15|Resurstid|XA1  |Ambulans|MEW       
 Dod |2025-09-11|tor|10:15|DodLabb  |C1.01|Alfa    |ELÅ       
@@ -114,7 +113,7 @@ Prog|2025-09-11|tor|15:15|Resurstid|C1.04|Falk    |APR
 Prog|2025-09-11|tor|15:15|Resurstid|C1.05|Val     |JOE       
 Prog|2025-09-11|tor|15:15|Resurstid|C1.06|Varg    |ELÅ       
 Dod |2025-09-12|fre|10:15|DodLabb  |D1.12|Elgkalv |JOE       
-Dod |2025-09-12|fre|10:15|DodLabb  |D1.13|Panter  |ELÅ       
+Dod |2025-09-12|fre|10:15|DodLabb  |D1.13|Panter  |MAB           
 Dod |2025-09-12|fre|10:15|DodLabb  |D1.14|Ravel   |APR       
 Dod |2025-09-12|fre|13:15|DodLabb  |C1.04|Elgkalv |ALL       
 Dod |2025-09-12|fre|13:15|DodLabb  |C1.05|Panter  |EBF       

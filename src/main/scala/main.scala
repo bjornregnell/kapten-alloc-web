@@ -7,9 +7,20 @@ import org.scalajs.dom.document
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
+import kaptenallocweb.timeEdit.TimeEdit
 
 @main def run: Unit = 
-    document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  
+    document.addEventListener("DOMContentLoaded", (e: dom.Event) => 
+      TimeEdit.fetchData(
+        onLoad = xhr => {
+          val diffs = TimeEdit.findDiscrepancies(timeEditData = xhr.responseText, kaptenAllocData = dataGeneratedFromKaptenAlloc)
+          dom.console.log(diffs.mkString(", "))
+        },
+        onError = _ => 
+          dom.console.log("An error occured when fetching CSV data")
+      )
+      setupUI()
+    )  
 
 extension (s: String)
   def containsAll(xs: Array[String], isCaseSensitive: Boolean = true): Boolean =

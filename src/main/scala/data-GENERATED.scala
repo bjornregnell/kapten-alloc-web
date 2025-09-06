@@ -334,7 +334,7 @@ Prog|2025-10-08|ons|15:15|Resurstid|XA1  |Ambulans|LIL
 Prog|2025-10-09|tor|13:15|Resurstid|D1.05|Alfa    |MOG       
 Prog|2025-10-09|tor|13:15|Resurstid|D1.06|Beta    |MAB       
 Prog|2025-10-09|tor|13:15|Resurstid|D1.07|Elg     |VIB       
-Prog|2025-10-09|tor|13:15|Resurstid|D1.08|Gamma   |EBf           
+Prog|2025-10-09|tor|13:15|Resurstid|D1.08|Gamma   |EBF           
 Prog|2025-10-09|tor|13:15|Resurstid|XA1  |Ambulans|LIL       
 Prog|2025-10-09|tor|15:15|Resurstid|C1.01|Hacke   |HAE       
 Prog|2025-10-09|tor|15:15|Resurstid|C1.02|Panter  |ASH       

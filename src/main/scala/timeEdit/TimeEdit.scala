@@ -4,21 +4,21 @@ import org.scalajs.dom.{XMLHttpRequest}
 import kaptenallocweb.tabby.Grid
 
 object TimeEdit:
+    private type RequestCallback = (request: XMLHttpRequest) => Unit
 
     def fetchData(
-        onLoad: (xhr: XMLHttpRequest) => Unit,
-        onError: (xhr: XMLHttpRequest) => Unit,
-        uri: String =
-          "https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.csv"
+        url: String,
+        onLoad: RequestCallback,
+        onError: RequestCallback,
     ) =
-      val xhr = XMLHttpRequest()
-      xhr.open(
+      val request = XMLHttpRequest()
+      request.open(
         "GET",
-        uri
+        url
       )
-      xhr.onload = _ => onLoad(xhr)
-      xhr.onerror = _ => onError(xhr)
-      xhr.send()
+      request.onload = _ => onLoad(request)
+      request.onerror = _ => onError(request)
+      request.send()
     
     def findDiscrepancies(timeEditData: String, kaptenAllocData: Seq[String]) =
         val timeEditGrid = timeEditData.split('\n').toVector.toScheduleGrid
@@ -38,20 +38,20 @@ object TimeEdit:
         kaptenAllocNormalized.filterNot(_.rum.startsWith("Ambulans")).foreach {
             kaEntry => 
                 timeEditNormalized.find(teEntry =>
-                    teEntry.datum == kaEntry.datum &&
-                    teEntry.start == kaEntry.start &&
-                    teEntry.del   == kaEntry.del   &&
-                    teEntry.typ   == kaEntry.typ   &&
-                    teEntry.grupp == kaEntry.grupp
+                    teEntry.datum     == kaEntry.datum     &&
+                    teEntry.startHour == kaEntry.startHour &&
+                    teEntry.del       == kaEntry.del       &&
+                    teEntry.typ       == kaEntry.typ       &&
+                    teEntry.grupp     == kaEntry.grupp
                 ) match {
                     case Some(matchedEntry) =>
                         if (matchedEntry.rum != kaEntry.rum) then
                             discrepancies.add(
-                                s"Saländring för ${kaEntry.datum} ${kaEntry.start} ${kaEntry.del} ${kaEntry.typ} ${kaEntry.grupp} - Ny sal: ${matchedEntry.rum}"
+                                s"Saländring för ${kaEntry.datum} ${kaEntry.startHour}:15 ${kaEntry.del} ${kaEntry.typ} ${kaEntry.grupp} - Ny sal: ${matchedEntry.rum}"
                             ) 
                     case None => 
                         discrepancies.add(
-                            s"Saknas i TimeEdit: ${kaEntry.datum} ${kaEntry.start} ${kaEntry.del} ${kaEntry.typ} ${kaEntry.grupp} ${kaEntry.rum}"
+                            s"Saknas i TimeEdit: ${kaEntry.datum} ${kaEntry.startHour}:15 ${kaEntry.del} ${kaEntry.typ} ${kaEntry.grupp} ${kaEntry.rum}"
                         )
                 }
         }
@@ -64,13 +64,13 @@ object TimeEdit:
         typ: String,
         grupp: String,
         rum: String,
-        start: String
+        startHour: String
     )
 
     private def normalizeTimeEditData(grid: Grid): Vector[NormalizedEntry] =
         grid.data.flatMap { row =>
             val datum = row(grid.colIndex("datum"))
-            val start = row(grid.colIndex("start"))
+            val startTime = row(grid.colIndex("start"))
             val del = row(grid.colIndex("del"))
             val typ = row(grid.colIndex("typ"))
             val lokal = row(grid.colIndex("lokal"))
@@ -80,39 +80,27 @@ object TimeEdit:
             val groups = grupp.split(",").map(_.trim)
 
             rooms.zip(groups).map { case (room, group) =>
-                NormalizedEntry(datum, del, typ, group, room, start)
+                NormalizedEntry(datum, del, typ, group, room, extractHour(startTime))
             }
         }
 
     private def normalizeKaptenAllocData(grid: Grid): Vector[NormalizedEntry] =
         grid.data.map { row =>
             val datum = row(grid.colIndex("datum"))
-            val kl = row(grid.colIndex("kl"))
+            val startTime = row(grid.colIndex("kl"))
             val del = row(grid.colIndex("del"))
             val typ = row(grid.colIndex("typ"))
             val grupp = row(grid.colIndex("grupp"))
             val rum = row(grid.colIndex("rum"))
 
-            val adjustedTime = adjustTimeBy15Minutes(kl, -15)
+            val hour = extractHour(startTime)
 
-            NormalizedEntry(datum, del, typ, grupp, rum, adjustedTime)
+            NormalizedEntry(datum, del, typ, grupp, rum, hour)
         }
     
-    private def adjustTimeBy15Minutes(time: String, minutesDelta: Int): String =
+    private def extractHour(time: String): String =
         val parts = time.split(":")
-        if (parts.length != 2) return time
-
-        try {
-            val hours = parts(0).toInt
-            val minutes = parts(1).toInt
-            val totalMinutes = hours * 60 + minutes + minutesDelta
-            val newHours = (totalMinutes / 60) % 24
-            val newMinutes = totalMinutes % 60
-
-            f"$newHours%02d:$newMinutes%02d"
-        } catch {
-            case _: Exception => time
-        }
+        if (parts.length >= 1) parts(0) else time
 
 extension (lines: Vector[String])
   def toScheduleGrid: Grid =

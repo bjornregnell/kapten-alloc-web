@@ -9,15 +9,18 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
 import kaptenallocweb.timeEdit.TimeEdit
 
+val timeEditScheduleUrl = 
+  "https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.csv"
+
 @main def run: Unit = 
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => 
       TimeEdit.fetchData(
-        onLoad = xhr => {
-          if xhr.status == 200 then
-            val diffs = TimeEdit.findDiscrepancies(timeEditData = xhr.responseText, kaptenAllocData = dataGeneratedFromKaptenAlloc)
-            if diffs.nonEmpty then addDiscrepancyPanel(diffs)
-          else addTimeEditFailPanel()
-        },
+        url = timeEditScheduleUrl,
+        onLoad = request => 
+          if request.status == 200 then
+            val diffs = TimeEdit.findDiscrepancies(timeEditData = request.responseText, kaptenAllocData = dataGeneratedFromKaptenAlloc)
+            if diffs.nonEmpty then addDiscrepancyPanel(diffs) else ()
+          else addTimeEditFailPanel(),
         onError = _ => 
           dom.console.warn("An error occured when fetching CSV data")
           addTimeEditFailPanel()
@@ -200,7 +203,7 @@ def addDiscrepancyPanel(discrepancies: Set[String]) =
 def addTimeEditFailPanel() = 
   val container = document.createElement("div").asInstanceOf[dom.html.Div]
   container.id = "timeEditFailPanel"
-  container.innerHTML = "Data från TimeEdit kunde ej hämtas - Dubbelkolla din sal där"
+  container.innerHTML = "TimeEdit i molnet svara inte just nu - KaptenAlloc kör med tidigare sparad data"
   document.body.prepend(container)
 
 // TODO: Give name to file based on if room, group or any field always are the same

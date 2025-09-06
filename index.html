@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Kapten Alloc single-page app</title>
-    <style>
-      body {
-        background-color: pink;
-        font-size: 20px;
-        line-height: 1.2;
-        font-family: "Lucida Console", Monaco, monospace;
-        margin: 20px 20px;
-      }
+<head>
+  <meta charset="UTF-8">
+  <title>Kapten Alloc single-page app</title>
+  <style>
+    body {
+      background-color: pink;
+      font-size: 20px;
+      line-height: 1.2;
+      font-family: "Lucida Console", Monaco, monospace;
+      margin: 20px 20px;
+    }
 
-      input, button {
-        font-size: 20px;
-        padding-right: 5px;
-        padding-left: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-      }
+    input,
+    button {
+      font-size: 20px;
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
 
-      button {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
+    button {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
 
-      label {
-        margin-right: 20px;
-      }
+    label {
+      margin-right: 20px;
+    }
 
-      #akademiskKvart, #todayCheckBox {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-      }
+    #akademiskKvart,
+    #todayCheckBox {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
 
-    </style>
-  </head>
-  <body>
-    <p>
-      <b><a href = "https://github.com/bjornregnell/kapten-alloc-web">Kapten Alloc</a></b> för
-    smidig schemafiltrering i <a href="https://lunduniversity.github.io/pgk/">pgk 2025</a>. Kolla hela schemat i <a href="https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.html">TimeEdit</a>.</p> 
-    <p><b>OBS! Det är salarna i TimeEdit som gäller om det skiljer sig där och här.</b></p>
-    <!-- Include Scala.js compiled code. Bump version to force clear cache in client -->
-    <script type="text/javascript" src="https://fileadmin.cs.lth.se/pgk/kaptenalloc/main.js?version=117"></script>
-  </body>
+    #discrepancyWarning {
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 10px;
+      background-color: rgb(251, 255, 194);
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <b><a href="https://github.com/bjornregnell/kapten-alloc-web">Kapten Alloc</a></b> för
+    smidig schemafiltrering i <a href="https://lunduniversity.github.io/pgk/">pgk 2025</a>. Kolla hela schemat i <a
+      href="https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.html">TimeEdit</a>.
+  </p>
+  <p><b>OBS! Det är salarna i TimeEdit som gäller om det skiljer sig där och här.</b></p>
+
+  <!-- Include Scala.js compiled code. Bump version to force clear cache in client -->
+  <script type="text/javascript" src="https://fileadmin.cs.lth.se/pgk/kaptenalloc/main.js?version=117"></script>
+</body>
 </html>

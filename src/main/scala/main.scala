@@ -7,9 +7,26 @@ import org.scalajs.dom.document
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
+import kaptenallocweb.timeEdit.TimeEdit
+
+val timeEditScheduleUrl = 
+  "https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.csv"
 
 @main def run: Unit = 
-    document.addEventListener("DOMContentLoaded", (e: dom.Event) => setupUI())  
+    document.addEventListener("DOMContentLoaded", (e: dom.Event) => 
+      TimeEdit.fetchData(
+        url = timeEditScheduleUrl,
+        onLoad = request => 
+          if request.status == 200 then
+            val diffs = TimeEdit.findDiscrepancies(timeEditData = request.responseText, kaptenAllocData = dataGeneratedFromKaptenAlloc)
+            if diffs.nonEmpty then addDiscrepancyPanel(diffs) else ()
+          else addTimeEditFailPanel(),
+        onError = _ => 
+          dom.console.warn("An error occured when fetching CSV data")
+          addTimeEditFailPanel()
+      )
+      setupUI()
+    )  
 
 extension (s: String)
   def containsAll(xs: Array[String], isCaseSensitive: Boolean = true): Boolean =
@@ -172,6 +189,22 @@ def setupUI(): Unit =
   filterText.appendChild(todayCheckBox)
   filterText.appendChild(todayLabel)
   document.body.appendChild(showText)
+
+def addDiscrepancyPanel(discrepancies: Set[String]) =
+  val container = document.createElement("div").asInstanceOf[dom.html.Div]
+  container.id = "discrepancyPanel"
+  discrepancies.foreach(discrepancy => 
+    val entrySpan = document.createElement("span").asInstanceOf[dom.html.Span]
+    entrySpan.innerHTML = discrepancy
+    container.appendChild(entrySpan)
+  )
+  document.body.prepend(container)
+
+def addTimeEditFailPanel() = 
+  val container = document.createElement("div").asInstanceOf[dom.html.Div]
+  container.id = "timeEditFailPanel"
+  container.innerHTML = "TimeEdit i molnet svara inte just nu - KaptenAlloc kör med tidigare sparad data"
+  document.body.prepend(container)
 
 // TODO: Give name to file based on if room, group or any field always are the same
 /** Creates file with given content, name and presents it as a download to the user */

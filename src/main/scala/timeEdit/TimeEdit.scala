@@ -2,6 +2,7 @@ package kaptenallocweb.timeEdit
 
 import org.scalajs.dom.{XMLHttpRequest}
 import kaptenallocweb.tabby.Grid
+import java.time.LocalDate
 
 object TimeEdit:
     private type RequestCallback = (request: XMLHttpRequest) => Unit
@@ -29,15 +30,21 @@ object TimeEdit:
                     '|'
                 )
                 .trim
+
+        val today = LocalDate.now()
+        val todayDate = Date(today.getYear, today.getMonthValue, today.getDayOfMonth)
         
-        val timeEditNormalized = normalizeTimeEditData(timeEditGrid)
-        val kaptenAllocNormalized = normalizeKaptenAllocData(kaptenAllocGrid)
+        val timeEditEntries = normalizeTimeEditData(timeEditGrid)
+        val kaptenAllocEntries = normalizeKaptenAllocData(kaptenAllocGrid)
+            .filter(entry => 
+              !entry.rum.startsWith("Ambulans") && Date(entry.datum) >= todayDate
+            )
 
         val discrepancies = collection.mutable.Set[String]()
 
-        kaptenAllocNormalized.filterNot(_.rum.startsWith("Ambulans")).foreach {
+        kaptenAllocEntries.foreach {
             kaEntry => 
-                timeEditNormalized.find(teEntry =>
+                timeEditEntries.find(teEntry =>
                     teEntry.datum     == kaEntry.datum     &&
                     teEntry.startHour == kaEntry.startHour &&
                     teEntry.del       == kaEntry.del       &&

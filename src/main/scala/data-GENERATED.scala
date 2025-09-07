@@ -3,7 +3,7 @@ val dataGeneratedFromKaptenAlloc: Seq[String] = """
 -------------------------------------------------------------
 del |datum     |dag|kl   |typ      |grupp|rum     |handledare
 -------------------------------------------------------------
-Prog|2025-09-03|ons|15:15|Resurstid|D1.01|Elginte |SAR       
+Prog|2025-09-03|ons|15:15|Resurstid|D1.01|Elg     |SAR       
 Prog|2025-09-03|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
 Prog|2025-09-03|ons|15:15|Resurstid|D1.03|Panter  |ALW       
 Prog|2025-09-03|ons|15:15|Resurstid|D1.04|Ravel   |JUG       

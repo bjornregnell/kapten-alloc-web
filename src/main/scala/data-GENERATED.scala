@@ -93,7 +93,7 @@ Dod |2025-09-11|tor|10:15|DodLabb  |C1.02|Beta    |LOL
 Dod |2025-09-11|tor|10:15|DodLabb  |C1.03|Gamma   |APR       
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.05|Falk    |LIL       
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.06|Val     |AXF       
-Dod |2025-09-11|tor|10:15|DodLabb  |D1.07|Varg    |WIS       
+Dod |2025-09-11|tor|10:15|DodLabb  |D1.07|Varg    |JUG           
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.08|Elg     |VIB       
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.09|Hacke   |JON       
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.10|Panter  |MOJ       
@@ -191,7 +191,7 @@ Prog|2025-09-19|fre|15:15|ProgLabb |C1.06|Varg    |KAS
 Prog|2025-09-19|fre|15:15|ProgLabb |XA1  |Ambulans|ALL       
 Prog|2025-09-19|fre|15:15|ProgLabb |XA2  |Ambulans|EBF       
 Prog|2025-09-19|fre|15:15|ProgLabb |XA3  |Ambulans|LOL       
-Prog|2025-09-19|fre|15:15|ProgLabb |XA4  |Ambulans|JUG       
+Prog|2025-09-19|fre|15:15|ProgLabb |XA4  |Ambulans|WIS           
 Prog|2025-09-24|ons|15:15|Resurstid|D1.01|Elg     |SAR       
 Prog|2025-09-24|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
 Prog|2025-09-24|ons|15:15|Resurstid|D1.03|Panter  |ALW       

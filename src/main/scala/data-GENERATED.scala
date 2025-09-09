@@ -91,7 +91,7 @@ Prog|2025-09-10|ons|15:15|Resurstid|XA1  |Ambulans|MEW
 Dod |2025-09-11|tor|10:15|DodLabb  |C1.01|Alfa    |ELÅ       
 Dod |2025-09-11|tor|10:15|DodLabb  |C1.02|Beta    |LOL       
 Dod |2025-09-11|tor|10:15|DodLabb  |C1.03|Gamma   |APR       
-Dod |2025-09-11|tor|10:15|DodLabb  |D1.05|Falk    |LIL       
+Dod |2025-09-11|tor|10:15|DodLabb  |D1.05|Falk    |EBF           
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.06|Val     |AXF       
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.07|Varg    |JUG           
 Dod |2025-09-11|tor|10:15|DodLabb  |D1.08|Elg     |VIB       
@@ -116,7 +116,7 @@ Dod |2025-09-12|fre|10:15|DodLabb  |D1.12|Elgkalv |JOE
 Dod |2025-09-12|fre|10:15|DodLabb  |D1.13|Panter  |MAB           
 Dod |2025-09-12|fre|10:15|DodLabb  |D1.14|Ravel   |APR       
 Dod |2025-09-12|fre|13:15|DodLabb  |C1.04|Elgkalv |ALL       
-Dod |2025-09-12|fre|13:15|DodLabb  |C1.05|Panter  |EBF       
+Dod |2025-09-12|fre|13:15|DodLabb  |C1.05|Panter  |LIL           
 Dod |2025-09-12|fre|13:15|DodLabb  |C1.06|Ravel   |ELÅ       
 Prog|2025-09-17|ons|15:15|Resurstid|D1.01|Elg     |SAR       
 Prog|2025-09-17|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       

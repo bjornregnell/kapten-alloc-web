@@ -220,7 +220,7 @@ Prog|2025-09-25|tor|13:15|Resurstid|D1.08|Gamma   |LOL
 Dod |2025-09-25|tor|13:15|DodLabb  |D1.01|Elgkalv |MAU       
 Dod |2025-09-25|tor|13:15|DodLabb  |D1.02|Hacke   |ELÅ       
 Dod |2025-09-25|tor|13:15|DodLabb  |D1.03|Panter  |APR       
-Dod |2025-09-25|tor|13:15|DodLabb  |D1.04|Ravel   |SAR       
+Dod |2025-09-25|tor|13:15|DodLabb  |D1.04|Ravel   |JOE           
 Prog|2025-09-25|tor|15:15|Resurstid|C1.01|Hacke   |HAE       
 Prog|2025-09-25|tor|15:15|Resurstid|C1.02|Panter  |ASH       
 Prog|2025-09-25|tor|15:15|Resurstid|C1.03|Ravel   |JON       
@@ -408,7 +408,7 @@ Prog|2025-10-17|fre|10:15|ProgLabb |D1.07|Varg    |VIB
 Prog|2025-10-17|fre|10:15|ProgLabb |XA1  |Ambulans|AXF       
 Prog|2025-10-17|fre|10:15|ProgLabb |XA2  |Ambulans|APR       
 Prog|2025-10-17|fre|10:15|ProgLabb |XA3  |Ambulans|WIS       
-Prog|2025-10-17|fre|10:15|ProgLabb |XA4  |Ambulans|JOE       
+Prog|2025-10-17|fre|10:15|ProgLabb |XA4  |Ambulans|SAR           
 Prog|2025-10-17|fre|13:15|ProgLabb |D1.08|Alfa    |APR       
 Prog|2025-10-17|fre|13:15|ProgLabb |D1.09|Beta    |ELÅ       
 Prog|2025-10-17|fre|13:15|ProgLabb |D1.10|Falk    |NAK       

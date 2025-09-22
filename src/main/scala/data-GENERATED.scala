@@ -220,7 +220,7 @@ Prog|2025-09-25|tor|13:15|Resurstid|D1.08|Gamma   |LOL
 Dod |2025-09-25|tor|13:15|DodLabb  |D1.01|Elgkalv |MAU       
 Dod |2025-09-25|tor|13:15|DodLabb  |D1.02|Hacke   |ELÅ       
 Dod |2025-09-25|tor|13:15|DodLabb  |D1.03|Panter  |APR       
-Dod |2025-09-25|tor|13:15|DodLabb  |D1.04|Ravel   |JOE           
+Dod |2025-09-25|tor|13:15|DodLabb  |D1.04|Ravel   |WIS           
 Prog|2025-09-25|tor|15:15|Resurstid|C1.01|Hacke   |HAE       
 Prog|2025-09-25|tor|15:15|Resurstid|C1.02|Panter  |ASH       
 Prog|2025-09-25|tor|15:15|Resurstid|C1.03|Ravel   |JON       
@@ -245,7 +245,7 @@ Dod |2025-09-26|fre|10:15|DodLabb  |D1.14|Ravel   |APR
 Prog|2025-09-26|fre|13:15|ProgLabb |D1.08|Alfa    |JUG       
 Prog|2025-09-26|fre|13:15|ProgLabb |D1.09|Beta    |ELÅ       
 Prog|2025-09-26|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-09-26|fre|13:15|ProgLabb |D1.11|Gamma   |WIS       
+Prog|2025-09-26|fre|13:15|ProgLabb |D1.11|Gamma   |JOE           
 Prog|2025-09-26|fre|13:15|ProgLabb |D1.12|Hacke   |MAU       
 Prog|2025-09-26|fre|13:15|ProgLabb |D1.13|Val     |MOJ       
 Prog|2025-09-26|fre|13:15|ProgLabb |D1.14|Varg    |AXF       
@@ -311,7 +311,7 @@ Prog|2025-10-03|fre|13:15|ProgLabb |XA2  |Ambulans|EBF
 Prog|2025-10-03|fre|13:15|ProgLabb |XA3  |Ambulans|SAJ       
 Prog|2025-10-03|fre|13:15|ProgLabb |XA4  |Ambulans|JUG       
 Prog|2025-10-03|fre|15:15|ProgLabb |C1.01|Alfa    |HAE       
-Prog|2025-10-03|fre|15:15|ProgLabb |C1.02|Beta    |ASH       
+Prog|2025-10-03|fre|15:15|ProgLabb |C1.02|Beta    |SAR           
 Prog|2025-10-03|fre|15:15|ProgLabb |C1.03|Falk    |JON       
 Prog|2025-10-03|fre|15:15|ProgLabb |C1.04|Gamma   |APR       
 Prog|2025-10-03|fre|15:15|ProgLabb |C1.05|Val     |JOE       
@@ -398,7 +398,7 @@ Prog|2025-10-16|tor|15:15|Resurstid|C1.04|Falk    |APR
 Prog|2025-10-16|tor|15:15|Resurstid|C1.05|Val     |JOE       
 Prog|2025-10-16|tor|15:15|Resurstid|C1.06|Varg    |KAS       
 Prog|2025-10-16|tor|15:15|Resurstid|XA1  |Ambulans|LIL       
-Prog|2025-10-17|fre|10:15|ProgLabb |D1.01|Alfa    |SAR       
+Prog|2025-10-17|fre|10:15|ProgLabb |D1.01|Alfa    |ASH           
 Prog|2025-10-17|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
 Prog|2025-10-17|fre|10:15|ProgLabb |D1.03|Falk    |ALW       
 Prog|2025-10-17|fre|10:15|ProgLabb |D1.04|Gamma   |JUG       

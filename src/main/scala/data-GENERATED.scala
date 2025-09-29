@@ -269,7 +269,7 @@ Prog|2025-09-26|fre|15:15|ProgLabb |XA4  |Ambulans|MEW
 Prog|2025-10-01|ons|15:15|Resurstid|D1.01|Elg     |SAR       
 Prog|2025-10-01|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
 Prog|2025-10-01|ons|15:15|Resurstid|D1.03|Panter  |ALW       
-Prog|2025-10-01|ons|15:15|Resurstid|D1.04|Ravel   |JUG       
+Prog|2025-10-01|ons|15:15|Resurstid|D1.04|Ravel   |JON           
 Prog|2025-10-01|ons|15:15|Resurstid|D1.09|Falk    |ELÅ       
 Prog|2025-10-01|ons|15:15|Resurstid|D1.10|Val     |NAK       
 Prog|2025-10-01|ons|15:15|Resurstid|D1.11|Varg    |WIS       
@@ -283,7 +283,7 @@ Prog|2025-10-02|tor|13:15|Resurstid|D1.07|Elg     |VIB
 Prog|2025-10-02|tor|13:15|Resurstid|D1.08|Gamma   |KAS       
 Prog|2025-10-02|tor|15:15|Resurstid|C1.01|Hacke   |HAE       
 Prog|2025-10-02|tor|15:15|Resurstid|C1.02|Panter  |ASH       
-Prog|2025-10-02|tor|15:15|Resurstid|C1.03|Ravel   |JON       
+Prog|2025-10-02|tor|15:15|Resurstid|C1.03|Ravel   |JUG           
 Prog|2025-10-02|tor|15:15|Resurstid|C1.04|Falk    |MOJ           
 Prog|2025-10-02|tor|15:15|Resurstid|C1.05|Val     |JOE       
 Prog|2025-10-02|tor|15:15|Resurstid|C1.06|Varg    |KAS       

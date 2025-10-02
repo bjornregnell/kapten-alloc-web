@@ -1,15 +1,20 @@
 package kaptenallocweb.timeEdit
 
 import org.scalajs.dom.{XMLHttpRequest}
-import kaptenallocweb.tabby.Grid
 import java.time.LocalDate
+import kaptenallocweb.KaptenAllocData
+import kaptenallocweb.utils.{getWeekNumber, getDayOfWeek}
+import kaptenallocweb.tabby.Grid
+import kaptenallocweb.timeEdit.Date
+import org.scalajs.dom
 
 object TimeEdit:
+    private type DataCallback = (timeEditEntries: Seq[KaptenAllocData]) => Unit
     private type RequestCallback = (request: XMLHttpRequest) => Unit
 
     def fetchData(
         url: String,
-        onLoad: RequestCallback,
+        onLoad: DataCallback,
         onError: RequestCallback,
     ) =
       val request = XMLHttpRequest()
@@ -17,64 +22,49 @@ object TimeEdit:
         "GET",
         url
       )
-      request.onload = _ => onLoad(request)
+      request.onload = _ => onLoad(parseData(request.responseText))
       request.onerror = _ => onError(request)
       request.send()
     
-    def findDiscrepancies(timeEditData: String, kaptenAllocData: Seq[String]) =
-        val timeEditGrid = timeEditData.split('\n').toVector.toScheduleGrid
-        val kaptenAllocGrid = 
-            Grid
-                .fromLines(
-                    kaptenAllocData.toVector.filterNot(_.startsWith("---")),
-                    '|'
-                )
-                .trim
-
+    def findDiscrepancies(localData: Set[KaptenAllocData], timeEditData: Set[KaptenAllocData]): Set[String] =
         val today = LocalDate.now()
         val todayDate = Date(today.getYear, today.getMonthValue, today.getDayOfMonth)
-        
-        val timeEditEntries = normalizeTimeEditData(timeEditGrid)
-        val kaptenAllocEntries = normalizeKaptenAllocData(kaptenAllocGrid)
-            .filter(entry => 
-              !entry.rum.startsWith("Ambulans") && Date(entry.datum) >= todayDate
+
+        val kaptenAllocEntries = localData
+            .filter(entry =>
+              entry.room != "Ambulans" && Date(entry.date) >= todayDate
             )
 
         val discrepancies = collection.mutable.Set[String]()
 
         kaptenAllocEntries.foreach {
-            kaEntry => 
-                timeEditEntries.find(teEntry =>
-                    teEntry.datum     == kaEntry.datum     &&
-                    teEntry.startHour == kaEntry.startHour &&
-                    teEntry.del       == kaEntry.del       &&
-                    teEntry.typ       == kaEntry.typ       &&
-                    teEntry.grupp     == kaEntry.grupp
+            kaEntry =>
+                timeEditData.find(teEntry =>
+                    teEntry.date == kaEntry.date &&
+                    teEntry.time.take(2) == kaEntry.time.take(2) &&
+                    teEntry.course == kaEntry.course &&
+                    teEntry.entryType == kaEntry.entryType &&
+                    teEntry.group == kaEntry.group
                 ) match {
                     case Some(matchedEntry) =>
-                        if (matchedEntry.rum != kaEntry.rum) then
+                        if (matchedEntry.room != kaEntry.room) then
                             discrepancies.add(
-                                s"Saländring för ${kaEntry.datum} ${kaEntry.startHour}:15 ${kaEntry.del} ${kaEntry.typ} ${kaEntry.grupp} - Ny sal: ${matchedEntry.rum}"
-                            ) 
-                    case None => 
+                                s"Saländring för ${kaEntry.date} ${kaEntry.time} ${kaEntry.course} ${kaEntry.entryType} ${kaEntry.group} - Ny sal: ${matchedEntry.room}"
+                            )
+                    case None =>
                         discrepancies.add(
-                            s"Saknas i TimeEdit: ${kaEntry.datum} ${kaEntry.startHour}:15 ${kaEntry.del} ${kaEntry.typ} ${kaEntry.grupp} ${kaEntry.rum}"
+                            s"Saknas i TimeEdit: ${kaEntry.date} ${kaEntry.time} ${kaEntry.course} ${kaEntry.entryType} ${kaEntry.group} ${kaEntry.room}"
                         )
                 }
         }
 
         discrepancies.toSet
-    
-    private case class NormalizedEntry(
-        datum: String,
-        del: String,
-        typ: String,
-        grupp: String,
-        rum: String,
-        startHour: String
-    )
 
-    private def normalizeTimeEditData(grid: Grid): Vector[NormalizedEntry] =
+    def parseData(rawCsvData: String): Seq[KaptenAllocData] =
+        val timeEditGrid = rawCsvData.split('\n').toVector.toScheduleGrid
+        normalizeTimeEditData(timeEditGrid).toSeq
+
+    private def normalizeTimeEditData(grid: Grid): Vector[KaptenAllocData] =
         grid.data.flatMap { row =>
             val datum = row(grid.colIndex("datum"))
             val startTime = row(grid.colIndex("start"))
@@ -87,11 +77,21 @@ object TimeEdit:
             val groups = grupp.split(",").map(_.trim)
 
             rooms.zip(groups).map { case (room, group) =>
-                NormalizedEntry(datum, del, typ, group, room, extractHour(startTime))
+                KaptenAllocData(
+                    course = del,
+                    date = datum,
+                    week = getWeekNumber(datum).toString,
+                    day = getDayOfWeek(datum),
+                    time = startTime,
+                    entryType = typ,
+                    group = group,
+                    room = room,
+                    supervisor = ""
+                )
             }
         }
 
-    private def normalizeKaptenAllocData(grid: Grid): Vector[NormalizedEntry] =
+    private def normalizeKaptenAllocData(grid: Grid): Vector[KaptenAllocData] =
         grid.data.map { row =>
             val datum = row(grid.colIndex("datum"))
             val startTime = row(grid.colIndex("kl"))
@@ -100,15 +100,24 @@ object TimeEdit:
             val grupp = row(grid.colIndex("grupp"))
             val rum = row(grid.colIndex("rum"))
 
-            val hour = extractHour(startTime)
-
-            NormalizedEntry(datum, del, typ, grupp, rum, hour)
+            KaptenAllocData(
+                course = del,
+                date = datum,
+                week = getWeekNumber(datum).toString,
+                day = getDayOfWeek(datum),
+                time = startTime,
+                entryType = typ,
+                group = grupp,
+                room = rum,
+                supervisor = ""
+            )
         }
-    
-    private def extractHour(time: String): String =
-        val parts = time.split(":")
-        if (parts.length >= 1) parts(0) else time
 
+    
+
+    
+ 
+ 
 extension (lines: Vector[String])
   def toScheduleGrid: Grid =
     val xsUnpatched = lines.drop(3).map(removeQuotesAndCommasInsideQuotes)

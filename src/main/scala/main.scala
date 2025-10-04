@@ -8,6 +8,8 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
 import kaptenallocweb.timeEdit.TimeEdit
+import kaptenallocweb.utils.getWeekNumber
+import kaptenallocweb.utils.downloadIcs
 
 val timeEditScheduleUrl = 
   "https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.csv"
@@ -16,11 +18,10 @@ val timeEditScheduleUrl =
     document.addEventListener("DOMContentLoaded", (e: dom.Event) => 
       TimeEdit.fetchData(
         url = timeEditScheduleUrl,
-        onLoad = request => 
-          if request.status == 200 then
-            val diffs = TimeEdit.findDiscrepancies(timeEditData = request.responseText, kaptenAllocData = dataGeneratedFromKaptenAlloc)
-            if diffs.nonEmpty then addDiscrepancyPanel(diffs) else ()
-          else addTimeEditFailPanel(),
+        onLoad = timeEditEntries => 
+          val discrepancies = TimeEdit.findDiscrepancies(dataGeneratedFromKaptenAlloc.toSet, timeEditEntries.toSet)
+          if discrepancies.size > 0 then addDiscrepancyPanel(discrepancies) else ()
+          ,
         onError = _ => 
           dom.console.warn("An error occured when fetching CSV data")
           addTimeEditFailPanel()
@@ -28,111 +29,71 @@ val timeEditScheduleUrl =
       setupUI()
     )  
 
-extension (s: String)
-  def containsAll(xs: Array[String], isCaseSensitive: Boolean = true): Boolean =
-    val xs2 = if isCaseSensitive then xs else xs.map(_.toLowerCase)
-    val s2 = if isCaseSensitive then s else s.toLowerCase
-    xs2.forall(x => s2.contains(x))
-  
-  def getKaptenAllocData(): KaptenAllocData =
-    val cells = s.filterNot(_.isWhitespace).split('|').toVector
-    if cells.length == 8 then
-      // del 0 |datum 1 |dag 2 |kl 3 |typ 4 |grupp 5 |rum 6 |handledare 7
-      KaptenAllocData(cells(0), cells(1), None, cells(2), cells(3), cells(4), cells(5), cells(6), cells(7))
-    else
-      // del 0 |datum 1 |vecka 2 |dag 3 |kl 4 |typ 5 |grupp 6 |rum 7 |handledare 8
-      KaptenAllocData(cells(0), cells(1), Some(cells(2)), cells(3), cells(4), cells(5), cells(6), cells(7), cells(8))
-
-val MagicRegisterPaymentWord = "lön"
-
-extension (rows: Seq[String])
-  def filterRows(words: Array[String]): Seq[String] = 
-    if words.lift(0) != Some(MagicRegisterPaymentWord) then // filter data rows
-      for row <- rows 
-      if row.containsAll(words) || row.startsWith("---") || row.startsWith("del")
-      yield row
-    else // make magic payment roll
-      val dataRows: Seq[Seq[String]] = rows.drop(3).map(_.split('|').toSeq.map(_.trim))
-      val register = dataRows.groupBy(_.last).toSeq.sortBy(_._1).map(_._2).flatten
-      def timeToPeriod(hrs: String): String = 
-        val start = hrs.take(2)
-        val end = start.toIntOption.map(_ + 2).getOrElse("??")
-        s"$start-$end"
-      val paymentRows = register.map(xs => Seq(xs.last) :+ xs(0) :+ xs(1) :+ timeToPeriod(xs(4)))
-      val headings = Seq("lönereg kopiera till csv", "------------------------", "init;del;datum;tid")
-      for row <-  headings ++ paymentRows.map(_.mkString(";"))
-      if row.containsAll(words.drop(1)) || row.startsWith("init") || row.startsWith("-") || row.startsWith("lön")
-      yield row
-
-  /** Add a week number column for a KaptenAlloc formatted matrix */
-  def addWeekNumbers(): Seq[String] =
-    for row <- rows yield
-      var value = String()
-      if row.startsWith("---") then
-        value = "-" * 6
-      else if row.startsWith("del") then
-        value = "|vecka"
-      else
-        val week = getWeekNumber(row.getKaptenAllocData().date)
-        value = s"|v$week"
-      // TODO: Instead of hard-coding '15', find index of n:th '|' char in 2nd row
-      row.patch(15, f"$value%-6s", 0)
-
-
-  def akademiskKvart(isAkademiskKvart: Boolean): Seq[String] =
-    rows.map( r => if isAkademiskKvart then r else r.replace(":15", ":00") )
-
-  def filterOnlyToday(filterOnToday: Boolean): Seq[String] = 
-    def todayString: String = 
-      val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-      LocalDate.now().format(formatter)
-
-    if !filterOnToday then rows
-    else rows.filter(r => r.startsWith("del") || r.startsWith("---") || r.contains(todayString))
-
-
 def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph =
   val parNode = document.createElement("p").asInstanceOf[dom.html.Paragraph]
   parNode.textContent = text
   targetNode.appendChild(parNode)
   parNode
 
-def createTableRow(rowData: String, isHeader: Boolean = false): dom.html.TableRow =
+def createTableHeader(): dom.html.TableRow =
+  val headerRow = document.createElement("tr").asInstanceOf[dom.html.TableRow]
+
+  val headers = Seq("del", "datum", "vecka", "dag", "kl", "typ", "grupp", "rum", "vem")
+
+  headers.foreach(headerText =>
+    val headerCell = document.createElement("th").asInstanceOf[dom.html.TableCell]
+    headerCell.textContent = headerText
+    headerRow.appendChild(headerCell)
+  )
+
+  headerRow
+
+def createTableRow(entry: KaptenAllocData): dom.html.TableRow =
   val row = document.createElement("tr").asInstanceOf[dom.html.TableRow]
 
-  val cells = rowData.split('|').map(_.trim)
-  cells.foreach { cellData =>
-    val cell = if isHeader then
-      document.createElement("th").asInstanceOf[dom.html.TableCell]
-    else
-      document.createElement("td").asInstanceOf[dom.html.TableCell]
+  val valuesToShow = Seq(
+    entry.course,
+    entry.date,
+    entry.week,
+    entry.day,
+    entry.time,
+    entry.entryType,
+    entry.group,
+    entry.room,
+    entry.supervisor
+  )
+
+  val cells = valuesToShow.map(_.trim)
+  cells.foreach(cellData =>
+    val cell = document.createElement("td").asInstanceOf[dom.html.TableCell]
     cell.textContent = cellData
     row.appendChild(cell)
-  }
+  )
 
   row
 
-def populateTable(table: dom.html.Table, rows: Seq[String]): Unit =
-  rows.filterNot(_.startsWith("---")).zipWithIndex.foreach { case (rowData, index) =>
-    val isHeader = index == 0
-    val tableRow = createTableRow(rowData, isHeader)
+def populateTable(table: dom.html.Table, rows: Seq[KaptenAllocData]): Unit =
+  rows.foreach(entry =>
+    val tableRow = createTableRow(entry)
     table.appendChild(tableRow)
-  }
+  )
 
-def createTable(rows: Seq[String]): dom.html.Table =
+def createTable(rows: Seq[KaptenAllocData]): dom.html.Table =
   val table = document.createElement("table").asInstanceOf[dom.html.Table]
   table.id = "scheduleTable"
+  table.appendChild(createTableHeader())
   populateTable(table, rows)
   table
 
-def updateTable(table: dom.html.Table, rows: Seq[String]): Unit =
+def updateTable(table: dom.html.Table, rows: Seq[KaptenAllocData]): Unit =
   while table.firstChild != null do
     table.removeChild(table.firstChild)
+  table.appendChild(createTableHeader())
   populateTable(table, rows)
 
 def setupUI(): Unit =
   val input = document.createElement("input").asInstanceOf[dom.html.Input]
-  val scheduleTable = createTable(getGeneratedData())
+  val scheduleTable = createTable(dataGeneratedFromKaptenAlloc)
   val downloadButton = document.createElement("button").asInstanceOf[dom.html.Button]
   val akCheckbox = document.createElement("input").asInstanceOf[dom.html.Input]
   val akLabel = document.createElement("label").asInstanceOf[dom.html.Label]
@@ -140,8 +101,7 @@ def setupUI(): Unit =
   val todayLabel = document.createElement("label").asInstanceOf[dom.html.Label]
 
   val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
-  val headRows = 3
-  showSize.textContent = " " + (getGeneratedData().size- headRows)
+  showSize.textContent = " " + dataGeneratedFromKaptenAlloc.size
 
   val filterText = appendPar(document.body, "Filter: ")
 
@@ -153,12 +113,12 @@ def setupUI(): Unit =
   // Save event type to call it from other events via ```.dispatchEvent(<Event>)```
   val inputEvent = new dom.Event("input")
   input.addEventListener("input", (e: dom.Event) =>
-    val filtered: Seq[String] = getGeneratedData()
+    val filtered: Seq[KaptenAllocData] = dataGeneratedFromKaptenAlloc
       .filterOnlyToday(todayCheckBox.checked)
       .filterRows(words)
       .akademiskKvart(akCheckbox.checked)
     updateTable(scheduleTable, filtered)
-    showSize.textContent = " " + (filtered.size - headRows)
+    showSize.textContent = " " + filtered.size
   )
 
   akCheckbox.setAttribute("type", "checkbox")
@@ -185,18 +145,18 @@ def setupUI(): Unit =
   downloadButton.textContent = "Ladda ner"
   downloadButton.addEventListener("click", (e: dom.Event) =>
     val filtered = dataGeneratedFromKaptenAlloc
-      .filterRows(words).drop(3)
+      .filterRows(words)
       .akademiskKvart(akCheckbox.checked)
 
     val calendar = Calendar()
 
-    for row: KaptenAllocData <- filtered.map(_.getKaptenAllocData()) do 
+    for row: KaptenAllocData <- filtered do 
       val e = Event()
       e.addProperty(
         (Property.time(row.date, row.time.replace(":", "").toInt)
         ++ Seq(
           Property.uid(),
-          Property.summary(row.course, row.`type`, row.room),
+          Property.summary(row.course, row.entryType, row.room),
           Property.description(row.course, row.group, row.room),
           Property.location(row.room),
           Property.tzid(),
@@ -210,7 +170,7 @@ def setupUI(): Unit =
     if filtered.isEmpty then
       dom.window.alert("Finns inga tider att skapa en ICS fil av")
     else
-      download(calendar.toICS())
+      downloadIcs(calendar.toICS())
   )
 
   filterText.appendChild(input)
@@ -237,31 +197,3 @@ def addTimeEditFailPanel() =
   container.id = "timeEditFailPanel"
   container.innerHTML = "TimeEdit i molnet svara inte just nu - KaptenAlloc kör med tidigare sparad data"
   document.body.prepend(container)
-
-// TODO: Give name to file based on if room, group or any field always are the same
-/** Creates file with given content, name and presents it as a download to the user */
-def download(content: String, fileName: String = "handledartider.ics"): Unit =
-  var file = new dom.Blob(scala.scalajs.js.Array(content), new dom.BlobPropertyBag { `type` = "text/calendar" })
-  val a = document.createElement("a").asInstanceOf[dom.html.Anchor]
-  val url = dom.URL.createObjectURL(file)
-  a.setAttribute("download", fileName)
-  a.href = url
-  a.click()
-  a.remove()
-
-/** Wrapper around dataGeneratedFromKaptenAlloc which adds week numbers */
-def getGeneratedData(weekNumbers: Boolean = true): Seq[String] =
-  if weekNumbers then
-    dataGeneratedFromKaptenAlloc.addWeekNumbers()
-  else
-    dataGeneratedFromKaptenAlloc
-
-/** Takes date in format YYYY-MM-DD */
-def getWeekNumber(date: String): Int =
-  val values = date.split("-").map(_.toInt)
-  // Get week number using the ISO-8601 definition, where a week starts on Monday and the first week has a minimum of 4 days
-  val week = LocalDate.of(values(0), values(1), values(2)).get(WeekFields.ISO.weekOfYear)
-  if week == 0 then
-    LocalDate.of(values(0) - 1, 12, 31).get(WeekFields.ISO.weekOfYear)
-  else
-    week

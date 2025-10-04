@@ -1,5 +1,8 @@
 package kaptenallocweb
-val dataGeneratedFromKaptenAlloc: Seq[String] = """
+
+import kaptenallocweb.utils.getWeekNumber
+
+val dataGeneratedFromKaptenAlloc: Seq[KaptenAllocData] = """
 -------------------------------------------------------------
 del |datum     |dag|kl   |typ      |grupp|rum     |handledare
 -------------------------------------------------------------
@@ -430,4 +433,18 @@ Prog|2025-10-17|fre|15:15|ProgLabb |XA1  |Ambulans|ALW
 Prog|2025-10-17|fre|15:15|ProgLabb |XA2  |Ambulans|NAK       
 Prog|2025-10-17|fre|15:15|ProgLabb |XA3  |Ambulans|JUG       
 Prog|2025-10-17|fre|15:15|ProgLabb |XA4  |Ambulans|WIS       
-""".trim.split('\n').toSeq
+""".trim.split('\n').drop(3).map(line =>
+  val parts = line.split('|').map(_.trim)
+  KaptenAllocData(
+    course = parts(0),
+    date = parts(1),
+    week = getWeekNumber(parts(1)).toString,
+    time = parts(3),
+    day = parts(2),
+    entryType = parts(4),
+    group = parts(5),
+    room = parts(6),
+    supervisor = parts(7)
+    )
+  )
+

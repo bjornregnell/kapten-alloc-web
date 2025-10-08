@@ -91,21 +91,53 @@ extension (rows: Seq[String])
     else rows.filter(r => r.startsWith("del") || r.startsWith("---") || r.contains(todayString))
 
 
-def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph = 
+def appendPar(targetNode: dom.Node, text: String): dom.html.Paragraph =
   val parNode = document.createElement("p").asInstanceOf[dom.html.Paragraph]
   parNode.textContent = text
   targetNode.appendChild(parNode)
   parNode
 
-def setupUI(): Unit = 
+def createTableRow(rowData: String, isHeader: Boolean = false): dom.html.TableRow =
+  val row = document.createElement("tr").asInstanceOf[dom.html.TableRow]
+
+  val cells = rowData.split('|').map(_.trim)
+  cells.foreach { cellData =>
+    val cell = if isHeader then
+      document.createElement("th").asInstanceOf[dom.html.TableCell]
+    else
+      document.createElement("td").asInstanceOf[dom.html.TableCell]
+    cell.textContent = cellData
+    row.appendChild(cell)
+  }
+
+  row
+
+def populateTable(table: dom.html.Table, rows: Seq[String]): Unit =
+  rows.filterNot(_.startsWith("---")).zipWithIndex.foreach { case (rowData, index) =>
+    val isHeader = index == 0
+    val tableRow = createTableRow(rowData, isHeader)
+    table.appendChild(tableRow)
+  }
+
+def createTable(rows: Seq[String]): dom.html.Table =
+  val table = document.createElement("table").asInstanceOf[dom.html.Table]
+  table.id = "scheduleTable"
+  populateTable(table, rows)
+  table
+
+def updateTable(table: dom.html.Table, rows: Seq[String]): Unit =
+  while table.firstChild != null do
+    table.removeChild(table.firstChild)
+  populateTable(table, rows)
+
+def setupUI(): Unit =
   val input = document.createElement("input").asInstanceOf[dom.html.Input]
-  val showText = document.createElement("pre").asInstanceOf[dom.html.Pre]
+  val scheduleTable = createTable(getGeneratedData())
   val downloadButton = document.createElement("button").asInstanceOf[dom.html.Button]
   val akCheckbox = document.createElement("input").asInstanceOf[dom.html.Input]
   val akLabel = document.createElement("label").asInstanceOf[dom.html.Label]
   val todayCheckBox = document.createElement("input").asInstanceOf[dom.html.Input]
   val todayLabel = document.createElement("label").asInstanceOf[dom.html.Label]
-  showText.textContent = getGeneratedData().mkString("\n")
 
   val showSize = document.createElement("label").asInstanceOf[dom.html.Label]
   val headRows = 3
@@ -125,7 +157,7 @@ def setupUI(): Unit =
       .filterOnlyToday(todayCheckBox.checked)
       .filterRows(words)
       .akademiskKvart(akCheckbox.checked)
-    showText.textContent = filtered.mkString("\n")
+    updateTable(scheduleTable, filtered)
     showSize.textContent = " " + (filtered.size - headRows)
   )
 
@@ -188,7 +220,7 @@ def setupUI(): Unit =
   filterText.appendChild(akLabel)
   filterText.appendChild(todayCheckBox)
   filterText.appendChild(todayLabel)
-  document.body.appendChild(showText)
+  document.body.appendChild(scheduleTable)
 
 def addDiscrepancyPanel(discrepancies: Set[String]) =
   val container = document.createElement("div").asInstanceOf[dom.html.Div]

@@ -390,7 +390,7 @@ Prog|2025-10-16|tor|13:15|Resurstid|D1.05|Alfa    |MOG
 Prog|2025-10-16|tor|13:15|Resurstid|D1.06|Beta    |MAB       
 Prog|2025-10-16|tor|13:15|Resurstid|D1.07|Elg     |VIB       
 Prog|2025-10-16|tor|13:15|Resurstid|D1.08|Gamma   |LIL       
-Prog|2025-10-16|tor|13:15|Resurstid|XA1  |Ambulans|ALL       
+Prog|2025-10-16|tor|13:15|Resurstid|XA1  |Ambulans|APR       
 Prog|2025-10-16|tor|15:15|Resurstid|C1.01|Hacke   |HAE       
 Prog|2025-10-16|tor|15:15|Resurstid|C1.02|Panter  |ASH       
 Prog|2025-10-16|tor|15:15|Resurstid|C1.03|Ravel   |JON       
@@ -406,7 +406,7 @@ Prog|2025-10-17|fre|10:15|ProgLabb |D1.05|Hacke   |MOG
 Prog|2025-10-17|fre|10:15|ProgLabb |D1.06|Val     |MAB       
 Prog|2025-10-17|fre|10:15|ProgLabb |D1.07|Varg    |VIB       
 Prog|2025-10-17|fre|10:15|ProgLabb |XA1  |Ambulans|JON       
-Prog|2025-10-17|fre|10:15|ProgLabb |XA2  |Ambulans|APR       
+Prog|2025-10-17|fre|10:15|ProgLabb |XA2  |Ambulans|ALL       
 Prog|2025-10-17|fre|10:15|ProgLabb |XA3  |Ambulans|WIS       
 Prog|2025-10-17|fre|10:15|ProgLabb |XA4  |Ambulans|SAR       
 Prog|2025-10-17|fre|13:15|ProgLabb |D1.08|Alfa    |APR       

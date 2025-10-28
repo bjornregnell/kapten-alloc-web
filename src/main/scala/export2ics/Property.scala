@@ -1,4 +1,4 @@
-package kaptenallocweb.ics
+package kaptenallocweb.export2ics
 
 import scala.scalajs.js.defined
 import scala.util.Random

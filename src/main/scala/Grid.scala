@@ -4,7 +4,7 @@
   have been stripped out to make it work inside kapten-alloc-web
 */
 
-package kaptenallocweb.tabby
+package kaptenallocweb
 
 object Grid:
   type Row = Vector[String]

@@ -1,4 +1,4 @@
-package kaptenallocweb.ics
+package kaptenallocweb.export2ics
 
 case class Calendar(version: String, prodid: String) extends VObject():
   // Vector because order kinda matters, and since Calendar inherits BaseObject hashcode, only one Event would be kept
@@ -40,3 +40,4 @@ object Calendar:
     val c = Calendar("2.0", "-//Kapten Alloc//Knepig Schemaläggning//EN")
     c.addTimeZone()
     c
+end Calendar

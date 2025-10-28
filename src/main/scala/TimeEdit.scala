@@ -1,7 +1,6 @@
-package kaptenallocweb.timeEdit
+package kaptenallocweb
 
 import org.scalajs.dom.{XMLHttpRequest}
-import kaptenallocweb.tabby.Grid
 import java.time.LocalDate
 
 object TimeEdit:

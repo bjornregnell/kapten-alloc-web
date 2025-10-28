@@ -1,4 +1,4 @@
-package kaptenallocweb.timeEdit
+package kaptenallocweb
 
 case class Date(year: Int, month: Int, dayOfMonth: Int = 1)
     extends Ordered[Date]:

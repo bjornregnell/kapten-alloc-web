@@ -1,13 +1,12 @@
 package kaptenallocweb
 
-import kaptenallocweb.ics.*
+import kaptenallocweb.export2ics.*
 import org.scalajs.dom
 import org.scalajs.dom.document
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
-import kaptenallocweb.timeEdit.TimeEdit
 
 val StartOfPeriod = Date("2025-11-03")
 val EndOfPeriod   = Date("2025-12-19")

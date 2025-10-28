@@ -9,6 +9,9 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
 import kaptenallocweb.timeEdit.TimeEdit
 
+val StartOfPeriod = Date("2025-11-03")
+val EndOfPeriod   = Date("2025-12-19")
+
 val timeEditScheduleUrl = 
   "https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.csv"
 

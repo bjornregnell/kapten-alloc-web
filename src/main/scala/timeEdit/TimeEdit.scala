@@ -144,11 +144,7 @@ extension (lines: Vector[String])
             case "Resurstid" => "Resurstid"
             case "Labb"      => "ProgLabb"
       }
-      .filter("datum")(d =>
-        Date(d) <= Date(s"2025-10-19") && Date(
-          d
-        ) >= Date(s"2025-09-01")
-      )
+      .filter("datum")(d => Date(d) >= StartOfPeriod && Date(d) <= EndOfPeriod)
 
 end extension
 

@@ -11,6 +11,15 @@ trait BaseObject:
   override def hashCode = name.toUpperCase.hashCode
 end BaseObject
 
+abstract class Parameter(val value: String) extends BaseObject: 
+  val name = base_name.replace("PARAM", "")
+  def toICS(): String =
+    s"${name}=$value"
+    
+object Parameter:
+  case class TzIDParam(tzid: String) extends Parameter(tzid)
+end Parameter
+
 trait VObject() extends BaseObject:
   val name = "V" + base_name
   
@@ -22,14 +31,6 @@ trait VObject() extends BaseObject:
     |${contents()}
     |END:$name""".stripMargin
 end VObject
-
-abstract class Parameter(val value: String) extends BaseObject: 
-  val name = base_name.replace("PARAM", "")
-  def toICS(): String =
-    s"${name}=$value"
-object Parameter:
-  case class TzIDParam(tzid: String) extends Parameter(tzid)
-end Parameter
 
 case class Event() extends VObject():
   private var properties: Set[Property] = Set()

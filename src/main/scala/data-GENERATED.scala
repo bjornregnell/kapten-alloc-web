@@ -47,7 +47,7 @@ Prog|2025-11-07|fre|15:15|ProgLabb |C1.01|Alfa    |SAR
 Prog|2025-11-07|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
 Prog|2025-11-07|fre|15:15|ProgLabb |C1.03|Falk    |LOL       
 Prog|2025-11-07|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.05|Val     |HAE       
+Prog|2025-11-07|fre|15:15|ProgLabb |C1.05|Val     |APR       
 Prog|2025-11-07|fre|15:15|ProgLabb |C1.06|Varg    |SAJ       
 Prog|2025-11-07|fre|15:15|ProgLabb |XA1  |Ambulans|ASH       
 Prog|2025-11-07|fre|15:15|ProgLabb |XA2  |Ambulans|JUG       
@@ -126,7 +126,7 @@ Prog|2025-11-21|fre|10:15|ProgLabb |D1.04|Gamma   |DAA
 Prog|2025-11-21|fre|10:15|ProgLabb |D1.05|Ravel   |DAG       
 Prog|2025-11-21|fre|10:15|ProgLabb |D1.06|Val     |DAH       
 Prog|2025-11-21|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
-Prog|2025-11-21|fre|10:15|ProgLabb |XA1  |Ambulans|APR       
+Prog|2025-11-21|fre|10:15|ProgLabb |XA1  |Ambulans|HAE       
 Prog|2025-11-21|fre|10:15|ProgLabb |XA2  |Ambulans|JUG       
 Prog|2025-11-21|fre|10:15|ProgLabb |XA3  |Ambulans|VIB       
 Prog|2025-11-21|fre|13:15|ProgLabb |D1.08|Alfa    |MOJ       

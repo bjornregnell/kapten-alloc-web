@@ -43,7 +43,7 @@ Prog|2025-11-07|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ
 Prog|2025-11-07|fre|13:15|ProgLabb |XA1  |Ambulans|ASH       
 Prog|2025-11-07|fre|13:15|ProgLabb |XA2  |Ambulans|LOL       
 Prog|2025-11-07|fre|13:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.01|Alfa    |SAR       
+Prog|2025-11-07|fre|15:15|ProgLabb |C1.01|Alfa    |EBF       
 Prog|2025-11-07|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
 Prog|2025-11-07|fre|15:15|ProgLabb |C1.03|Falk    |LOL       
 Prog|2025-11-07|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
@@ -90,7 +90,7 @@ Prog|2025-11-14|fre|13:15|ProgLabb |D1.13|Val     |APR
 Prog|2025-11-14|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       
 Prog|2025-11-14|fre|13:15|ProgLabb |XA1  |Ambulans|ASH       
 Prog|2025-11-14|fre|13:15|ProgLabb |XA2  |Ambulans|LOL       
-Prog|2025-11-14|fre|13:15|ProgLabb |XA3  |Ambulans|EBF       
+Prog|2025-11-14|fre|13:15|ProgLabb |XA3  |Ambulans|SAR       
 Prog|2025-11-14|fre|15:15|ProgLabb |C1.01|Alfa    |SAR       
 Prog|2025-11-14|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
 Prog|2025-11-14|fre|15:15|ProgLabb |C1.03|Falk    |LOL       

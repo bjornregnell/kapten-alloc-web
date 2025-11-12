@@ -75,7 +75,7 @@ Prog|2025-11-14|fre|10:15|ProgLabb |D1.01|Alfa    |MEW
 Prog|2025-11-14|fre|10:15|ProgLabb |D1.02|Beta    |AXF       
 Prog|2025-11-14|fre|10:15|ProgLabb |D1.03|Falk    |WIS       
 Prog|2025-11-14|fre|10:15|ProgLabb |D1.04|Gamma   |DAA       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.05|Ravel   |DAG       
+Prog|2025-11-14|fre|10:15|ProgLabb |D1.05|Ravel   |MOG       
 Prog|2025-11-14|fre|10:15|ProgLabb |D1.06|Val     |DAH       
 Prog|2025-11-14|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
 Prog|2025-11-14|fre|10:15|ProgLabb |XA1  |Ambulans|ASH       
@@ -84,7 +84,7 @@ Prog|2025-11-14|fre|10:15|ProgLabb |XA3  |Ambulans|EBF
 Prog|2025-11-14|fre|13:15|ProgLabb |D1.08|Alfa    |ALL       
 Prog|2025-11-14|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
 Prog|2025-11-14|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.11|Gamma   |MOG       
+Prog|2025-11-14|fre|13:15|ProgLabb |D1.11|Gamma   |DAG       
 Prog|2025-11-14|fre|13:15|ProgLabb |D1.12|Hacke   |MAU       
 Prog|2025-11-14|fre|13:15|ProgLabb |D1.13|Val     |APR       
 Prog|2025-11-14|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       

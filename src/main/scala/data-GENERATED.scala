@@ -55,7 +55,7 @@ Prog|2025-11-12|ons|13:15|Resurstid|D1.01|Falk    |ALL
 Prog|2025-11-12|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.03|Val     |ASH       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.05|Elg     |DAG       
+Prog|2025-11-12|ons|13:15|Resurstid|D1.05|Elg     |SAR       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
@@ -91,7 +91,7 @@ Prog|2025-11-14|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ
 Prog|2025-11-14|fre|13:15|ProgLabb |XA1  |Ambulans|ASH       
 Prog|2025-11-14|fre|13:15|ProgLabb |XA2  |Ambulans|LOL       
 Prog|2025-11-14|fre|13:15|ProgLabb |XA3  |Ambulans|SAR       
-Prog|2025-11-14|fre|15:15|ProgLabb |C1.01|Alfa    |SAR       
+Prog|2025-11-14|fre|15:15|ProgLabb |C1.01|Alfa    |DAG       
 Prog|2025-11-14|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
 Prog|2025-11-14|fre|15:15|ProgLabb |C1.03|Falk    |LOL       
 Prog|2025-11-14|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       

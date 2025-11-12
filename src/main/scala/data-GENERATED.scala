@@ -56,14 +56,14 @@ Prog|2025-11-12|ons|13:15|Resurstid|D1.02|Ravel   |AXF
 Prog|2025-11-12|ons|13:15|Resurstid|D1.03|Val     |ASH       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.04|Varg    |DAA       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.05|Elg     |SAR       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
+Prog|2025-11-12|ons|13:15|Resurstid|D1.06|Elgkalv |VIB       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.09|Alfa    |JOE       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.10|Beta    |NAK       
 Prog|2025-11-12|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
 Prog|2025-11-13|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-11-13|tor|13:15|Resurstid|C1.02|Hacke   |VIB       
+Prog|2025-11-13|tor|13:15|Resurstid|C1.02|Hacke   |DAH       
 Prog|2025-11-13|tor|13:15|Resurstid|C1.03|Panter  |JUG       
 Prog|2025-11-13|tor|13:15|Resurstid|C1.04|Ravel   |KAS       
 Prog|2025-11-13|tor|13:15|Resurstid|C1.05|Val     |HAE       

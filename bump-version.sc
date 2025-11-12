@@ -1,4 +1,4 @@
-//> using scala 3.7.2
+//> using scala 3.7.3
 
 val file = if args.length == 0 then "index.html" else args(0)
 println(s"Bumping version in $file")

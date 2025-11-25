@@ -188,7 +188,7 @@ Prog|2025-11-28|fre|13:15|ProgLabb |XA1  |Ambulans|LIL
 Prog|2025-11-28|fre|13:15|ProgLabb |XA2  |Ambulans|MEW       
 Prog|2025-11-28|fre|13:15|ProgLabb |XA3  |Ambulans|EBF       
 Prog|2025-11-28|fre|15:15|ProgLabb |C1.01|Alfa    |SAR       
-Prog|2025-11-28|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
+Prog|2025-11-28|fre|15:15|ProgLabb |C1.02|Beta    |APR       
 Prog|2025-11-28|fre|15:15|ProgLabb |C1.03|Falk    |MEW       
 Prog|2025-11-28|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
 Prog|2025-11-28|fre|15:15|ProgLabb |C1.05|Val     |HAE       
@@ -243,7 +243,7 @@ Prog|2025-12-05|fre|15:15|ProgLabb |C1.05|Val     |HAE
 Prog|2025-12-05|fre|15:15|ProgLabb |C1.06|Varg    |SAJ       
 Prog|2025-12-05|fre|15:15|ProgLabb |XA1  |Ambulans|AXF       
 Prog|2025-12-05|fre|15:15|ProgLabb |XA2  |Ambulans|LIL       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.01|Falk    |APR       
+Prog|2025-12-10|ons|13:15|Resurstid|D1.01|Falk    |VIB       
 Prog|2025-12-10|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
 Prog|2025-12-10|ons|13:15|Resurstid|D1.03|Val     |ASH       
 Prog|2025-12-10|ons|13:15|Resurstid|D1.04|Varg    |DAA       

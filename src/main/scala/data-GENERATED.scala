@@ -272,7 +272,7 @@ Prog|2025-12-12|fre|10:15|ProgLabb |D1.06|Val     |DAH
 Prog|2025-12-12|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
 Prog|2025-12-12|fre|10:15|ProgLabb |XA1  |Ambulans|HAE       
 Prog|2025-12-12|fre|10:15|ProgLabb |XA2  |Ambulans|VIB       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.08|Alfa    |MOJ       
+Prog|2025-12-12|fre|13:15|ProgLabb |D1.08|Alfa    |SAR       
 Prog|2025-12-12|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
 Prog|2025-12-12|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
 Prog|2025-12-12|fre|13:15|ProgLabb |D1.11|Gamma   |MOG       

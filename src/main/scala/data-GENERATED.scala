@@ -251,7 +251,7 @@ Prog|2025-12-10|ons|13:15|Resurstid|D1.05|Elg     |DAG
 Prog|2025-12-10|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
 Prog|2025-12-10|ons|13:15|Resurstid|D1.07|Hacke   |SAJ       
 Prog|2025-12-10|ons|13:15|Resurstid|D1.08|Panter  |WIS       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.09|Alfa    |SAR       
+Prog|2025-12-10|ons|13:15|Resurstid|D1.09|Alfa    |MOJ       
 Prog|2025-12-10|ons|13:15|Resurstid|D1.10|Beta    |NAK       
 Prog|2025-12-10|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
 Prog|2025-12-11|tor|13:15|Resurstid|C1.01|Falk    |SAR       

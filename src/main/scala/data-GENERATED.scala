@@ -3,311 +3,358 @@ val dataGeneratedFromKaptenAlloc: Seq[String] = """
 -------------------------------------------------------------
 del |datum     |dag|kl   |typ      |grupp|rum     |handledare
 -------------------------------------------------------------
-Prog|2025-11-05|ons|13:15|Resurstid|D1.01|Falk    |ALL       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.03|Val     |ELÅ       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.05|Elg     |DAG       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.09|Alfa    |JOE       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.10|Beta    |NAK       
-Prog|2025-11-05|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
-Prog|2025-11-06|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-11-06|tor|13:15|Resurstid|C1.02|Hacke   |VIB       
-Prog|2025-11-06|tor|13:15|Resurstid|C1.03|Panter  |JUG       
-Prog|2025-11-06|tor|13:15|Resurstid|C1.04|Ravel   |KAS       
-Prog|2025-11-06|tor|13:15|Resurstid|C1.05|Val     |HAE       
-Prog|2025-11-06|tor|13:15|Resurstid|C1.06|Varg    |SAJ       
-Prog|2025-11-06|tor|13:15|Resurstid|D1.12|Alfa    |MAU       
-Prog|2025-11-06|tor|13:15|Resurstid|D1.13|Beta    |APR       
-Prog|2025-11-06|tor|13:15|Resurstid|D1.14|Gamma   |EBF       
-Prog|2025-11-07|fre|10:15|ProgLabb |D1.01|Alfa    |MEW       
-Prog|2025-11-07|fre|10:15|ProgLabb |D1.02|Beta    |AXF       
-Prog|2025-11-07|fre|10:15|ProgLabb |D1.03|Falk    |WIS       
-Prog|2025-11-07|fre|10:15|ProgLabb |D1.04|Gamma   |DAA       
-Prog|2025-11-07|fre|10:15|ProgLabb |D1.05|Ravel   |DAG       
-Prog|2025-11-07|fre|10:15|ProgLabb |D1.06|Val     |DAH       
-Prog|2025-11-07|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
-Prog|2025-11-07|fre|10:15|ProgLabb |XA1  |Ambulans|ASH       
-Prog|2025-11-07|fre|10:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-11-07|fre|10:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-11-07|fre|13:15|ProgLabb |D1.08|Alfa    |MOJ       
-Prog|2025-11-07|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
-Prog|2025-11-07|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-11-07|fre|13:15|ProgLabb |D1.11|Gamma   |MOG       
-Prog|2025-11-07|fre|13:15|ProgLabb |D1.12|Hacke   |MAU       
-Prog|2025-11-07|fre|13:15|ProgLabb |D1.13|Val     |APR       
-Prog|2025-11-07|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       
-Prog|2025-11-07|fre|13:15|ProgLabb |XA1  |Ambulans|ASH       
-Prog|2025-11-07|fre|13:15|ProgLabb |XA2  |Ambulans|LOL       
-Prog|2025-11-07|fre|13:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.01|Alfa    |EBF       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.03|Falk    |LOL       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.05|Val     |APR       
-Prog|2025-11-07|fre|15:15|ProgLabb |C1.06|Varg    |SAJ       
-Prog|2025-11-07|fre|15:15|ProgLabb |XA1  |Ambulans|ASH       
-Prog|2025-11-07|fre|15:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.01|Falk    |ALL       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.03|Val     |ASH       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.05|Elg     |SAR       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.06|Elgkalv |VIB       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.09|Alfa    |JOE       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.10|Beta    |NAK       
-Prog|2025-11-12|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
-Prog|2025-11-13|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-11-13|tor|13:15|Resurstid|C1.02|Hacke   |DAH       
-Prog|2025-11-13|tor|13:15|Resurstid|C1.03|Panter  |JUG       
-Prog|2025-11-13|tor|13:15|Resurstid|C1.04|Ravel   |KAS       
-Prog|2025-11-13|tor|13:15|Resurstid|C1.05|Val     |HAE       
-Prog|2025-11-13|tor|13:15|Resurstid|C1.06|Varg    |SAJ       
-Prog|2025-11-13|tor|13:15|Resurstid|D1.12|Alfa    |MAU       
-Prog|2025-11-13|tor|13:15|Resurstid|D1.13|Beta    |APR       
-Prog|2025-11-13|tor|13:15|Resurstid|D1.14|Gamma   |ELÅ       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.01|Alfa    |MEW       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.02|Beta    |AXF       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.03|Falk    |WIS       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.04|Gamma   |DAA       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.05|Ravel   |MOG       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.06|Val     |DAH       
-Prog|2025-11-14|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
-Prog|2025-11-14|fre|10:15|ProgLabb |XA1  |Ambulans|ASH       
-Prog|2025-11-14|fre|10:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-11-14|fre|10:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.08|Alfa    |ALL       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.11|Gamma   |DAG       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.12|Hacke   |MAU       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.13|Val     |APR       
-Prog|2025-11-14|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       
-Prog|2025-11-14|fre|13:15|ProgLabb |XA1  |Ambulans|ASH       
-Prog|2025-11-14|fre|13:15|ProgLabb |XA2  |Ambulans|LOL       
-Prog|2025-11-14|fre|13:15|ProgLabb |XA3  |Ambulans|SAR       
-Prog|2025-11-14|fre|15:15|ProgLabb |C1.01|Alfa    |DAG       
-Prog|2025-11-14|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
-Prog|2025-11-14|fre|15:15|ProgLabb |C1.03|Falk    |LOL       
-Prog|2025-11-14|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
-Prog|2025-11-14|fre|15:15|ProgLabb |C1.05|Val     |HAE       
-Prog|2025-11-14|fre|15:15|ProgLabb |C1.06|Varg    |SAJ       
-Prog|2025-11-14|fre|15:15|ProgLabb |XA1  |Ambulans|ASH       
-Prog|2025-11-14|fre|15:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.01|Falk    |ASH       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.02|Ravel   |SAJ       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.03|Val     |KAS       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.05|Elg     |DAG       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.09|Alfa    |JOE       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.10|Beta    |NAK       
-Prog|2025-11-19|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
-Prog|2025-11-20|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-11-20|tor|13:15|Resurstid|C1.02|Hacke   |VIB       
-Prog|2025-11-20|tor|13:15|Resurstid|C1.03|Panter  |JUG       
-Prog|2025-11-20|tor|13:15|Resurstid|C1.04|Ravel   |WIS       
-Prog|2025-11-20|tor|13:15|Resurstid|C1.05|Val     |EBF       
-Prog|2025-11-20|tor|13:15|Resurstid|C1.06|Varg    |SAJ       
-Prog|2025-11-20|tor|13:15|Resurstid|D1.12|Alfa    |MAU       
-Prog|2025-11-20|tor|13:15|Resurstid|D1.13|Beta    |APR       
-Prog|2025-11-20|tor|13:15|Resurstid|D1.14|Gamma   |ELÅ       
-Prog|2025-11-21|fre|10:15|ProgLabb |D1.01|Alfa    |MAB       
-Prog|2025-11-21|fre|10:15|ProgLabb |D1.02|Beta    |MOJ       
-Prog|2025-11-21|fre|10:15|ProgLabb |D1.03|Falk    |WIS       
-Prog|2025-11-21|fre|10:15|ProgLabb |D1.04|Gamma   |DAA       
-Prog|2025-11-21|fre|10:15|ProgLabb |D1.05|Ravel   |DAG       
-Prog|2025-11-21|fre|10:15|ProgLabb |D1.06|Val     |DAH       
-Prog|2025-11-21|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
-Prog|2025-11-21|fre|10:15|ProgLabb |XA1  |Ambulans|HAE       
-Prog|2025-11-21|fre|10:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-11-21|fre|10:15|ProgLabb |XA3  |Ambulans|VIB       
-Prog|2025-11-21|fre|13:15|ProgLabb |D1.08|Alfa    |MOJ       
-Prog|2025-11-21|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
-Prog|2025-11-21|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-11-21|fre|13:15|ProgLabb |D1.11|Gamma   |LIL       
-Prog|2025-11-21|fre|13:15|ProgLabb |D1.12|Hacke   |MAU       
-Prog|2025-11-21|fre|13:15|ProgLabb |D1.13|Val     |APR       
-Prog|2025-11-21|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       
-Prog|2025-11-21|fre|13:15|ProgLabb |XA1  |Ambulans|ALL       
-Prog|2025-11-21|fre|13:15|ProgLabb |XA2  |Ambulans|AXF       
-Prog|2025-11-21|fre|13:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-11-21|fre|15:15|ProgLabb |C1.01|Alfa    |SAR       
-Prog|2025-11-21|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
-Prog|2025-11-21|fre|15:15|ProgLabb |C1.03|Falk    |MAB       
-Prog|2025-11-21|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
-Prog|2025-11-21|fre|15:15|ProgLabb |C1.05|Val     |HAE       
-Prog|2025-11-21|fre|15:15|ProgLabb |C1.06|Varg    |SAJ       
-Prog|2025-11-21|fre|15:15|ProgLabb |XA1  |Ambulans|ALL       
-Prog|2025-11-21|fre|15:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.01|Falk    |ASH       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.03|Val     |SAJ       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.05|Elg     |MAU       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.09|Alfa    |SAR       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.10|Beta    |NAK       
-Prog|2025-11-26|ons|13:15|Resurstid|D1.11|Gamma   |EBF       
-Prog|2025-11-27|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-11-27|tor|13:15|Resurstid|C1.02|Hacke   |VIB       
-Prog|2025-11-27|tor|13:15|Resurstid|C1.03|Panter  |WIS       
-Prog|2025-11-27|tor|13:15|Resurstid|C1.04|Ravel   |KAS       
-Prog|2025-11-27|tor|13:15|Resurstid|C1.05|Val     |HAE       
-Prog|2025-11-27|tor|13:15|Resurstid|C1.06|Varg    |SAJ       
-Prog|2025-11-27|tor|13:15|Resurstid|D1.12|Alfa    |MAU       
-Prog|2025-11-27|tor|13:15|Resurstid|D1.13|Beta    |APR       
-Prog|2025-11-27|tor|13:15|Resurstid|D1.14|Gamma   |ELÅ       
-Prog|2025-11-28|fre|10:15|ProgLabb |D1.01|Alfa    |APR       
-Prog|2025-11-28|fre|10:15|ProgLabb |D1.02|Beta    |HAE       
-Prog|2025-11-28|fre|10:15|ProgLabb |D1.03|Falk    |WIS       
-Prog|2025-11-28|fre|10:15|ProgLabb |D1.04|Gamma   |DAA       
-Prog|2025-11-28|fre|10:15|ProgLabb |D1.05|Ravel   |DAG       
-Prog|2025-11-28|fre|10:15|ProgLabb |D1.06|Val     |DAH       
-Prog|2025-11-28|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
-Prog|2025-11-28|fre|10:15|ProgLabb |XA1  |Ambulans|VIB       
-Prog|2025-11-28|fre|10:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-11-28|fre|10:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-11-28|fre|13:15|ProgLabb |D1.08|Alfa    |MOJ       
-Prog|2025-11-28|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
-Prog|2025-11-28|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-11-28|fre|13:15|ProgLabb |D1.11|Gamma   |MOG       
-Prog|2025-11-28|fre|13:15|ProgLabb |D1.12|Hacke   |MAU       
-Prog|2025-11-28|fre|13:15|ProgLabb |D1.13|Val     |APR       
-Prog|2025-11-28|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       
-Prog|2025-11-28|fre|13:15|ProgLabb |XA1  |Ambulans|LIL       
-Prog|2025-11-28|fre|13:15|ProgLabb |XA2  |Ambulans|MEW       
-Prog|2025-11-28|fre|13:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-11-28|fre|15:15|ProgLabb |C1.01|Alfa    |JOE       
-Prog|2025-11-28|fre|15:15|ProgLabb |C1.02|Beta    |APR       
-Prog|2025-11-28|fre|15:15|ProgLabb |C1.03|Falk    |MEW       
-Prog|2025-11-28|fre|15:15|ProgLabb |C1.04|Gamma   |MAU       
-Prog|2025-11-28|fre|15:15|ProgLabb |C1.05|Val     |HAE       
-Prog|2025-11-28|fre|15:15|ProgLabb |C1.06|Varg    |SAJ       
-Prog|2025-11-28|fre|15:15|ProgLabb |XA1  |Ambulans|AXF       
-Prog|2025-11-28|fre|15:15|ProgLabb |XA2  |Ambulans|JUG       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.01|Falk    |ASH       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.03|Val     |APR       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.05|Elg     |DAG       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.09|Alfa    |JOE       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.10|Beta    |NAK       
-Prog|2025-12-03|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
-Prog|2025-12-04|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-12-04|tor|13:15|Resurstid|C1.02|Hacke   |VIB       
-Prog|2025-12-04|tor|13:15|Resurstid|C1.03|Panter  |ALL       
-Prog|2025-12-04|tor|13:15|Resurstid|C1.04|Ravel   |KAS       
-Prog|2025-12-04|tor|13:15|Resurstid|C1.05|Val     |MOJ       
-Prog|2025-12-04|tor|13:15|Resurstid|C1.06|Varg    |EDJ       
-Prog|2025-12-04|tor|13:15|Resurstid|D1.12|Alfa    |DAG       
-Prog|2025-12-04|tor|13:15|Resurstid|D1.13|Beta    |APR       
-Prog|2025-12-04|tor|13:15|Resurstid|D1.14|Gamma   |ELÅ       
-Prog|2025-12-05|fre|10:15|ProgLabb |D1.01|Alfa    |MEW       
-Prog|2025-12-05|fre|10:15|ProgLabb |D1.02|Beta    |AXF       
-Prog|2025-12-05|fre|10:15|ProgLabb |D1.03|Falk    |WIS       
-Prog|2025-12-05|fre|10:15|ProgLabb |D1.04|Gamma   |LIL       
-Prog|2025-12-05|fre|10:15|ProgLabb |D1.05|Ravel   |DAG       
-Prog|2025-12-05|fre|10:15|ProgLabb |D1.06|Val     |DAH       
-Prog|2025-12-05|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
-Prog|2025-12-05|fre|10:15|ProgLabb |XA1  |Ambulans|ALL       
-Prog|2025-12-05|fre|10:15|ProgLabb |XA2  |Ambulans|APR       
-Prog|2025-12-05|fre|10:15|ProgLabb |XA3  |Ambulans|JUG       
-Prog|2025-12-05|fre|13:15|ProgLabb |D1.08|Alfa    |MOJ       
-Prog|2025-12-05|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
-Prog|2025-12-05|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-12-05|fre|13:15|ProgLabb |D1.11|Gamma   |MOG       
-Prog|2025-12-05|fre|13:15|ProgLabb |D1.12|Hacke   |KAS       
-Prog|2025-12-05|fre|13:15|ProgLabb |D1.13|Val     |APR       
-Prog|2025-12-05|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       
-Prog|2025-12-05|fre|13:15|ProgLabb |XA1  |Ambulans|LIL       
-Prog|2025-12-05|fre|13:15|ProgLabb |XA2  |Ambulans|DAA       
-Prog|2025-12-05|fre|13:15|ProgLabb |XA3  |Ambulans|SAR       
-Prog|2025-12-05|fre|15:15|ProgLabb |C1.01|Alfa    |JOE       
-Prog|2025-12-05|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
-Prog|2025-12-05|fre|15:15|ProgLabb |C1.03|Falk    |MAB       
-Prog|2025-12-05|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
-Prog|2025-12-05|fre|15:15|ProgLabb |C1.05|Val     |HAE       
-Prog|2025-12-05|fre|15:15|ProgLabb |C1.06|Varg    |APR       
-Prog|2025-12-05|fre|15:15|ProgLabb |XA1  |Ambulans|AXF       
-Prog|2025-12-05|fre|15:15|ProgLabb |XA2  |Ambulans|LIL       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.01|Falk    |VIB       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.03|Val     |ASH       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.05|Elg     |DAG       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.07|Hacke   |SAJ       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.08|Panter  |WIS       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.09|Alfa    |MOJ       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.10|Beta    |NAK       
-Prog|2025-12-10|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
-Prog|2025-12-11|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-12-11|tor|13:15|Resurstid|C1.02|Hacke   |VIB       
-Prog|2025-12-11|tor|13:15|Resurstid|C1.03|Panter  |JUG       
-Prog|2025-12-11|tor|13:15|Resurstid|C1.04|Ravel   |ALL       
-Prog|2025-12-11|tor|13:15|Resurstid|C1.05|Val     |WIS       
-Prog|2025-12-11|tor|13:15|Resurstid|C1.06|Varg    |SAJ       
-Prog|2025-12-11|tor|13:15|Resurstid|D1.12|Alfa    |MAU       
-Prog|2025-12-11|tor|13:15|Resurstid|D1.13|Beta    |APR       
-Prog|2025-12-11|tor|13:15|Resurstid|D1.14|Gamma   |ELÅ       
-Prog|2025-12-12|fre|10:15|ProgLabb |D1.01|Alfa    |APR       
-Prog|2025-12-12|fre|10:15|ProgLabb |D1.02|Beta    |JUG       
-Prog|2025-12-12|fre|10:15|ProgLabb |D1.03|Falk    |WIS       
-Prog|2025-12-12|fre|10:15|ProgLabb |D1.04|Gamma   |DAA       
-Prog|2025-12-12|fre|10:15|ProgLabb |D1.05|Ravel   |DAG       
-Prog|2025-12-12|fre|10:15|ProgLabb |D1.06|Val     |DAH       
-Prog|2025-12-12|fre|10:15|ProgLabb |D1.07|Varg    |EDJ       
-Prog|2025-12-12|fre|10:15|ProgLabb |XA1  |Ambulans|HAE       
-Prog|2025-12-12|fre|10:15|ProgLabb |XA2  |Ambulans|VIB       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.08|Alfa    |SAR       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.09|Beta    |JOE       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.10|Falk    |NAK       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.11|Gamma   |MOG       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.12|Hacke   |MAU       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.13|Val     |SAJ       
-Prog|2025-12-12|fre|13:15|ProgLabb |D1.14|Varg    |ELÅ       
-Prog|2025-12-12|fre|13:15|ProgLabb |XA1  |Ambulans|MAB       
-Prog|2025-12-12|fre|13:15|ProgLabb |XA2  |Ambulans|LIL       
-Prog|2025-12-12|fre|13:15|ProgLabb |XA3  |Ambulans|EBF       
-Prog|2025-12-12|fre|15:15|ProgLabb |C1.01|Alfa    |SAR       
-Prog|2025-12-12|fre|15:15|ProgLabb |C1.02|Beta    |VIB       
-Prog|2025-12-12|fre|15:15|ProgLabb |C1.03|Falk    |ALL       
-Prog|2025-12-12|fre|15:15|ProgLabb |C1.04|Gamma   |KAS       
-Prog|2025-12-12|fre|15:15|ProgLabb |C1.05|Val     |HAE       
-Prog|2025-12-12|fre|15:15|ProgLabb |C1.06|Varg    |SAJ       
-Prog|2025-12-12|fre|15:15|ProgLabb |XA1  |Ambulans|MAB       
-Prog|2025-12-12|fre|15:15|ProgLabb |XA2  |Ambulans|JOE       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.01|Falk    |EBF       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.02|Ravel   |AXF       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.03|Val     |WIS       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.04|Varg    |DAA       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.05|Elg     |DAG       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.06|Elgkalv |DAH       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.07|Hacke   |EDJ       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.08|Panter  |MOJ       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.09|Alfa    |MEW       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.10|Beta    |NAK       
-Prog|2025-12-17|ons|13:15|Resurstid|D1.11|Gamma   |MOG       
-Prog|2025-12-18|tor|13:15|Resurstid|C1.01|Falk    |SAR       
-Prog|2025-12-18|tor|13:15|Resurstid|C1.02|Hacke   |VIB       
-Prog|2025-12-18|tor|13:15|Resurstid|C1.03|Panter  |JUG       
-Prog|2025-12-18|tor|13:15|Resurstid|C1.04|Ravel   |KAS       
-Prog|2025-12-18|tor|13:15|Resurstid|C1.05|Val     |HAE       
-Prog|2025-12-18|tor|13:15|Resurstid|C1.06|Varg    |SAJ       
-Prog|2025-12-18|tor|13:15|Resurstid|D1.12|Alfa    |MAU       
-Prog|2025-12-18|tor|13:15|Resurstid|D1.13|Beta    |EBF       
-Prog|2025-12-18|tor|13:15|Resurstid|D1.14|Gamma   |WIS       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.01|Elg     |ALL       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.04|Ravel   |FEA       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.10|Val     |JUA       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.11|Varg    |POS       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.13|Beta    |CLB       
+Prog|2026-09-02|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+Dod |2026-09-03|tor|10:15|DodLabb  |C1.01|Alfa    |MAK       
+Dod |2026-09-03|tor|10:15|DodLabb  |C1.02|Beta    |ALS       
+Dod |2026-09-03|tor|10:15|DodLabb  |C1.03|Gamma   |EDJ       
+Dod |2026-09-03|tor|10:15|DodLabb  |D1.05|Falk    |ALW       
+Dod |2026-09-03|tor|10:15|DodLabb  |D1.06|Val     |ANM       
+Dod |2026-09-03|tor|10:15|DodLabb  |D1.07|Varg    |ALL       
+Dod |2026-09-03|tor|10:15|DodLabb  |D1.08|Elg     |SAJ       
+Dod |2026-09-03|tor|10:15|DodLabb  |D1.09|Hacke   |ALA       
+Dod |2026-09-03|tor|10:15|DodLabb  |D1.10|Panter  |JUA       
+Dod |2026-09-03|tor|10:15|DodLabb  |D1.11|Ravel   |AXE       
+Prog|2026-09-03|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+Prog|2026-09-03|tor|13:15|Resurstid|D1.06|Beta    |ANM       
+Prog|2026-09-03|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-09-03|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
+Dod |2026-09-03|tor|13:15|DodLabb  |D1.01|Elgkalv |ALL       
+Dod |2026-09-03|tor|13:15|DodLabb  |D1.02|Hacke   |SAJ       
+Dod |2026-09-03|tor|13:15|DodLabb  |D1.03|Panter  |AXF       
+Dod |2026-09-03|tor|13:15|DodLabb  |D1.04|Ravel   |ANP       
+Prog|2026-09-03|tor|15:15|Resurstid|C1.01|Hacke   |MAK       
+Prog|2026-09-03|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-09-03|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
+Prog|2026-09-03|tor|15:15|Resurstid|C1.04|Falk    |CLB       
+Prog|2026-09-03|tor|15:15|Resurstid|C1.05|Val     |EDJ       
+Prog|2026-09-03|tor|15:15|Resurstid|C1.06|Varg    |WIS       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.01|Alfa    |ALL       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.04|Gamma   |POS       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.05|Hacke   |ALW       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.06|Val     |ANM       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.07|Varg    |NIM       
+Prog|2026-09-04|fre|10:15|ProgLabb |XA1  |Ambulans|WIS       
+Prog|2026-09-04|fre|10:15|ProgLabb |XA2  |Ambulans|EDJ       
+Prog|2026-09-04|fre|10:15|ProgLabb |XA3  |Ambulans|CLB       
+Dod |2026-09-04|fre|10:15|DodLabb  |D1.12|Elgkalv |ANP       
+Dod |2026-09-04|fre|10:15|DodLabb  |D1.13|Panter  |ALA       
+Dod |2026-09-04|fre|10:15|DodLabb  |D1.14|Ravel   |DAA       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.10|Falk    |MAC       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.11|Gamma   |AXE       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.13|Val     |VIB       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.14|Varg    |LIL       
+Prog|2026-09-04|fre|13:15|ProgLabb |XA1  |Ambulans|FEA       
+Prog|2026-09-04|fre|13:15|ProgLabb |XA2  |Ambulans|SOG       
+Prog|2026-09-04|fre|13:15|ProgLabb |XA3  |Ambulans|CLB       
+Dod |2026-09-04|fre|13:15|DodLabb  |C1.04|Elgkalv |ERW       
+Dod |2026-09-04|fre|13:15|DodLabb  |C1.05|Panter  |EDJ       
+Dod |2026-09-04|fre|13:15|DodLabb  |C1.06|Ravel   |WIS       
+Prog|2026-09-04|fre|15:15|ProgLabb |C1.01|Alfa    |MAK       
+Prog|2026-09-04|fre|15:15|ProgLabb |C1.02|Beta    |ALS       
+Prog|2026-09-04|fre|15:15|ProgLabb |C1.03|Falk    |VAB       
+Prog|2026-09-04|fre|15:15|ProgLabb |C1.04|Gamma   |ERW       
+Prog|2026-09-04|fre|15:15|ProgLabb |C1.05|Val     |EDJ       
+Prog|2026-09-04|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
+Prog|2026-09-04|fre|15:15|ProgLabb |XA1  |Ambulans|FEA       
+Prog|2026-09-04|fre|15:15|ProgLabb |XA2  |Ambulans|SOG       
+Prog|2026-09-04|fre|15:15|ProgLabb |XA3  |Ambulans|CLB       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.01|Elg     |ALL       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.10|Val     |JUA       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.11|Varg    |POS       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.13|Beta    |VIB       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+Dod |2026-09-10|tor|10:15|DodLabb  |C1.01|Alfa    |MAK       
+Dod |2026-09-10|tor|10:15|DodLabb  |C1.02|Beta    |ALS       
+Dod |2026-09-10|tor|10:15|DodLabb  |C1.03|Gamma   |AXE       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.05|Falk    |ALW       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.06|Val     |ANM       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.07|Varg    |MAF       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.08|Elg     |DAA       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.09|Hacke   |ALA       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.10|Panter  |JUA       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.11|Ravel   |MAC       
+Prog|2026-09-10|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+Prog|2026-09-10|tor|13:15|Resurstid|D1.06|Beta    |ANM       
+Prog|2026-09-10|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-09-10|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
+Dod |2026-09-10|tor|13:15|DodLabb  |D1.01|Elgkalv |LIL       
+Dod |2026-09-10|tor|13:15|DodLabb  |D1.02|Hacke   |SAJ       
+Dod |2026-09-10|tor|13:15|DodLabb  |D1.03|Panter  |AXF       
+Dod |2026-09-10|tor|13:15|DodLabb  |D1.04|Ravel   |MAF       
+Prog|2026-09-10|tor|15:15|Resurstid|C1.01|Hacke   |AXE       
+Prog|2026-09-10|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-09-10|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
+Prog|2026-09-10|tor|15:15|Resurstid|C1.04|Falk    |ERW       
+Prog|2026-09-10|tor|15:15|Resurstid|C1.05|Val     |EDJ       
+Prog|2026-09-10|tor|15:15|Resurstid|C1.06|Varg    |WIS       
+Dod |2026-09-11|fre|10:15|DodLabb  |D1.12|Elgkalv |ANP       
+Dod |2026-09-11|fre|10:15|DodLabb  |D1.13|Panter  |ALW       
+Dod |2026-09-11|fre|10:15|DodLabb  |D1.14|Ravel   |ARH       
+Dod |2026-09-11|fre|13:15|DodLabb  |C1.04|Elgkalv |SAJ       
+Dod |2026-09-11|fre|13:15|DodLabb  |C1.05|Panter  |EDJ       
+Dod |2026-09-11|fre|13:15|DodLabb  |C1.06|Ravel   |WIS       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.01|Elg     |ALL       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.10|Val     |JUA       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.11|Varg    |SOG       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.13|Beta    |VIB       
+Prog|2026-09-16|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+Prog|2026-09-17|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+Prog|2026-09-17|tor|13:15|Resurstid|D1.06|Beta    |ANM       
+Prog|2026-09-17|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-09-17|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
+Prog|2026-09-17|tor|15:15|Resurstid|C1.01|Hacke   |AXE       
+Prog|2026-09-17|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-09-17|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
+Prog|2026-09-17|tor|15:15|Resurstid|C1.04|Falk    |ERW       
+Prog|2026-09-17|tor|15:15|Resurstid|C1.05|Val     |EDJ       
+Prog|2026-09-17|tor|15:15|Resurstid|C1.06|Varg    |WIS       
+Prog|2026-09-18|fre|10:15|ProgLabb |D1.01|Alfa    |ALL       
+Prog|2026-09-18|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
+Prog|2026-09-18|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
+Prog|2026-09-18|fre|10:15|ProgLabb |D1.04|Gamma   |MAF       
+Prog|2026-09-18|fre|10:15|ProgLabb |D1.05|Hacke   |ALW       
+Prog|2026-09-18|fre|10:15|ProgLabb |D1.06|Val     |ANM       
+Prog|2026-09-18|fre|10:15|ProgLabb |D1.07|Varg    |NIM       
+Prog|2026-09-18|fre|10:15|ProgLabb |XA1  |Ambulans|FEA       
+Prog|2026-09-18|fre|10:15|ProgLabb |XA2  |Ambulans|POS       
+Prog|2026-09-18|fre|10:15|ProgLabb |XA3  |Ambulans|CLB       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.10|Falk    |JUA       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.11|Gamma   |POS       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.13|Val     |VIB       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.14|Varg    |EMM       
+Prog|2026-09-18|fre|13:15|ProgLabb |XA1  |Ambulans|FEA       
+Prog|2026-09-18|fre|13:15|ProgLabb |XA2  |Ambulans|SOG       
+Prog|2026-09-18|fre|13:15|ProgLabb |XA3  |Ambulans|CLB       
+Prog|2026-09-18|fre|15:15|ProgLabb |C1.01|Alfa    |MAK       
+Prog|2026-09-18|fre|15:15|ProgLabb |C1.02|Beta    |ALS       
+Prog|2026-09-18|fre|15:15|ProgLabb |C1.03|Falk    |VAB       
+Prog|2026-09-18|fre|15:15|ProgLabb |C1.04|Gamma   |ERW       
+Prog|2026-09-18|fre|15:15|ProgLabb |C1.05|Val     |EDJ       
+Prog|2026-09-18|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
+Prog|2026-09-18|fre|15:15|ProgLabb |XA1  |Ambulans|FEA       
+Prog|2026-09-18|fre|15:15|ProgLabb |XA2  |Ambulans|SOG       
+Prog|2026-09-18|fre|15:15|ProgLabb |XA3  |Ambulans|CLB       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.01|Elg     |ALL       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.10|Val     |JUA       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.11|Varg    |POS       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.13|Beta    |VIB       
+Prog|2026-09-23|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+Prog|2026-09-24|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+Prog|2026-09-24|tor|13:15|Resurstid|D1.06|Beta    |ANM       
+Prog|2026-09-24|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-09-24|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
+Prog|2026-09-24|tor|15:15|Resurstid|C1.01|Hacke   |MAC       
+Prog|2026-09-24|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-09-24|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
+Prog|2026-09-24|tor|15:15|Resurstid|C1.04|Falk    |ERW       
+Prog|2026-09-24|tor|15:15|Resurstid|C1.05|Val     |EDJ       
+Prog|2026-09-24|tor|15:15|Resurstid|C1.06|Varg    |WIS       
+Prog|2026-09-25|fre|10:15|ProgLabb |D1.01|Alfa    |ALL       
+Prog|2026-09-25|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
+Prog|2026-09-25|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
+Prog|2026-09-25|fre|10:15|ProgLabb |D1.04|Gamma   |MAF       
+Prog|2026-09-25|fre|10:15|ProgLabb |D1.05|Hacke   |ALW       
+Prog|2026-09-25|fre|10:15|ProgLabb |D1.06|Val     |ANM       
+Prog|2026-09-25|fre|10:15|ProgLabb |D1.07|Varg    |NIM       
+Prog|2026-09-25|fre|10:15|ProgLabb |XA1  |Ambulans|FEA       
+Prog|2026-09-25|fre|10:15|ProgLabb |XA2  |Ambulans|SOG       
+Prog|2026-09-25|fre|10:15|ProgLabb |XA3  |Ambulans|ERE       
+Prog|2026-09-25|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
+Prog|2026-09-25|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
+Prog|2026-09-25|fre|13:15|ProgLabb |D1.10|Falk    |JUA       
+Prog|2026-09-25|fre|13:15|ProgLabb |D1.11|Gamma   |AXE       
+Prog|2026-09-25|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+Prog|2026-09-25|fre|13:15|ProgLabb |D1.13|Val     |VIB       
+Prog|2026-09-25|fre|13:15|ProgLabb |D1.14|Varg    |ARH       
+Prog|2026-09-25|fre|13:15|ProgLabb |XA1  |Ambulans|MAC       
+Prog|2026-09-25|fre|13:15|ProgLabb |XA2  |Ambulans|SOG       
+Prog|2026-09-25|fre|13:15|ProgLabb |XA3  |Ambulans|ERE       
+Prog|2026-09-25|fre|15:15|ProgLabb |C1.01|Alfa    |MAK       
+Prog|2026-09-25|fre|15:15|ProgLabb |C1.02|Beta    |ALS       
+Prog|2026-09-25|fre|15:15|ProgLabb |C1.03|Falk    |VAB       
+Prog|2026-09-25|fre|15:15|ProgLabb |C1.04|Gamma   |ERW       
+Prog|2026-09-25|fre|15:15|ProgLabb |C1.05|Val     |EDJ       
+Prog|2026-09-25|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
+Prog|2026-09-25|fre|15:15|ProgLabb |XA1  |Ambulans|ERE       
+Prog|2026-09-25|fre|15:15|ProgLabb |XA2  |Ambulans|MAC       
+Prog|2026-09-25|fre|15:15|ProgLabb |XA3  |Ambulans|AXE       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.01|Elg     |ALL       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.10|Val     |JUA       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.11|Varg    |POS       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.13|Beta    |VIB       
+Prog|2026-09-30|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+Prog|2026-10-01|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+Prog|2026-10-01|tor|13:15|Resurstid|D1.06|Beta    |ANM       
+Prog|2026-10-01|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-10-01|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
+Prog|2026-10-01|tor|15:15|Resurstid|C1.01|Hacke   |ERE       
+Prog|2026-10-01|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-10-01|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
+Prog|2026-10-01|tor|15:15|Resurstid|C1.04|Falk    |ERW       
+Prog|2026-10-01|tor|15:15|Resurstid|C1.05|Val     |EDJ       
+Prog|2026-10-01|tor|15:15|Resurstid|C1.06|Varg    |WIS       
+Prog|2026-10-02|fre|10:15|ProgLabb |D1.01|Alfa    |ALL       
+Prog|2026-10-02|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
+Prog|2026-10-02|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
+Prog|2026-10-02|fre|10:15|ProgLabb |D1.04|Gamma   |MAF       
+Prog|2026-10-02|fre|10:15|ProgLabb |D1.05|Hacke   |ALW       
+Prog|2026-10-02|fre|10:15|ProgLabb |D1.06|Val     |ANM       
+Prog|2026-10-02|fre|10:15|ProgLabb |D1.07|Varg    |NIM       
+Prog|2026-10-02|fre|10:15|ProgLabb |XA1  |Ambulans|JUA       
+Prog|2026-10-02|fre|10:15|ProgLabb |XA2  |Ambulans|EDJ       
+Prog|2026-10-02|fre|10:15|ProgLabb |XA3  |Ambulans|ANP       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.10|Falk    |JUA       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.11|Gamma   |AXE       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.13|Val     |VIB       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.14|Varg    |ERE       
+Prog|2026-10-02|fre|13:15|ProgLabb |XA1  |Ambulans|ALS       
+Prog|2026-10-02|fre|13:15|ProgLabb |XA2  |Ambulans|SAJ       
+Prog|2026-10-02|fre|13:15|ProgLabb |XA3  |Ambulans|AXF       
+Prog|2026-10-02|fre|15:15|ProgLabb |C1.01|Alfa    |MAK       
+Prog|2026-10-02|fre|15:15|ProgLabb |C1.02|Beta    |ALS       
+Prog|2026-10-02|fre|15:15|ProgLabb |C1.03|Falk    |VAB       
+Prog|2026-10-02|fre|15:15|ProgLabb |C1.04|Gamma   |ERW       
+Prog|2026-10-02|fre|15:15|ProgLabb |C1.05|Val     |EDJ       
+Prog|2026-10-02|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
+Prog|2026-10-02|fre|15:15|ProgLabb |XA1  |Ambulans|AXE       
+Prog|2026-10-02|fre|15:15|ProgLabb |XA2  |Ambulans|EMM       
+Prog|2026-10-02|fre|15:15|ProgLabb |XA3  |Ambulans|ARH       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.01|Elg     |ALL       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.10|Val     |JUA       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.11|Varg    |EMM       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.13|Beta    |VIB       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+Prog|2026-10-08|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+Prog|2026-10-08|tor|13:15|Resurstid|D1.06|Beta    |ANM       
+Prog|2026-10-08|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-10-08|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
+Prog|2026-10-08|tor|15:15|Resurstid|C1.01|Hacke   |ARH       
+Prog|2026-10-08|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-10-08|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
+Prog|2026-10-08|tor|15:15|Resurstid|C1.04|Falk    |ERW       
+Prog|2026-10-08|tor|15:15|Resurstid|C1.05|Val     |EDJ       
+Prog|2026-10-08|tor|15:15|Resurstid|C1.06|Varg    |WIS       
+Prog|2026-10-09|fre|10:15|ProgLabb |D1.01|Alfa    |ALL       
+Prog|2026-10-09|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
+Prog|2026-10-09|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
+Prog|2026-10-09|fre|10:15|ProgLabb |D1.04|Gamma   |MAF       
+Prog|2026-10-09|fre|10:15|ProgLabb |D1.05|Hacke   |ALW       
+Prog|2026-10-09|fre|10:15|ProgLabb |D1.06|Val     |ANM       
+Prog|2026-10-09|fre|10:15|ProgLabb |D1.07|Varg    |NIM       
+Prog|2026-10-09|fre|10:15|ProgLabb |XA1  |Ambulans|MAC       
+Prog|2026-10-09|fre|10:15|ProgLabb |XA2  |Ambulans|ERE       
+Prog|2026-10-09|fre|10:15|ProgLabb |XA3  |Ambulans|POS       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.10|Falk    |ARH       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.11|Gamma   |POS       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.13|Val     |VIB       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.14|Varg    |EMM       
+Prog|2026-10-09|fre|13:15|ProgLabb |XA1  |Ambulans|MAC       
+Prog|2026-10-09|fre|13:15|ProgLabb |XA2  |Ambulans|ERE       
+Prog|2026-10-09|fre|13:15|ProgLabb |XA3  |Ambulans|VAB       
+Prog|2026-10-09|fre|15:15|ProgLabb |C1.01|Alfa    |MAK       
+Prog|2026-10-09|fre|15:15|ProgLabb |C1.02|Beta    |ALS       
+Prog|2026-10-09|fre|15:15|ProgLabb |C1.03|Falk    |VAB       
+Prog|2026-10-09|fre|15:15|ProgLabb |C1.04|Gamma   |ERW       
+Prog|2026-10-09|fre|15:15|ProgLabb |C1.05|Val     |EDJ       
+Prog|2026-10-09|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
+Prog|2026-10-09|fre|15:15|ProgLabb |XA1  |Ambulans|MAC       
+Prog|2026-10-09|fre|15:15|ProgLabb |XA2  |Ambulans|EMM       
+Prog|2026-10-09|fre|15:15|ProgLabb |XA3  |Ambulans|ERE       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.01|Elg     |ALL       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.10|Val     |JUA       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.11|Varg    |POS       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.13|Beta    |VIB       
+Prog|2026-10-14|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+Prog|2026-10-15|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+Prog|2026-10-15|tor|13:15|Resurstid|D1.06|Beta    |ANM       
+Prog|2026-10-15|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-10-15|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
+Prog|2026-10-15|tor|15:15|Resurstid|C1.01|Hacke   |ARH       
+Prog|2026-10-15|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-10-15|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
+Prog|2026-10-15|tor|15:15|Resurstid|C1.04|Falk    |ERW       
+Prog|2026-10-15|tor|15:15|Resurstid|C1.05|Val     |EDJ       
+Prog|2026-10-15|tor|15:15|Resurstid|C1.06|Varg    |WIS       
+Prog|2026-10-16|fre|10:15|ProgLabb |D1.01|Alfa    |ALL       
+Prog|2026-10-16|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
+Prog|2026-10-16|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
+Prog|2026-10-16|fre|10:15|ProgLabb |D1.04|Gamma   |MAF       
+Prog|2026-10-16|fre|10:15|ProgLabb |D1.05|Hacke   |ALW       
+Prog|2026-10-16|fre|10:15|ProgLabb |D1.06|Val     |ANM       
+Prog|2026-10-16|fre|10:15|ProgLabb |D1.07|Varg    |NIM       
+Prog|2026-10-16|fre|10:15|ProgLabb |XA1  |Ambulans|EMM       
+Prog|2026-10-16|fre|10:15|ProgLabb |XA2  |Ambulans|ARH       
+Prog|2026-10-16|fre|10:15|ProgLabb |XA3  |Ambulans|VIB       
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.10|Falk    |JUA       
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.11|Gamma   |POS       
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.13|Val     |VIB       
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.14|Varg    |ARH       
+Prog|2026-10-16|fre|13:15|ProgLabb |XA1  |Ambulans|ERE       
+Prog|2026-10-16|fre|13:15|ProgLabb |XA2  |Ambulans|MAF       
+Prog|2026-10-16|fre|13:15|ProgLabb |XA3  |Ambulans|VAB       
+Prog|2026-10-16|fre|15:15|ProgLabb |C1.01|Alfa    |MAK       
+Prog|2026-10-16|fre|15:15|ProgLabb |C1.02|Beta    |EMM       
+Prog|2026-10-16|fre|15:15|ProgLabb |C1.03|Falk    |VAB       
+Prog|2026-10-16|fre|15:15|ProgLabb |C1.04|Gamma   |ERW       
+Prog|2026-10-16|fre|15:15|ProgLabb |C1.05|Val     |EDJ       
+Prog|2026-10-16|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
+Prog|2026-10-16|fre|15:15|ProgLabb |XA1  |Ambulans|ARH       
+Prog|2026-10-16|fre|15:15|ProgLabb |XA2  |Ambulans|JUA       
+Prog|2026-10-16|fre|15:15|ProgLabb |XA3  |Ambulans|SAJ       
 """.trim.split('\n').toSeq

@@ -54,7 +54,7 @@ Prog|2026-09-04|fre|13:15|ProgLabb |D1.08|Alfa    |DAA
 Prog|2026-09-04|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
 Prog|2026-09-04|fre|13:15|ProgLabb |D1.10|Falk    |MAC       
 Prog|2026-09-04|fre|13:15|ProgLabb |D1.11|Gamma   |AXE       
-Prog|2026-09-04|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+Prog|2026-09-04|fre|13:15|ProgLabb |D1.12|Hacke   |AXF       
 Prog|2026-09-04|fre|13:15|ProgLabb |D1.13|Val     |VIB       
 Prog|2026-09-04|fre|13:15|ProgLabb |D1.14|Varg    |LIL       
 Prog|2026-09-04|fre|13:15|ProgLabb |XA1  |Ambulans|FEA       
@@ -74,7 +74,7 @@ Prog|2026-09-04|fre|15:15|ProgLabb |XA2  |Ambulans|SOG
 Prog|2026-09-04|fre|15:15|ProgLabb |XA3  |Ambulans|CLB       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.01|Elg     |ALL       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
-Prog|2026-09-09|ons|15:15|Resurstid|D1.03|Panter  |AXF       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.03|Panter  |ANM       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.09|Falk    |ALA       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.10|Val     |JUA       
@@ -86,7 +86,7 @@ Dod |2026-09-10|tor|10:15|DodLabb  |C1.01|Alfa    |MAK
 Dod |2026-09-10|tor|10:15|DodLabb  |C1.02|Beta    |ALS       
 Dod |2026-09-10|tor|10:15|DodLabb  |C1.03|Gamma   |AXE       
 Dod |2026-09-10|tor|10:15|DodLabb  |D1.05|Falk    |ALW       
-Dod |2026-09-10|tor|10:15|DodLabb  |D1.06|Val     |ANM       
+Dod |2026-09-10|tor|10:15|DodLabb  |D1.06|Val     |AXF       
 Dod |2026-09-10|tor|10:15|DodLabb  |D1.07|Varg    |MAF       
 Dod |2026-09-10|tor|10:15|DodLabb  |D1.08|Elg     |DAA       
 Dod |2026-09-10|tor|10:15|DodLabb  |D1.09|Hacke   |ALA       
@@ -98,7 +98,7 @@ Prog|2026-09-10|tor|13:15|Resurstid|D1.07|Elg     |NIM
 Prog|2026-09-10|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
 Dod |2026-09-10|tor|13:15|DodLabb  |D1.01|Elgkalv |LIL       
 Dod |2026-09-10|tor|13:15|DodLabb  |D1.02|Hacke   |SAJ       
-Dod |2026-09-10|tor|13:15|DodLabb  |D1.03|Panter  |AXF       
+Dod |2026-09-10|tor|13:15|DodLabb  |D1.03|Panter  |ANP       
 Dod |2026-09-10|tor|13:15|DodLabb  |D1.04|Ravel   |MAF       
 Prog|2026-09-10|tor|15:15|Resurstid|C1.01|Hacke   |AXE       
 Prog|2026-09-10|tor|15:15|Resurstid|C1.02|Panter  |ALS       

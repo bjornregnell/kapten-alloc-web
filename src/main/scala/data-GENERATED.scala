@@ -25,7 +25,7 @@ Dod |2026-09-03|tor|10:15|DodLabb  |D1.10|Panter  |JUA
 Dod |2026-09-03|tor|10:15|DodLabb  |D1.11|Ravel   |AXE       
 Prog|2026-09-03|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
 Prog|2026-09-03|tor|13:15|Resurstid|D1.06|Beta    |ANM       
-Prog|2026-09-03|tor|13:15|Resurstid|D1.07|Elg     |NIM       
+Prog|2026-09-03|tor|13:15|Resurstid|D1.07|Elg     |ERE       
 Prog|2026-09-03|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
 Dod |2026-09-03|tor|13:15|DodLabb  |D1.01|Elgkalv |ALL       
 Dod |2026-09-03|tor|13:15|DodLabb  |D1.02|Hacke   |SAJ       
@@ -43,7 +43,7 @@ Prog|2026-09-04|fre|10:15|ProgLabb |D1.03|Falk    |AXF
 Prog|2026-09-04|fre|10:15|ProgLabb |D1.04|Gamma   |POS       
 Prog|2026-09-04|fre|10:15|ProgLabb |D1.05|Hacke   |ALW       
 Prog|2026-09-04|fre|10:15|ProgLabb |D1.06|Val     |ANM       
-Prog|2026-09-04|fre|10:15|ProgLabb |D1.07|Varg    |NIM       
+Prog|2026-09-04|fre|10:15|ProgLabb |D1.07|Varg    |???       
 Prog|2026-09-04|fre|10:15|ProgLabb |XA1  |Ambulans|WIS       
 Prog|2026-09-04|fre|10:15|ProgLabb |XA2  |Ambulans|EDJ       
 Prog|2026-09-04|fre|10:15|ProgLabb |XA3  |Ambulans|CLB       
@@ -65,7 +65,7 @@ Dod |2026-09-04|fre|13:15|DodLabb  |C1.05|Panter  |EDJ
 Dod |2026-09-04|fre|13:15|DodLabb  |C1.06|Ravel   |WIS       
 Prog|2026-09-04|fre|15:15|ProgLabb |C1.01|Alfa    |MAK       
 Prog|2026-09-04|fre|15:15|ProgLabb |C1.02|Beta    |ALS       
-Prog|2026-09-04|fre|15:15|ProgLabb |C1.03|Falk    |VAB       
+Prog|2026-09-04|fre|15:15|ProgLabb |C1.03|Falk    |???       
 Prog|2026-09-04|fre|15:15|ProgLabb |C1.04|Gamma   |ERW       
 Prog|2026-09-04|fre|15:15|ProgLabb |C1.05|Val     |EDJ       
 Prog|2026-09-04|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
@@ -73,7 +73,7 @@ Prog|2026-09-04|fre|15:15|ProgLabb |XA1  |Ambulans|FEA
 Prog|2026-09-04|fre|15:15|ProgLabb |XA2  |Ambulans|SOG       
 Prog|2026-09-04|fre|15:15|ProgLabb |XA3  |Ambulans|CLB       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.01|Elg     |ALL       
-Prog|2026-09-09|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
+Prog|2026-09-09|ons|15:15|Resurstid|D1.02|Hacke   |DAA       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.03|Panter  |ANM       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
 Prog|2026-09-09|ons|15:15|Resurstid|D1.09|Falk    |ALA       
@@ -142,7 +142,7 @@ Prog|2026-09-18|fre|10:15|ProgLabb |D1.07|Varg    |NIM
 Prog|2026-09-18|fre|10:15|ProgLabb |XA1  |Ambulans|FEA       
 Prog|2026-09-18|fre|10:15|ProgLabb |XA2  |Ambulans|POS       
 Prog|2026-09-18|fre|10:15|ProgLabb |XA3  |Ambulans|CLB       
-Prog|2026-09-18|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
+Prog|2026-09-18|fre|13:15|ProgLabb |D1.08|Alfa    |SAJ       
 Prog|2026-09-18|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
 Prog|2026-09-18|fre|13:15|ProgLabb |D1.10|Falk    |JUA       
 Prog|2026-09-18|fre|13:15|ProgLabb |D1.11|Gamma   |POS       
@@ -224,7 +224,7 @@ Prog|2026-10-01|tor|13:15|Resurstid|D1.05|Alfa    |ALW
 Prog|2026-10-01|tor|13:15|Resurstid|D1.06|Beta    |ANM       
 Prog|2026-10-01|tor|13:15|Resurstid|D1.07|Elg     |NIM       
 Prog|2026-10-01|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
-Prog|2026-10-01|tor|15:15|Resurstid|C1.01|Hacke   |ERE       
+Prog|2026-10-01|tor|15:15|Resurstid|C1.01|Hacke   |NIM       
 Prog|2026-10-01|tor|15:15|Resurstid|C1.02|Panter  |ALS       
 Prog|2026-10-01|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
 Prog|2026-10-01|tor|15:15|Resurstid|C1.04|Falk    |ERW       
@@ -246,7 +246,7 @@ Prog|2026-10-02|fre|13:15|ProgLabb |D1.10|Falk    |JUA
 Prog|2026-10-02|fre|13:15|ProgLabb |D1.11|Gamma   |AXE       
 Prog|2026-10-02|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
 Prog|2026-10-02|fre|13:15|ProgLabb |D1.13|Val     |VIB       
-Prog|2026-10-02|fre|13:15|ProgLabb |D1.14|Varg    |ERE       
+Prog|2026-10-02|fre|13:15|ProgLabb |D1.14|Varg    |NIM       
 Prog|2026-10-02|fre|13:15|ProgLabb |XA1  |Ambulans|ALS       
 Prog|2026-10-02|fre|13:15|ProgLabb |XA2  |Ambulans|SAJ       
 Prog|2026-10-02|fre|13:15|ProgLabb |XA3  |Ambulans|AXF       

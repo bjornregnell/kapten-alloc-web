@@ -171,7 +171,11 @@ Prog|2026-09-23|ons|15:15|Resurstid|D1.11|Varg    |POS
 Prog|2026-09-23|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
 Prog|2026-09-23|ons|15:15|Resurstid|D1.13|Beta    |VIB       
 Prog|2026-09-23|ons|15:15|Resurstid|D1.14|Gamma   |LIL       
+<<<<<<< HEAD
 Prog|2026-09-24|tor|13:15|Resurstid|D1.05|Alfa    |ANP       
+=======
+Prog|2026-09-24|tor|13:15|Resurstid|D1.05|Alfa    |ALW       
+>>>>>>> f167d19d6014106d92432d3e8aeecb67781abdb0
 Prog|2026-09-24|tor|13:15|Resurstid|D1.06|Beta    |ANM       
 Prog|2026-09-24|tor|13:15|Resurstid|D1.07|Elg     |NIM       
 Prog|2026-09-24|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
@@ -342,7 +346,11 @@ Prog|2026-10-16|fre|13:15|ProgLabb |D1.08|Alfa    |DAA
 Prog|2026-10-16|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
 Prog|2026-10-16|fre|13:15|ProgLabb |D1.10|Falk    |JUA       
 Prog|2026-10-16|fre|13:15|ProgLabb |D1.11|Gamma   |POS       
+<<<<<<< HEAD
 Prog|2026-10-16|fre|13:15|ProgLabb |D1.12|Hacke   |ALW       
+=======
+Prog|2026-10-16|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
+>>>>>>> f167d19d6014106d92432d3e8aeecb67781abdb0
 Prog|2026-10-16|fre|13:15|ProgLabb |D1.13|Val     |VIB       
 Prog|2026-10-16|fre|13:15|ProgLabb |D1.14|Varg    |ARH       
 Prog|2026-10-16|fre|13:15|ProgLabb |XA1  |Ambulans|ERE       

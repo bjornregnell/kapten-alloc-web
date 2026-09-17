@@ -16,6 +16,7 @@ object TimeEdit:
         "GET",
         url
       )
+      request.withCredentials = true
       request.onload = _ => onLoad(request)
       request.onerror = _ => onError(request)
       request.send()

@@ -11,6 +11,8 @@ import java.time.temporal.WeekFields
 val StartOfPeriod = Date("2025-11-03")
 val EndOfPeriod   = Date("2025-12-19")
 
+val isCheckLiveTimeEdit = false
+
 val timeEditScheduleUrl = 
   "https://cloud.timeedit.net/lu/web/lth1/ri19566250000YQQ28Z0507007y9Y4763gQ0g5X6Y65ZQ176.csv"
 
@@ -235,10 +237,13 @@ def addDiscrepancyPanel(discrepancies: Set[String]) =
   document.body.prepend(container)
 
 def addTimeEditFailPanel() = 
-  val container = document.createElement("div").asInstanceOf[dom.html.Div]
-  container.id = "timeEditFailPanel"
-  container.innerHTML = "TimeEdit i molnet svara inte just nu - KaptenAlloc kör med tidigare sparad data"
-  document.body.prepend(container)
+  if isCheckLiveTimeEdit then
+    val container = document.createElement("div").asInstanceOf[dom.html.Div]
+    container.id = "timeEditFailPanel"
+    container.innerHTML = "TimeEdit i molnet svara inte just nu - KaptenAlloc kör med tidigare sparad data"
+    document.body.prepend(container)
+  else 
+    ()
 
 // TODO: Give name to file based on if room, group or any field always are the same
 /** Creates file with given content, name and presents it as a download to the user */

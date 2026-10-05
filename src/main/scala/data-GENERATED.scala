@@ -263,7 +263,7 @@ Prog|2026-10-07|ons|15:15|Resurstid|D1.01|Elg     |ALL
 Prog|2026-10-07|ons|15:15|Resurstid|D1.02|Hacke   |SAJ       
 Prog|2026-10-07|ons|15:15|Resurstid|D1.03|Panter  |AXF       
 Prog|2026-10-07|ons|15:15|Resurstid|D1.04|Ravel   |MAF       
-Prog|2026-10-07|ons|15:15|Resurstid|D1.09|Falk    |ALA       
+Prog|2026-10-07|ons|15:15|Resurstid|D1.09|Falk    |ALS       
 Prog|2026-10-07|ons|15:15|Resurstid|D1.10|Val     |JUA       
 Prog|2026-10-07|ons|15:15|Resurstid|D1.11|Varg    |EMM       
 Prog|2026-10-07|ons|15:15|Resurstid|D1.12|Alfa    |ANP       
@@ -323,7 +323,7 @@ Prog|2026-10-15|tor|13:15|Resurstid|D1.06|Beta    |ANM
 Prog|2026-10-15|tor|13:15|Resurstid|D1.07|Elg     |NIM       
 Prog|2026-10-15|tor|13:15|Resurstid|D1.08|Gamma   |DAA       
 Prog|2026-10-15|tor|15:15|Resurstid|C1.01|Hacke   |ARH       
-Prog|2026-10-15|tor|15:15|Resurstid|C1.02|Panter  |ALS       
+Prog|2026-10-15|tor|15:15|Resurstid|C1.02|Panter  |ALA       
 Prog|2026-10-15|tor|15:15|Resurstid|C1.03|Ravel   |VAB       
 Prog|2026-10-15|tor|15:15|Resurstid|C1.04|Falk    |ERW       
 Prog|2026-10-15|tor|15:15|Resurstid|C1.05|Val     |EDJ       

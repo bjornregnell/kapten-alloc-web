@@ -290,7 +290,7 @@ Prog|2026-10-09|fre|10:15|ProgLabb |XA1  |Ambulans|MAC
 Prog|2026-10-09|fre|10:15|ProgLabb |XA2  |Ambulans|ERE       
 Prog|2026-10-09|fre|10:15|ProgLabb |XA3  |Ambulans|POS       
 Prog|2026-10-09|fre|13:15|ProgLabb |D1.08|Alfa    |DAA       
-Prog|2026-10-09|fre|13:15|ProgLabb |D1.09|Beta    |ALA       
+Prog|2026-10-09|fre|13:15|ProgLabb |D1.09|Beta    |SAJ       
 Prog|2026-10-09|fre|13:15|ProgLabb |D1.10|Falk    |ARH       
 Prog|2026-10-09|fre|13:15|ProgLabb |D1.11|Gamma   |POS       
 Prog|2026-10-09|fre|13:15|ProgLabb |D1.12|Hacke   |ANP       
@@ -356,5 +356,5 @@ Prog|2026-10-16|fre|15:15|ProgLabb |C1.05|Val     |EDJ
 Prog|2026-10-16|fre|15:15|ProgLabb |C1.06|Varg    |WIS       
 Prog|2026-10-16|fre|15:15|ProgLabb |XA1  |Ambulans|ARH       
 Prog|2026-10-16|fre|15:15|ProgLabb |XA2  |Ambulans|JUA       
-Prog|2026-10-16|fre|15:15|ProgLabb |XA3  |Ambulans|SAJ       
+Prog|2026-10-16|fre|15:15|ProgLabb |XA3  |Ambulans|ALA       
 """.trim.split('\n').toSeq

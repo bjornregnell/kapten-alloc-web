@@ -328,9 +328,9 @@ Prog|2026-10-15|tor|15:15|Resurstid|C1.03|Ravel   |VAB
 Prog|2026-10-15|tor|15:15|Resurstid|C1.04|Falk    |ERW       
 Prog|2026-10-15|tor|15:15|Resurstid|C1.05|Val     |EDJ       
 Prog|2026-10-15|tor|15:15|Resurstid|C1.06|Varg    |WIS       
-Dod |2026-10-16|fre|8:15 |DodLabb  |D1.C1|Ambulans|ALL       
-Dod |2026-10-16|fre|8:15 |DodLabb  |C1.D1|Ambulans|ALW       
-Dod |2026-10-16|fre|8:15 |DodLabb  |C1+D1|Ambulans|AXE       
+Dod |2026-10-16|fre|8:15 |DodLabb  |D1.01|Ambulans|ALL       
+Dod |2026-10-16|fre|8:15 |DodLabb  |C1.01|Ambulans|ALW       
+Dod |2026-10-16|fre|8:15 |DodLabb  |D1.02|Ambulans|AXE       
 Prog|2026-10-16|fre|10:15|ProgLabb |D1.01|Alfa    |ALL       
 Prog|2026-10-16|fre|10:15|ProgLabb |D1.02|Beta    |SAJ       
 Prog|2026-10-16|fre|10:15|ProgLabb |D1.03|Falk    |AXF       

@@ -286,7 +286,7 @@ Prog|2026-12-09|ons|13:15|Resurstid|D1.03|Val     |AXF
 Prog|2026-12-09|ons|13:15|Resurstid|D1.04|Varg    |VIB       
 Prog|2026-12-09|ons|13:15|Resurstid|D1.05|Elg     |AXE       
 Prog|2026-12-09|ons|13:15|Resurstid|D1.06|Elgkalv |MAF       
-Prog|2026-12-09|ons|13:15|Resurstid|D1.07|Hacke   |ZZZ       
+Prog|2026-12-09|ons|13:15|Resurstid|D1.07|Hacke   |ANP       
 Prog|2026-12-09|ons|13:15|Resurstid|D1.08|Panter  |SAJ       
 Prog|2026-12-09|ons|13:15|Resurstid|D1.09|Alfa    |ALS       
 Prog|2026-12-09|ons|13:15|Resurstid|D1.10|Beta    |MAK       

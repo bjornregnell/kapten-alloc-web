@@ -25,7 +25,7 @@ Prog|2026-11-05|tor|13:15|Resurstid|C1.04|Ravel   |ALW
 Prog|2026-11-05|tor|13:15|Resurstid|C1.05|Val     |ANP       
 Prog|2026-11-05|tor|13:15|Resurstid|C1.06|Varg    |ALL       
 Prog|2026-11-05|tor|13:15|Resurstid|D1.12|Alfa    |ANM       
-Prog|2026-11-05|tor|13:15|Resurstid|D1.13|Beta    |VAB       
+Prog|2026-11-05|tor|13:15|Resurstid|D1.13|Beta    |ALA       
 Prog|2026-11-05|tor|13:15|Resurstid|D1.14|Gamma   |WIS       
 Dod |2026-11-06|fre|08:15|DodLabb  |D1.01|Jupiter |ALS       
 Dod |2026-11-06|fre|08:15|DodLabb  |D1.02|Mars    |SOG       
@@ -326,7 +326,7 @@ Prog|2026-12-11|fre|15:15|ProgLabb |C1.04|Gamma   |ALW
 Prog|2026-12-11|fre|15:15|ProgLabb |C1.05|Val     |ANP       
 Prog|2026-12-11|fre|15:15|ProgLabb |C1.06|Varg    |ALL       
 Prog|2026-12-11|fre|15:15|ProgLabb |XA1  |Ambulans|EMM       
-Prog|2026-12-11|fre|15:15|ProgLabb |XA2  |Ambulans|ALA       
+Prog|2026-12-11|fre|15:15|ProgLabb |XA2  |Ambulans|VAB       
 Prog|2026-12-11|fre|15:15|ProgLabb |XA3  |Ambulans|SOG       
 Prog|2026-12-16|ons|13:15|Resurstid|D1.01|Falk    |JUA       
 Prog|2026-12-16|ons|13:15|Resurstid|D1.02|Ravel   |SOG       

@@ -34,7 +34,7 @@ Dod |2026-11-06|fre|08:15|DodLabb  |D1.04|Venus   |SAJ
 Dod |2026-11-06|fre|08:15|DodLabb  |D1.05|Falk    |AXE       
 Dod |2026-11-06|fre|08:15|DodLabb  |D1.06|Val     |ALW       
 Dod |2026-11-06|fre|08:15|DodLabb  |D1.07|Varg    |ALA       
-Prog|2026-11-06|fre|10:15|ProgLabb |D1.01|Alfa    |ARH       
+Prog|2026-11-06|fre|10:15|ProgLabb |D1.01|Alfa    |???       
 Prog|2026-11-06|fre|10:15|ProgLabb |D1.02|Beta    |SOG       
 Prog|2026-11-06|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
 Prog|2026-11-06|fre|10:15|ProgLabb |D1.04|Gamma   |VIB       
@@ -162,7 +162,7 @@ Prog|2026-11-20|fre|10:15|ProgLabb |D1.04|Gamma   |VIB
 Prog|2026-11-20|fre|10:15|ProgLabb |D1.05|Ravel   |ARH       
 Prog|2026-11-20|fre|10:15|ProgLabb |D1.06|Val     |ERE       
 Prog|2026-11-20|fre|10:15|ProgLabb |D1.07|Varg    |EMM       
-Prog|2026-11-20|fre|10:15|ProgLabb |XA1  |Ambulans|ANM       
+Prog|2026-11-20|fre|10:15|ProgLabb |XA1  |Ambulans|ALL       
 Prog|2026-11-20|fre|10:15|ProgLabb |XA2  |Ambulans|WIS       
 Prog|2026-11-20|fre|10:15|ProgLabb |XA3  |Ambulans|VAB       
 Prog|2026-11-20|fre|13:15|ProgLabb |D1.08|Alfa    |SAJ       
@@ -208,7 +208,7 @@ Prog|2026-11-27|fre|10:15|ProgLabb |D1.01|Alfa    |JUA
 Prog|2026-11-27|fre|10:15|ProgLabb |D1.02|Beta    |VAB       
 Prog|2026-11-27|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
 Prog|2026-11-27|fre|10:15|ProgLabb |D1.04|Gamma   |VIB       
-Prog|2026-11-27|fre|10:15|ProgLabb |D1.05|Ravel   |ANM       
+Prog|2026-11-27|fre|10:15|ProgLabb |D1.05|Ravel   |ERE       
 Prog|2026-11-27|fre|10:15|ProgLabb |D1.06|Val     |ALW       
 Prog|2026-11-27|fre|10:15|ProgLabb |D1.07|Varg    |WIS       
 Prog|2026-11-27|fre|10:15|ProgLabb |XA1  |Ambulans|ALL       
@@ -223,11 +223,11 @@ Prog|2026-11-27|fre|13:15|ProgLabb |XA1  |Ambulans|AXE
 Prog|2026-11-27|fre|13:15|ProgLabb |XA2  |Ambulans|SOG       
 Prog|2026-11-27|fre|13:15|ProgLabb |XA3  |Ambulans|ERW       
 Prog|2026-11-27|fre|15:15|ProgLabb |C1.01|Alfa    |LIL       
-Prog|2026-11-27|fre|15:15|ProgLabb |C1.02|Beta    |ERE       
+Prog|2026-11-27|fre|15:15|ProgLabb |C1.02|Beta    |ANM       
 Prog|2026-11-27|fre|15:15|ProgLabb |C1.03|Falk    |EDJ       
 Prog|2026-11-27|fre|15:15|ProgLabb |C1.04|Gamma   |ALW       
 Prog|2026-11-27|fre|15:15|ProgLabb |C1.05|Val     |ANP       
-Prog|2026-11-27|fre|15:15|ProgLabb |C1.06|Varg    |ALL       
+Prog|2026-11-27|fre|15:15|ProgLabb |C1.06|Varg    |ANM       
 Prog|2026-11-27|fre|15:15|ProgLabb |XA1  |Ambulans|ARH       
 Prog|2026-11-27|fre|15:15|ProgLabb |XA2  |Ambulans|EMM       
 Prog|2026-11-27|fre|15:15|ProgLabb |XA3  |Ambulans|ERW       

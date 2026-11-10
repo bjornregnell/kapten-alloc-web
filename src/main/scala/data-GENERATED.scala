@@ -180,7 +180,7 @@ Prog|2026-11-20|fre|15:15|ProgLabb |C1.02|Beta    |ERE
 Prog|2026-11-20|fre|15:15|ProgLabb |C1.03|Falk    |EDJ       
 Prog|2026-11-20|fre|15:15|ProgLabb |C1.04|Gamma   |ALW       
 Prog|2026-11-20|fre|15:15|ProgLabb |C1.05|Val     |VAB       
-Prog|2026-11-20|fre|15:15|ProgLabb |C1.06|Varg    |ALL       
+Prog|2026-11-20|fre|15:15|ProgLabb |C1.06|Varg    |ANM       
 Prog|2026-11-20|fre|15:15|ProgLabb |XA1  |Ambulans|ARH       
 Prog|2026-11-20|fre|15:15|ProgLabb |XA2  |Ambulans|DAA       
 Prog|2026-11-20|fre|15:15|ProgLabb |XA3  |Ambulans|ERW       
@@ -227,7 +227,7 @@ Prog|2026-11-27|fre|15:15|ProgLabb |C1.02|Beta    |ANM
 Prog|2026-11-27|fre|15:15|ProgLabb |C1.03|Falk    |EDJ       
 Prog|2026-11-27|fre|15:15|ProgLabb |C1.04|Gamma   |ALW       
 Prog|2026-11-27|fre|15:15|ProgLabb |C1.05|Val     |ANP       
-Prog|2026-11-27|fre|15:15|ProgLabb |C1.06|Varg    |ANM       
+Prog|2026-11-27|fre|15:15|ProgLabb |C1.06|Varg    |ALL       
 Prog|2026-11-27|fre|15:15|ProgLabb |XA1  |Ambulans|ARH       
 Prog|2026-11-27|fre|15:15|ProgLabb |XA2  |Ambulans|EMM       
 Prog|2026-11-27|fre|15:15|ProgLabb |XA3  |Ambulans|ERW       

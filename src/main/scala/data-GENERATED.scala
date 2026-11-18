@@ -97,14 +97,14 @@ Dod |2026-11-13|fre|08:15|DodLabb  |D1.01|Jupiter |JUA
 Dod |2026-11-13|fre|08:15|DodLabb  |D1.02|Mars    |SOG       
 Dod |2026-11-13|fre|08:15|DodLabb  |D1.03|Saturnus|ALL       
 Dod |2026-11-13|fre|08:15|DodLabb  |D1.04|Venus   |LIL       
-Dod |2026-11-13|fre|08:15|DodLabb  |D1.05|Falk    |AXE       
+Dod |2026-11-13|fre|08:15|DodLabb  |D1.05|Falk    |???       
 Dod |2026-11-13|fre|08:15|DodLabb  |D1.06|Val     |MAC       
 Dod |2026-11-13|fre|08:15|DodLabb  |D1.07|Varg    |ALA       
 Prog|2026-11-13|fre|10:15|ProgLabb |D1.01|Alfa    |JUA       
 Prog|2026-11-13|fre|10:15|ProgLabb |D1.02|Beta    |SOG       
 Prog|2026-11-13|fre|10:15|ProgLabb |D1.03|Falk    |AXF       
 Prog|2026-11-13|fre|10:15|ProgLabb |D1.04|Gamma   |VIB       
-Prog|2026-11-13|fre|10:15|ProgLabb |D1.05|Ravel   |AXE       
+Prog|2026-11-13|fre|10:15|ProgLabb |D1.05|Ravel   |???       
 Prog|2026-11-13|fre|10:15|ProgLabb |D1.06|Val     |FEA       
 Prog|2026-11-13|fre|10:15|ProgLabb |D1.07|Varg    |EMM       
 Prog|2026-11-13|fre|10:15|ProgLabb |XA1  |Ambulans|MAC       
@@ -121,7 +121,7 @@ Prog|2026-11-13|fre|13:15|ProgLabb |D1.13|Val     |VAB
 Prog|2026-11-13|fre|13:15|ProgLabb |D1.14|Varg    |WIS       
 Prog|2026-11-13|fre|13:15|ProgLabb |XA1  |Ambulans|MAC       
 Prog|2026-11-13|fre|13:15|ProgLabb |XA2  |Ambulans|ERW       
-Dod |2026-11-13|fre|13:15|DodLabb  |C1.01|Elgkalv |AXE       
+Dod |2026-11-13|fre|13:15|DodLabb  |C1.01|Elgkalv |???       
 Dod |2026-11-13|fre|13:15|DodLabb  |C1.02|Panter  |ERE       
 Dod |2026-11-13|fre|13:15|DodLabb  |C1.03|Ravel   |JUA       
 Prog|2026-11-13|fre|15:15|ProgLabb |C1.01|Alfa    |LIL       
@@ -144,7 +144,7 @@ Prog|2026-11-18|ons|13:15|Resurstid|D1.06|Elgkalv |MAF
 Prog|2026-11-18|ons|13:15|Resurstid|D1.07|Hacke   |ANP       
 Prog|2026-11-18|ons|13:15|Resurstid|D1.08|Panter  |SAJ       
 Prog|2026-11-18|ons|13:15|Resurstid|D1.09|Alfa    |ALS       
-Prog|2026-11-18|ons|13:15|Resurstid|D1.10|Beta    |MAK       
+Prog|2026-11-18|ons|13:15|Resurstid|D1.10|Beta    |???       
 Prog|2026-11-18|ons|13:15|Resurstid|D1.11|Gamma   |ALL       
 Prog|2026-11-19|tor|13:15|Resurstid|C1.01|Falk    |LIL       
 Prog|2026-11-19|tor|13:15|Resurstid|C1.02|Hacke   |ERW       
